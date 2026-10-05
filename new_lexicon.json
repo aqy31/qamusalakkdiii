@@ -1,0 +1,4777 @@
+[
+    {
+        "id": "ababd_0",
+        "nameAr": "جباية مفروضة لمدير معبد",
+        "nameAkk": "ababdû",
+        "sumerianReadings": [
+            {
+                "arabic": "جباية مفروضة لمدير معبد",
+                "sumerian": "AB-A-AB-DU7/DU",
+                "cuneiform": "𒀊𒀀𒀊𒌌",
+                "labat": "128"
+            }
+        ],
+        "keywords": [
+            "جباية مفروضة لمدير معبد"
+        ]
+    },
+    {
+        "id": "abaḫšinnu_1",
+        "nameAr": "غلة محصودة وهي ما تزال خضراء",
+        "nameAkk": "abaḫšinnu",
+        "sumerianReadings": [
+            {
+                "arabic": "غلة محصودة وهي ما تزال خضراء",
+                "sumerian": "ŠE-ZA-GÌN-DURU5",
+                "cuneiform": "𒊺𒍝𒆳𒀀",
+                "labat": "357"
+            }
+        ],
+        "keywords": [
+            "غلة محصودة وهي ما تزال خضراء"
+        ]
+    },
+    {
+        "id": "abāja_2",
+        "nameAr": "طير مائي",
+        "nameAkk": "abāja",
+        "sumerianReadings": [
+            {
+                "arabic": "طير مائي",
+                "sumerian": "AMA-A-Amušen @",
+                "cuneiform": "𒂼𒀀𒀀𒄷",
+                "labat": "237"
+            }
+        ],
+        "keywords": [
+            "طير مائي"
+        ]
+    },
+    {
+        "id": "abālu_3",
+        "nameAr": "جلب",
+        "nameAkk": "abālu",
+        "sumerianReadings": [
+            {
+                "arabic": "جلب",
+                "sumerian": "TÚM",
+                "cuneiform": "𒌈",
+                "labat": "206"
+            },
+            {
+                "arabic": "",
+                "sumerian": "DÉ",
+                "cuneiform": "𒌤",
+                "labat": "338"
+            },
+            {
+                "arabic": "",
+                "sumerian": "TÙM",
+                "cuneiform": "...",
+                "labat": "434"
+            }
+        ],
+        "keywords": [
+            "جلب"
+        ]
+    },
+    {
+        "id": "abālu_4",
+        "nameAr": "يبس",
+        "nameAkk": "abālu",
+        "sumerianReadings": [
+            {
+                "arabic": "يبس",
+                "sumerian": "ḪÁD-A",
+                "cuneiform": "𒌓𒀀",
+                "labat": "381"
+            }
+        ],
+        "keywords": [
+            "يبس"
+        ]
+    },
+    {
+        "id": "abarakkatu_5",
+        "nameAr": "وكيلة",
+        "nameAkk": "abarakkatu",
+        "sumerianReadings": [
+            {
+                "arabic": "وكيلة",
+                "sumerian": "miAGRIG",
+                "cuneiform": "𒊩...",
+                "labat": "452"
+            }
+        ],
+        "keywords": [
+            "وكيلة"
+        ]
+    },
+    {
+        "id": "abarakku_6",
+        "nameAr": "وكيل البلاط ، المعبد",
+        "nameAkk": "abarakku",
+        "sumerianReadings": [
+            {
+                "arabic": "وكيل البلاط ، المعبد",
+                "sumerian": "IGI2-DUB",
+                "cuneiform": "𒅆𒁾",
+                "labat": "449"
+            },
+            {
+                "arabic": "",
+                "sumerian": "luAGRIG",
+                "cuneiform": "𒇽...",
+                "labat": "452"
+            }
+        ],
+        "keywords": [
+            "وكيل البلاط",
+            "المعبد"
+        ]
+    },
+    {
+        "id": "abarakkūtu_7",
+        "nameAr": "مهمة الوكيل",
+        "nameAkk": "abarakkūtu",
+        "sumerianReadings": [
+            {
+                "arabic": "مهمة الوكيل",
+                "sumerian": "luAGRIG",
+                "cuneiform": "𒇽...",
+                "labat": "452"
+            }
+        ],
+        "keywords": [
+            "مهمة الوكيل"
+        ]
+    },
+    {
+        "id": "abāru_8",
+        "nameAr": "نوع من الكلاب ، قوة جسمية طبيعية",
+        "nameAkk": "abāru",
+        "sumerianReadings": [
+            {
+                "arabic": "نوع من الكلاب ، قوة جسمية طبيعية",
+                "sumerian": "LIRUM @",
+                "cuneiform": "𒋗",
+                "labat": "354"
+            }
+        ],
+        "keywords": [
+            "نوع من الكلاب",
+            "قوة جسمية طبيعية"
+        ]
+    },
+    {
+        "id": "abāru_9",
+        "nameAr": "رصاص",
+        "nameAkk": "abāru",
+        "sumerianReadings": [
+            {
+                "arabic": "رصاص",
+                "sumerian": "A-BÁR/GAR5",
+                "cuneiform": "𒀀𒈦",
+                "labat": "579"
+            }
+        ],
+        "keywords": [
+            "رصاص"
+        ]
+    },
+    {
+        "id": "abašm_10",
+        "nameAr": "حجر كريم اخضر",
+        "nameAkk": "abašmû",
+        "sumerianReadings": [
+            {
+                "arabic": "حجر كريم اخضر",
+                "sumerian": "AD-aš-mu",
+                "cuneiform": "𒀜𒀸𒈬",
+                "labat": "154"
+            }
+        ],
+        "keywords": [
+            "حجر كريم اخضر"
+        ]
+    },
+    {
+        "id": "abātu_11",
+        "nameAr": "ذهب الى التهلكة ، - اختفى ، هدم ، حمل ، هرب",
+        "nameAkk": "abātu",
+        "sumerianReadings": [
+            {
+                "arabic": "ذهب الى التهلكة ، - اختفى ، هدم ، حمل ، هرب",
+                "sumerian": "GUL",
+                "cuneiform": "𒄢",
+                "labat": "429"
+            },
+            {
+                "arabic": "",
+                "sumerian": "ŠU4 IV",
+                "cuneiform": "𒋗",
+                "labat": "411"
+            },
+            {
+                "arabic": "",
+                "sumerian": "ZÁḪ",
+                "cuneiform": "𒍝𒄴",
+                "labat": "589"
+            }
+        ],
+        "keywords": [
+            "ذهب الى التهلكة",
+            "- اختفى",
+            "هدم",
+            "حمل",
+            "هرب"
+        ]
+    },
+    {
+        "id": "abbuttu_12",
+        "nameAr": "علامة مميزة للعبيد",
+        "nameAkk": "abbuttu",
+        "sumerianReadings": [
+            {
+                "arabic": "علامة مميزة للعبيد",
+                "sumerian": "GÀR",
+                "cuneiform": "𒃼",
+                "labat": "333"
+            }
+        ],
+        "keywords": [
+            "علامة مميزة للعبيد"
+        ]
+    },
+    {
+        "id": "abbūtu_13",
+        "nameAr": "قدرة ابوية",
+        "nameAkk": "abbūtu",
+        "sumerianReadings": [
+            {
+                "arabic": "قدرة ابوية",
+                "sumerian": "AD",
+                "cuneiform": "𒀜",
+                "labat": "145"
+            }
+        ],
+        "keywords": [
+            "قدرة ابوية"
+        ]
+    },
+    {
+        "id": "abdu_14",
+        "nameAr": "عبد",
+        "nameAkk": "abdu?",
+        "sumerianReadings": [
+            {
+                "arabic": "عبد",
+                "sumerian": "SAG-MUNUS",
+                "cuneiform": "𒊕𒊩",
+                "labat": "115"
+            }
+        ],
+        "keywords": [
+            "عبد"
+        ]
+    },
+    {
+        "id": "abiktu_15",
+        "nameAr": "هزيمة ، انكسار",
+        "nameAkk": "abiktu",
+        "sumerianReadings": [
+            {
+                "arabic": "هزيمة ، انكسار",
+                "sumerian": "BAD5-BAD5",
+                "cuneiform": "𒁁𒁁",
+                "labat": "449"
+            }
+        ],
+        "keywords": [
+            "هزيمة",
+            "انكسار"
+        ]
+    },
+    {
+        "id": "ablu_16",
+        "nameAr": "جاف ، يابس",
+        "nameAkk": "ablu",
+        "sumerianReadings": [
+            {
+                "arabic": "جاف ، يابس",
+                "sumerian": "ḪÁD-A/DU",
+                "cuneiform": "𒌓𒀀𒁺",
+                "labat": "381"
+            }
+        ],
+        "keywords": [
+            "جاف",
+            "يابس"
+        ]
+    },
+    {
+        "id": "abnu_17",
+        "nameAr": "حجر ، ثقل ، زجاج ، بَرَد ناعم ، نواة ، حساب ، حبة ، ختم ، + أسماء مدن ، الخ ...",
+        "nameAkk": "abnu",
+        "sumerianReadings": [
+            {
+                "arabic": "حجر ، ثقل ، زجاج ، بَرَد ناعم ، نواة ، حساب ، حبة ، ختم ، + أسماء مدن ، الخ ...",
+                "sumerian": "ZÁ/NA4",
+                "cuneiform": "𒍝𒉌𒌓",
+                "labat": "229"
+            },
+            {
+                "arabic": "",
+                "sumerian": "ZÁ-DAM-GÀR2",
+                "cuneiform": "𒍝𒁮𒃼",
+                "labat": ""
+            },
+            {
+                "arabic": "",
+                "sumerian": "ZÁ-LUGAL",
+                "cuneiform": "𒍝𒈗",
+                "labat": ""
+            },
+            {
+                "arabic": "",
+                "sumerian": "ZÁ-dUTU",
+                "cuneiform": "𒍝𒀭𒌓",
+                "labat": ""
+            },
+            {
+                "arabic": "",
+                "sumerian": "ZÁ-GI-NA",
+                "cuneiform": "𒍝𒄀𒈾",
+                "labat": ""
+            },
+            {
+                "arabic": "",
+                "sumerian": "ZÁ-SI-SÁ",
+                "cuneiform": "𒍝𒋛𒁲",
+                "labat": ""
+            }
+        ],
+        "keywords": [
+            "حجر",
+            "ثقل",
+            "زجاج",
+            "بَرَد ناعم",
+            "نواة",
+            "حساب",
+            "حبة",
+            "ختم",
+            "+ أسماء مدن",
+            "الخ ..."
+        ]
+    },
+    {
+        "id": "abanlaalādi_18",
+        "nameAr": "حجر لعدم الولادة",
+        "nameAkk": "aban la alādi",
+        "sumerianReadings": [
+            {
+                "arabic": "حجر لعدم الولادة",
+                "sumerian": "ZÁ-NU-Ù-TU",
+                "cuneiform": "𒍝𒉡𒅇𒌅",
+                "labat": "-"
+            }
+        ],
+        "keywords": [
+            "حجر لعدم الولادة"
+        ]
+    },
+    {
+        "id": "abanlaer_19",
+        "nameAr": "حجر لعدم الحبل",
+        "nameAkk": "aban la erê",
+        "sumerianReadings": [
+            {
+                "arabic": "حجر لعدم الحبل",
+                "sumerian": "ZÁ-NU-PEŠ4",
+                "cuneiform": "𒍝𒉡...",
+                "labat": "390"
+            }
+        ],
+        "keywords": [
+            "حجر لعدم الحبل"
+        ]
+    },
+    {
+        "id": "abankas_20",
+        "nameAr": "حجرة",
+        "nameAkk": "aban kasî",
+        "sumerianReadings": [
+            {
+                "arabic": "حجرة",
+                "sumerian": "ZÁ-GAZI2sar",
+                "cuneiform": "𒍝...",
+                "labat": "252"
+            }
+        ],
+        "keywords": [
+            "حجرة"
+        ]
+    },
+    {
+        "id": "abankiss_21",
+        "nameAr": "ثقل خرج",
+        "nameAkk": "aban kissî",
+        "sumerianReadings": [
+            {
+                "arabic": "ثقل خرج",
+                "sumerian": "ZÁ-KUŠ-NÌ-ZÁ",
+                "cuneiform": "𒍝𒋢𒃻𒍝",
+                "labat": "299"
+            }
+        ],
+        "keywords": [
+            "ثقل خرج"
+        ]
+    },
+    {
+        "id": "abanmarti_22",
+        "nameAr": "حساب",
+        "nameAkk": "aban marti",
+        "sumerianReadings": [
+            {
+                "arabic": "حساب",
+                "sumerian": "ZÁ-ZÉ",
+                "cuneiform": "𒍝𒍣",
+                "labat": "147, 229"
+            }
+        ],
+        "keywords": [
+            "حساب"
+        ]
+    },
+    {
+        "id": "abanrmi_23",
+        "nameAr": "حجر حُبّ ، طلسم تعويذة",
+        "nameAkk": "aban râmi",
+        "sumerianReadings": [
+            {
+                "arabic": "حجر حُبّ ، طلسم تعويذة",
+                "sumerian": "ZÁ-MAḪ",
+                "cuneiform": "𒍝𒈤",
+                "labat": "57"
+            }
+        ],
+        "keywords": [
+            "حجر حُبّ",
+            "طلسم تعويذة"
+        ]
+    },
+    {
+        "id": "abanṣerri_24",
+        "nameAr": "حجرة",
+        "nameAkk": "aban ṣerri",
+        "sumerianReadings": [
+            {
+                "arabic": "حجرة",
+                "sumerian": "ZÁ-MUŠ",
+                "cuneiform": "𒍝𒈲",
+                "labat": "374"
+            }
+        ],
+        "keywords": [
+            "حجرة"
+        ]
+    },
+    {
+        "id": "abanšam_25",
+        "nameAr": "بَرَد حالوب",
+        "nameAkk": "aban šamê",
+        "sumerianReadings": [
+            {
+                "arabic": "بَرَد حالوب",
+                "sumerian": "ZÁ-AN",
+                "cuneiform": "𒍝𒀭",
+                "labat": "229"
+            }
+        ],
+        "keywords": [
+            "بَرَد حالوب"
+        ]
+    },
+    {
+        "id": "abanšad_26",
+        "nameAr": "صخر",
+        "nameAkk": "aban šadî",
+        "sumerianReadings": [
+            {
+                "arabic": "صخر",
+                "sumerian": "ZÁ-KUR",
+                "cuneiform": "𒍝𒆳",
+                "labat": "229"
+            }
+        ],
+        "keywords": [
+            "صخر"
+        ]
+    },
+    {
+        "id": "abanurriqqu_27",
+        "nameAr": "حجر اخضر",
+        "nameAkk": "aban urriqqu",
+        "sumerianReadings": [
+            {
+                "arabic": "حجر اخضر",
+                "sumerian": "ZÁ-SIG7-SIG7",
+                "cuneiform": "𒍝𒅊𒅊",
+                "labat": "229"
+            }
+        ],
+        "keywords": [
+            "حجر اخضر"
+        ]
+    },
+    {
+        "id": "abriqqu_28",
+        "nameAr": "كاهن",
+        "nameAkk": "abriqqu",
+        "sumerianReadings": [
+            {
+                "arabic": "كاهن",
+                "sumerian": "ABRIG2",
+                "cuneiform": "𒉣𒈨",
+                "labat": "420"
+            }
+        ],
+        "keywords": [
+            "كاهن"
+        ]
+    },
+    {
+        "id": "abru_29",
+        "nameAr": "محَرقة ، كدس حطب",
+        "nameAkk": "abru",
+        "sumerianReadings": [
+            {
+                "arabic": "محَرقة ، كدس حطب",
+                "sumerian": "IZI-ḪA-MUN",
+                "cuneiform": "𒉈𒄩...",
+                "labat": "172"
+            }
+        ],
+        "keywords": [
+            "محَرقة",
+            "كدس حطب"
+        ]
+    },
+    {
+        "id": "absaḫurakku_30",
+        "nameAr": "سمكة",
+        "nameAkk": "absaḫurakku",
+        "sumerianReadings": [
+            {
+                "arabic": "سمكة",
+                "sumerian": "AB-SUḪURku6",
+                "cuneiform": "𒀊𒋦𒄩",
+                "labat": "128"
+            }
+        ],
+        "keywords": [
+            "سمكة"
+        ]
+    },
+    {
+        "id": "abšīnnu_31",
+        "nameAr": "خط اخدود",
+        "nameAkk": "abšīnnu",
+        "sumerianReadings": [
+            {
+                "arabic": "خط اخدود",
+                "sumerian": "AB-SÍN",
+                "cuneiform": "𒀊𒂙",
+                "labat": "128"
+            },
+            {
+                "arabic": "مجموعة كواكب - مجرة",
+                "sumerian": "mulAB-SÍN",
+                "cuneiform": "𒀯𒀊...",
+                "labat": "128"
+            },
+            {
+                "arabic": "",
+                "sumerian": "mulKI",
+                "cuneiform": "𒀯𒆠",
+                "labat": "461"
+            }
+        ],
+        "keywords": [
+            "خط اخدود",
+            "مجموعة كواكب - مجرة"
+        ]
+    },
+    {
+        "id": "abtu_32",
+        "nameAr": "مهدوم ، مخرّب",
+        "nameAkk": "abtu",
+        "sumerianReadings": [
+            {
+                "arabic": "مهدوم ، مخرّب",
+                "sumerian": "GUL-LA/GUL",
+                "cuneiform": "𒄢𒆷",
+                "labat": "429"
+            }
+        ],
+        "keywords": [
+            "مهدوم",
+            "مخرّب"
+        ]
+    },
+    {
+        "id": "abu_33",
+        "nameAr": "أب",
+        "nameAkk": "abu",
+        "sumerianReadings": [
+            {
+                "arabic": "أب",
+                "sumerian": "AB",
+                "cuneiform": "𒀊",
+                "labat": "128"
+            },
+            {
+                "arabic": "",
+                "sumerian": "AD",
+                "cuneiform": "𒀜",
+                "labat": "145"
+            },
+            {
+                "arabic": "",
+                "sumerian": "ABA",
+                "cuneiform": "𒀀𒁀",
+                "labat": "579"
+            }
+        ],
+        "keywords": [
+            "أب"
+        ]
+    },
+    {
+        "id": "abu_34",
+        "nameAr": "شيخ",
+        "nameAkk": "abu",
+        "sumerianReadings": [
+            {
+                "arabic": "شيخ",
+                "sumerian": "AB-BA",
+                "cuneiform": "𒀊𒁀",
+                "labat": "128"
+            },
+            {
+                "arabic": "",
+                "sumerian": "AD-DA",
+                "cuneiform": "𒀜𒁕",
+                "labat": "145"
+            }
+        ],
+        "keywords": [
+            "شيخ"
+        ]
+    },
+    {
+        "id": "abb_35",
+        "nameAr": "جمع",
+        "nameAkk": "abbû",
+        "sumerianReadings": [
+            {
+                "arabic": "جمع",
+                "sumerian": "AD-AD",
+                "cuneiform": "𒀜𒀜",
+                "labat": "145"
+            }
+        ],
+        "keywords": [
+            "جمع"
+        ]
+    },
+    {
+        "id": "ababi_36",
+        "nameAr": "جد ابو الوالد",
+        "nameAkk": "ab abi",
+        "sumerianReadings": [
+            {
+                "arabic": "جد ابو الوالد",
+                "sumerian": "AD-AD",
+                "cuneiform": "𒀜𒀜",
+                "labat": "145"
+            },
+            {
+                "arabic": "",
+                "sumerian": "A-A",
+                "cuneiform": "𒀀𒀀",
+                "labat": "579"
+            }
+        ],
+        "keywords": [
+            "جد ابو الوالد"
+        ]
+    },
+    {
+        "id": "abummi_37",
+        "nameAr": "جد ابو الوالدة",
+        "nameAkk": "ab ummi",
+        "sumerianReadings": [
+            {
+                "arabic": "جد ابو الوالدة",
+                "sumerian": "AD-AMA",
+                "cuneiform": "𒀜𒂼",
+                "labat": "145"
+            }
+        ],
+        "keywords": [
+            "جد ابو الوالدة"
+        ]
+    },
+    {
+        "id": "abiabiabi_38",
+        "nameAr": "ابو الجد",
+        "nameAkk": "abi abi-abi",
+        "sumerianReadings": [
+            {
+                "arabic": "ابو الجد",
+                "sumerian": "AD-AD-AD",
+                "cuneiform": "𒀜𒀜𒀜",
+                "labat": "145"
+            }
+        ],
+        "keywords": [
+            "ابو الجد"
+        ]
+    },
+    {
+        "id": "abšarrāni_39",
+        "nameAr": "اسم شهر",
+        "nameAkk": "ab šarrāni",
+        "sumerianReadings": [
+            {
+                "arabic": "اسم شهر",
+                "sumerian": "itiLUGAL-MEŠ/ME",
+                "cuneiform": "𒌗𒈗𒈨𒌍",
+                "labat": "151"
+            }
+        ],
+        "keywords": [
+            "اسم شهر"
+        ]
+    },
+    {
+        "id": "abu_40",
+        "nameAr": "الشهر الخامس تموز-اب",
+        "nameAkk": "abu",
+        "sumerianReadings": [
+            {
+                "arabic": "الشهر الخامس تموز-اب",
+                "sumerian": "itiNE-NE-GAR",
+                "cuneiform": "𒌗𒉈𒉈𒃻",
+                "labat": "172"
+            }
+        ],
+        "keywords": [
+            "الشهر الخامس تموز-اب"
+        ]
+    },
+    {
+        "id": "abūbu_41",
+        "nameAr": "طوفان",
+        "nameAkk": "abūbu",
+        "sumerianReadings": [
+            {
+                "arabic": "طوفان",
+                "sumerian": "URU2",
+                "cuneiform": "𒌷",
+                "labat": "43"
+            },
+            {
+                "arabic": "",
+                "sumerian": "URU5",
+                "cuneiform": "𒄯",
+                "labat": "38"
+            },
+            {
+                "arabic": "",
+                "sumerian": "MAR-RU10",
+                "cuneiform": "𒈥𒊒",
+                "labat": "307"
+            },
+            {
+                "arabic": "",
+                "sumerian": "A-MA-RU/URU5",
+                "cuneiform": "𒀀𒈠𒊒",
+                "labat": "579"
+            },
+            {
+                "arabic": "",
+                "sumerian": "A-MÁ-RU/URU5",
+                "cuneiform": "𒀀𒈣𒊒",
+                "labat": ""
+            }
+        ],
+        "keywords": [
+            "طوفان"
+        ]
+    },
+    {
+        "id": "abukkatu_42",
+        "nameAr": "نوع من النجيليات نبات",
+        "nameAkk": "abukkatu",
+        "sumerianReadings": [
+            {
+                "arabic": "نوع من النجيليات نبات",
+                "sumerian": "uLI-DUR/TAR",
+                "cuneiform": "𒌑𒇷𒄙",
+                "labat": "59"
+            }
+        ],
+        "keywords": [
+            "نوع من النجيليات نبات"
+        ]
+    },
+    {
+        "id": "abulilu_43",
+        "nameAr": "ثقل",
+        "nameAkk": "abulilu",
+        "sumerianReadings": [
+            {
+                "arabic": "ثقل",
+                "sumerian": "ušeGÚ-GAL",
+                "cuneiform": "𒌑𒊺𒄘𒃲",
+                "labat": "106"
+            }
+        ],
+        "keywords": [
+            "ثقل"
+        ]
+    },
+    {
+        "id": "abullu_44",
+        "nameAr": "جزء من الكبد ، باب كبير",
+        "nameAkk": "abullu",
+        "sumerianReadings": [
+            {
+                "arabic": "جزء من الكبد ، باب كبير",
+                "sumerian": "KÁ-GAL",
+                "cuneiform": "𒆍𒃲",
+                "labat": "133"
+            }
+        ],
+        "keywords": [
+            "جزء من الكبد",
+            "باب كبير"
+        ]
+    },
+    {
+        "id": "abulkutumlibbi_45",
+        "nameAr": "جزء من الاحشاء",
+        "nameAkk": "abul kutum libbi",
+        "sumerianReadings": [
+            {
+                "arabic": "جزء من الاحشاء",
+                "sumerian": "KÁ-GAL-DUL-ŠÀ",
+                "cuneiform": "𒆍𒃲...",
+                "labat": "133"
+            }
+        ],
+        "keywords": [
+            "جزء من الاحشاء"
+        ]
+    },
+    {
+        "id": "šaabulli_46",
+        "nameAr": "حارس الباب",
+        "nameAkk": "ša abulli",
+        "sumerianReadings": [
+            {
+                "arabic": "حارس الباب",
+                "sumerian": "luKÁ-GAL",
+                "cuneiform": "𒇽𒆍𒃲",
+                "labat": "133"
+            }
+        ],
+        "keywords": [
+            "حارس الباب"
+        ]
+    },
+    {
+        "id": "abulmaḫḫu_47",
+        "nameAr": "الباب الرئيسي لنفر",
+        "nameAkk": "abulmaḫḫu",
+        "sumerianReadings": [
+            {
+                "arabic": "الباب الرئيسي لنفر",
+                "sumerian": "KÁ-GAL-MAḪ",
+                "cuneiform": "𒆍𒃲𒈤",
+                "labat": "133"
+            }
+        ],
+        "keywords": [
+            "الباب الرئيسي لنفر"
+        ]
+    },
+    {
+        "id": "abultannu_48",
+        "nameAr": "حارس الباب",
+        "nameAkk": "abultannu",
+        "sumerianReadings": [
+            {
+                "arabic": "حارس الباب",
+                "sumerian": "luKÁ-GAL",
+                "cuneiform": "𒇽𒆍𒃲",
+                "labat": "133"
+            }
+        ],
+        "keywords": [
+            "حارس الباب"
+        ]
+    },
+    {
+        "id": "abunnatu_49",
+        "nameAr": "جزء مركزي ، الحبل السري ، السرة",
+        "nameAkk": "abunnatu",
+        "sumerianReadings": [
+            {
+                "arabic": "جزء مركزي ، الحبل السري ، السرة",
+                "sumerian": "من القوس uzuLI-DUR",
+                "cuneiform": "𒍜𒇷𒄙",
+                "labat": "59"
+            },
+            {
+                "arabic": "",
+                "sumerian": "uzuDUR",
+                "cuneiform": "𒍜𒄙",
+                "labat": "108"
+            }
+        ],
+        "keywords": [
+            "جزء مركزي",
+            "الحبل السري",
+            "السرة"
+        ]
+    },
+    {
+        "id": "aburru_50",
+        "nameAr": "مرعى",
+        "nameAkk": "aburru",
+        "sumerianReadings": [
+            {
+                "arabic": "مرعى",
+                "sumerian": "Ú-SAL-LA",
+                "cuneiform": "𒌑𒊩𒆷",
+                "labat": "318"
+            }
+        ],
+        "keywords": [
+            "مرعى"
+        ]
+    },
+    {
+        "id": "aburru_51",
+        "nameAr": "الارداف",
+        "nameAkk": "aburru",
+        "sumerianReadings": [
+            {
+                "arabic": "الارداف",
+                "sumerian": "SA-DUL/DUL5",
+                "cuneiform": "𒊓...",
+                "labat": "104"
+            }
+        ],
+        "keywords": [
+            "الارداف"
+        ]
+    },
+    {
+        "id": "abūtānuabūdanum_52",
+        "nameAr": "سمكة",
+        "nameAkk": "abūtānu/abūdanum",
+        "sumerianReadings": [
+            {
+                "arabic": "سمكة",
+                "sumerian": "NINDA2-DILku6",
+                "cuneiform": "𒉘𒀸𒄩",
+                "labat": "176"
+            },
+            {
+                "arabic": "",
+                "sumerian": "UBUDILI",
+                "cuneiform": "...",
+                "labat": "185"
+            }
+        ],
+        "keywords": [
+            "سمكة"
+        ]
+    },
+    {
+        "id": "adagurru_53",
+        "nameAr": "كوز",
+        "nameAkk": "adagurru",
+        "sumerianReadings": [
+            {
+                "arabic": "كوز",
+                "sumerian": "dugA-DA-GUR/GUR4/GUR5",
+                "cuneiform": "𒂁𒀀𒁕𒄥",
+                "labat": "579"
+            }
+        ],
+        "keywords": [
+            "كوز"
+        ]
+    },
+    {
+        "id": "adamatu_54",
+        "nameAr": "دم اسود",
+        "nameAkk": "adamatu",
+        "sumerianReadings": [
+            {
+                "arabic": "دم اسود",
+                "sumerian": "ADAMA",
+                "cuneiform": "𒀀𒁕𒈠",
+                "labat": "69"
+            }
+        ],
+        "keywords": [
+            "دم اسود"
+        ]
+    },
+    {
+        "id": "adammūmu_55",
+        "nameAr": "زنبور",
+        "nameAkk": "adammūmu",
+        "sumerianReadings": [
+            {
+                "arabic": "زنبور",
+                "sumerian": "NIM-Ì-NUN-NA",
+                "cuneiform": "𒉏𒉌𒉣𒈾",
+                "labat": "433"
+            }
+        ],
+        "keywords": [
+            "زنبور"
+        ]
+    },
+    {
+        "id": "adannu_56",
+        "nameAr": "فترة محدودة ، اجل معين",
+        "nameAkk": "adannu",
+        "sumerianReadings": [
+            {
+                "arabic": "فترة محدودة ، اجل معين",
+                "sumerian": "AN-ni",
+                "cuneiform": "𒀭𒉌",
+                "labat": "13"
+            },
+            {
+                "arabic": "",
+                "sumerian": "RI",
+                "cuneiform": "𒊑",
+                "labat": "86"
+            },
+            {
+                "arabic": "",
+                "sumerian": "U4-DU11-GA",
+                "cuneiform": "𒌓𒅗𒂵",
+                "labat": "381"
+            },
+            {
+                "arabic": "",
+                "sumerian": "U4-ŠUR",
+                "cuneiform": "𒌓𒋩",
+                "labat": ""
+            },
+            {
+                "arabic": "",
+                "sumerian": "U4-BA",
+                "cuneiform": "𒌓𒁀",
+                "labat": ""
+            },
+            {
+                "arabic": "",
+                "sumerian": "U4-DA-ni",
+                "cuneiform": "𒌓𒁕𒉌",
+                "labat": ""
+            }
+        ],
+        "keywords": [
+            "فترة محدودة",
+            "اجل معين"
+        ]
+    },
+    {
+        "id": "adāru_57",
+        "nameAr": "اظلم",
+        "nameAkk": "adāru",
+        "sumerianReadings": [
+            {
+                "arabic": "اظلم",
+                "sumerian": "KÀN",
+                "cuneiform": "...",
+                "labat": "119"
+            },
+            {
+                "arabic": "",
+                "sumerian": "LÙ-LÙ",
+                "cuneiform": "𒇻𒇻",
+                "labat": "345"
+            }
+        ],
+        "keywords": [
+            "اظلم"
+        ]
+    },
+    {
+        "id": "adaru_58",
+        "nameAr": "شجرة",
+        "nameAkk": "adaru",
+        "sumerianReadings": [
+            {
+                "arabic": "شجرة",
+                "sumerian": "gišILDAG2",
+                "cuneiform": "𒄑...",
+                "labat": "579"
+            }
+        ],
+        "keywords": [
+            "شجرة"
+        ]
+    },
+    {
+        "id": "adattu_59",
+        "nameAr": "جزء من القصب صالح للاكل",
+        "nameAkk": "adattu",
+        "sumerianReadings": [
+            {
+                "arabic": "جزء من القصب صالح للاكل",
+                "sumerian": "GI-ÚR",
+                "cuneiform": "𒄀𒌫",
+                "labat": "85"
+            }
+        ],
+        "keywords": [
+            "جزء من القصب صالح للاكل"
+        ]
+    },
+    {
+        "id": "adi_60",
+        "nameAr": "الى ان ، حتى ، ضمناً",
+        "nameAkk": "adi",
+        "sumerianReadings": [
+            {
+                "arabic": "الى ان ، حتى ، ضمناً",
+                "sumerian": "EN-NA",
+                "cuneiform": "𒂗𒈾",
+                "labat": "99"
+            },
+            {
+                "arabic": "",
+                "sumerian": "ZÀ",
+                "cuneiform": "𒍠",
+                "labat": "332"
+            },
+            {
+                "arabic": "",
+                "sumerian": "A-RÁ",
+                "cuneiform": "𒀀𒁺",
+                "labat": "579"
+            }
+        ],
+        "keywords": [
+            "الى ان",
+            "حتى",
+            "ضمناً"
+        ]
+    },
+    {
+        "id": "adibalṭu_61",
+        "nameAr": "طالما هو حي",
+        "nameAkk": "adi balṭu",
+        "sumerianReadings": [
+            {
+                "arabic": "طالما هو حي",
+                "sumerian": "EN-TI-LA",
+                "cuneiform": "𒂗𒋾𒆷",
+                "labat": "99"
+            }
+        ],
+        "keywords": [
+            "طالما هو حي"
+        ]
+    },
+    {
+        "id": "adiišten_62",
+        "nameAr": "للمرة الاولى",
+        "nameAkk": "adi išten",
+        "sumerianReadings": [
+            {
+                "arabic": "للمرة الاولى",
+                "sumerian": "ZÀ-1-ÀM",
+                "cuneiform": "𒍠𒁹𒀀𒀭",
+                "labat": "332"
+            }
+        ],
+        "keywords": [
+            "للمرة الاولى"
+        ]
+    },
+    {
+        "id": "adilibbi_63",
+        "nameAr": "حتى",
+        "nameAkk": "adi libbi",
+        "sumerianReadings": [
+            {
+                "arabic": "حتى",
+                "sumerian": "EN-ŠÀ",
+                "cuneiform": "𒂗𒊮",
+                "labat": "99"
+            }
+        ],
+        "keywords": [
+            "حتى"
+        ]
+    },
+    {
+        "id": "adišina_64",
+        "nameAr": "مرتين",
+        "nameAkk": "adi šina 2",
+        "sumerianReadings": [
+            {
+                "arabic": "مرتين",
+                "sumerian": "A-RÁ-2-KAM-MA-ŠÈ",
+                "cuneiform": "𒀀𒁺𒈫𒄰𒈠𒂠",
+                "labat": "579"
+            }
+        ],
+        "keywords": [
+            "مرتين"
+        ]
+    },
+    {
+        "id": "adirtu_65",
+        "nameAr": "حزن ، شقاء ، ظلمة",
+        "nameAkk": "adirtu",
+        "sumerianReadings": [
+            {
+                "arabic": "حزن ، شقاء ، ظلمة",
+                "sumerian": "KAN4",
+                "cuneiform": "𒆍",
+                "labat": "31"
+            },
+            {
+                "arabic": "",
+                "sumerian": "KÀN",
+                "cuneiform": "𒊝",
+                "labat": "119"
+            }
+        ],
+        "keywords": [
+            "حزن",
+            "شقاء",
+            "ظلمة"
+        ]
+    },
+    {
+        "id": "agāgu_66",
+        "nameAr": "كان غاضبا",
+        "nameAkk": "agāgu",
+        "sumerianReadings": [
+            {
+                "arabic": "كان غاضبا",
+                "sumerian": "ÍB-BA",
+                "cuneiform": "𒅁𒁀",
+                "labat": "207"
+            },
+            {
+                "arabic": "",
+                "sumerian": "MER",
+                "cuneiform": "𒈨𒅕",
+                "labat": "347"
+            }
+        ],
+        "keywords": [
+            "كان غاضبا"
+        ]
+    },
+    {
+        "id": "agalu_67",
+        "nameAr": "حمار سرج",
+        "nameAkk": "agalu",
+        "sumerianReadings": [
+            {
+                "arabic": "حمار سرج",
+                "sumerian": "DUSU2",
+                "cuneiform": "𒀲",
+                "labat": "208"
+            },
+            {
+                "arabic": "",
+                "sumerian": "SI5",
+                "cuneiform": "𒋛",
+                "labat": "455"
+            }
+        ],
+        "keywords": [
+            "حمار سرج"
+        ]
+    },
+    {
+        "id": "agammu_68",
+        "nameAr": "مستنقع هور",
+        "nameAkk": "agammu",
+        "sumerianReadings": [
+            {
+                "arabic": "مستنقع هور",
+                "sumerian": "UMAḪ",
+                "cuneiform": "𒌋𒈤",
+                "labat": "512"
+            },
+            {
+                "arabic": "",
+                "sumerian": "AGAM",
+                "cuneiform": "𒀀𒃵",
+                "labat": "580"
+            }
+        ],
+        "keywords": [
+            "مستنقع هور"
+        ]
+    },
+    {
+        "id": "aganutill_69",
+        "nameAr": "استسقاء",
+        "nameAkk": "aganutillû",
+        "sumerianReadings": [
+            {
+                "arabic": "استسقاء",
+                "sumerian": "A-GA-NU-TIL/TI-LA",
+                "cuneiform": "𒀀𒂵𒉡𒋾𒆷",
+                "labat": "579"
+            }
+        ],
+        "keywords": [
+            "استسقاء"
+        ]
+    },
+    {
+        "id": "argarītu_70",
+        "nameAr": "معدن",
+        "nameAkk": "argarītu",
+        "sumerianReadings": [
+            {
+                "arabic": "معدن",
+                "sumerian": "A-GAR-GAR-d17",
+                "cuneiform": "𒀀𒃻𒃻𒀭𒌋امین",
+                "labat": "597"
+            }
+        ],
+        "keywords": [
+            "معدن"
+        ]
+    },
+    {
+        "id": "argarūtu_71",
+        "nameAr": "طري ، بارد",
+        "nameAkk": "argarūtu",
+        "sumerianReadings": [
+            {
+                "arabic": "طري ، بارد",
+                "sumerian": "A-GAR-GAR-d17",
+                "cuneiform": "𒀀𒃻𒃻𒀭𒌋امین",
+                "labat": "579"
+            }
+        ],
+        "keywords": [
+            "طري",
+            "بارد"
+        ]
+    },
+    {
+        "id": "argar_72",
+        "nameAr": "سمكة",
+        "nameAkk": "argarû",
+        "sumerianReadings": [
+            {
+                "arabic": "سمكة",
+                "sumerian": "A-GAR-GAR",
+                "cuneiform": "𒀀𒃻𒃻",
+                "labat": "579"
+            },
+            {
+                "arabic": "",
+                "sumerian": "A-KÁR-KÁRku6",
+                "cuneiform": "𒀀𒋼𒀀𒋼𒀀𒄩",
+                "labat": ""
+            }
+        ],
+        "keywords": [
+            "سمكة"
+        ]
+    },
+    {
+        "id": "agarinnu_73",
+        "nameAr": "سلافة بيرة ، بوتقة",
+        "nameAkk": "agarinnu",
+        "sumerianReadings": [
+            {
+                "arabic": "سلافة بيرة ، بوتقة",
+                "sumerian": "AGARIN3-5",
+                "cuneiform": "𒀀𒂵ขิน",
+                "labat": "237"
+            },
+            {
+                "arabic": "",
+                "sumerian": "A-GA-RI-NU-UM",
+                "cuneiform": "𒀀𒂵𒊑𒉡𒌝",
+                "labat": "579"
+            }
+        ],
+        "keywords": [
+            "سلافة بيرة",
+            "بوتقة"
+        ]
+    },
+    {
+        "id": "agāru_74",
+        "nameAr": "استأجر",
+        "nameAkk": "agāru",
+        "sumerianReadings": [
+            {
+                "arabic": "استأجر",
+                "sumerian": "IN-ḪUN-un/GÁ",
+                "cuneiform": "𒅔𒂠𒂷",
+                "labat": "148, 536"
+            }
+        ],
+        "keywords": [
+            "استأجر"
+        ]
+    },
+    {
+        "id": "agasalaikku_75",
+        "nameAr": "رمز الهي ، قدوم",
+        "nameAkk": "agasala/ikku",
+        "sumerianReadings": [
+            {
+                "arabic": "رمز الهي ، قدوم",
+                "sumerian": "AGA-SILIG",
+                "cuneiform": "𒂇𒉣",
+                "labat": "347"
+            }
+        ],
+        "keywords": [
+            "رمز الهي",
+            "قدوم"
+        ]
+    },
+    {
+        "id": "aggu_76",
+        "nameAr": "حانق ، غضبان",
+        "nameAkk": "aggu",
+        "sumerianReadings": [
+            {
+                "arabic": "حانق ، غضبان",
+                "sumerian": "ÚG",
+                "cuneiform": "𒊌",
+                "labat": "444"
+            }
+        ],
+        "keywords": [
+            "حانق",
+            "غضبان"
+        ]
+    },
+    {
+        "id": "āgiru_77",
+        "nameAr": "مستأجر",
+        "nameAkk": "āgiru",
+        "sumerianReadings": [
+            {
+                "arabic": "مستأجر",
+                "sumerian": "luḪUN-GÁ",
+                "cuneiform": "𒇽𒂠𒂷",
+                "labat": "536"
+            }
+        ],
+        "keywords": [
+            "مستأجر"
+        ]
+    },
+    {
+        "id": "agru_78",
+        "nameAr": "اجير ، عامل بأجر يومي",
+        "nameAkk": "agru",
+        "sumerianReadings": [
+            {
+                "arabic": "اجير ، عامل بأجر يومي",
+                "sumerian": "luḪUN-GÁ",
+                "cuneiform": "𒇽𒂠𒂷",
+                "labat": "148, 536"
+            },
+            {
+                "arabic": "",
+                "sumerian": "ERIN2-ḪUN-GÁ",
+                "cuneiform": "𒂟𒂠𒂷",
+                "labat": "393"
+            },
+            {
+                "arabic": "",
+                "sumerian": "luA-GAR",
+                "cuneiform": "𒇽𒀀𒃻",
+                "labat": "579"
+            },
+            {
+                "arabic": "",
+                "sumerian": "mulluḪUN-GÁ",
+                "cuneiform": "𒀯𒇽𒂠𒂷",
+                "labat": "536"
+            }
+        ],
+        "keywords": [
+            "اجير",
+            "عامل بأجر يومي"
+        ]
+    },
+    {
+        "id": "ag_79",
+        "nameAr": "قرص القمر ، تاج ، اكليل",
+        "nameAkk": "agû",
+        "sumerianReadings": [
+            {
+                "arabic": "قرص القمر ، تاج ، اكليل",
+                "sumerian": "MEN",
+                "cuneiform": "𒈨𒂗",
+                "labat": "270"
+            },
+            {
+                "arabic": "",
+                "sumerian": "AGA",
+                "cuneiform": "𒂇",
+                "labat": "347"
+            },
+            {
+                "arabic": "",
+                "sumerian": "MEN4",
+                "cuneiform": "𒈨𒂗",
+                "labat": "517"
+            }
+        ],
+        "keywords": [
+            "قرص القمر",
+            "تاج",
+            "اكليل"
+        ]
+    },
+    {
+        "id": "agimbari_80",
+        "nameAr": "اكليل من ضباب",
+        "nameAkk": "agû imbari",
+        "sumerianReadings": [
+            {
+                "arabic": "اكليل من ضباب",
+                "sumerian": "AGA-IM-DUGUD",
+                "cuneiform": "𒂇𒅎𒂂",
+                "labat": "347"
+            }
+        ],
+        "keywords": [
+            "اكليل من ضباب"
+        ]
+    },
+    {
+        "id": "agimbari_81",
+        "nameAr": "اكليل من السحب",
+        "nameAkk": "agû imbari",
+        "sumerianReadings": [
+            {
+                "arabic": "اكليل من السحب",
+                "sumerian": "AGA-IM-DIRI",
+                "cuneiform": "𒂇𒅎𒋛𒀀",
+                "labat": "347"
+            }
+        ],
+        "keywords": [
+            "اكليل من السحب"
+        ]
+    },
+    {
+        "id": "ag_82",
+        "nameAr": "سيل ، طوفان",
+        "nameAkk": "agû",
+        "sumerianReadings": [
+            {
+                "arabic": "سيل ، طوفان",
+                "sumerian": "A-GE6-A",
+                "cuneiform": "𒀀𒈪𒀀",
+                "labat": "579"
+            },
+            {
+                "arabic": "",
+                "sumerian": "A-GU4/GA",
+                "cuneiform": "𒀀𒄞",
+                "labat": ""
+            }
+        ],
+        "keywords": [
+            "سيل",
+            "طوفان"
+        ]
+    },
+    {
+        "id": "agurru_83",
+        "nameAr": "طابوقة مفخورة مطبوخة",
+        "nameAkk": "agurru",
+        "sumerianReadings": [
+            {
+                "arabic": "طابوقة مفخورة مطبوخة",
+                "sumerian": "SIG4-ÙR-RA",
+                "cuneiform": "𒋞𒃡𒊏",
+                "labat": "567"
+            },
+            {
+                "arabic": "",
+                "sumerian": "SIG4-AL-ÙR-RA",
+                "cuneiform": "𒋞...",
+                "labat": ""
+            },
+            {
+                "arabic": "",
+                "sumerian": "SIG4-AL-LÚ-ÙR-RA",
+                "cuneiform": "𒋞...",
+                "labat": ""
+            }
+        ],
+        "keywords": [
+            "طابوقة مفخورة مطبوخة"
+        ]
+    },
+    {
+        "id": "aḫātu_84",
+        "nameAr": "اخت",
+        "nameAkk": "aḫātu",
+        "sumerianReadings": [
+            {
+                "arabic": "اخت",
+                "sumerian": "NIN",
+                "cuneiform": "𒊩𒌆",
+                "labat": "556"
+            }
+        ],
+        "keywords": [
+            "اخت"
+        ]
+    },
+    {
+        "id": "aḫātu_85",
+        "nameAr": "بجوار ، بجانب ، بالقرب",
+        "nameAkk": "aḫātu",
+        "sumerianReadings": [
+            {
+                "arabic": "بجوار ، بجانب ، بالقرب",
+                "sumerian": "BAR",
+                "cuneiform": "𒁇",
+                "labat": "74"
+            }
+        ],
+        "keywords": [
+            "بجوار",
+            "بجانب",
+            "بالقرب"
+        ]
+    },
+    {
+        "id": "aḫātāli_86",
+        "nameAr": "ضواحي",
+        "nameAkk": "aḫāt āli",
+        "sumerianReadings": [
+            {
+                "arabic": "ضواحي",
+                "sumerian": "URU-BAR-RA",
+                "cuneiform": "𒌷𒁇𒊏",
+                "labat": "38"
+            }
+        ],
+        "keywords": [
+            "ضواحي"
+        ]
+    },
+    {
+        "id": "aḫāzu_87",
+        "nameAr": "أخذ امرأة ، قبض",
+        "nameAkk": "aḫāzu",
+        "sumerianReadings": [
+            {
+                "arabic": "أخذ امرأة ، قبض",
+                "sumerian": "TUK",
+                "cuneiform": "𒌇",
+                "labat": "574"
+            },
+            {
+                "arabic": "ركّب شيئا على معدن نفيس",
+                "sumerian": "GAR",
+                "cuneiform": "𒃻",
+                "labat": "597"
+            }
+        ],
+        "keywords": [
+            "أخذ امرأة",
+            "قبض",
+            "ركّب شيئا على معدن نفيس"
+        ]
+    },
+    {
+        "id": "aḫ_88",
+        "nameAr": "منفصلا",
+        "nameAkk": "aḫê",
+        "sumerianReadings": [
+            {
+                "arabic": "منفصلا",
+                "sumerian": "AŠ-e",
+                "cuneiform": "𒀸𒂊",
+                "labat": "1"
+            }
+        ],
+        "keywords": [
+            "منفصلا"
+        ]
+    },
+    {
+        "id": "aḫḫāzu_89",
+        "nameAr": "شيطان",
+        "nameAkk": "aḫḫāzu",
+        "sumerianReadings": [
+            {
+                "arabic": "شيطان",
+                "sumerian": "dDÌM-ME-ḪAB",
+                "cuneiform": "𒀭𒁴𒈨𒆸",
+                "labat": "150"
+            }
+        ],
+        "keywords": [
+            "شيطان"
+        ]
+    },
+    {
+        "id": "aḫḫūtu_90",
+        "nameAr": "أخوة",
+        "nameAkk": "aḫḫūtu",
+        "sumerianReadings": [
+            {
+                "arabic": "أخوة",
+                "sumerian": "PAB",
+                "cuneiform": "𒉽",
+                "labat": "60"
+            },
+            {
+                "arabic": "",
+                "sumerian": "ŠEŠ",
+                "cuneiform": "𒋀",
+                "labat": "331"
+            }
+        ],
+        "keywords": [
+            "أخوة"
+        ]
+    },
+    {
+        "id": "aḫītu_91",
+        "nameAr": "خارج",
+        "nameAkk": "aḫītu",
+        "sumerianReadings": [
+            {
+                "arabic": "خارج",
+                "sumerian": "BAR",
+                "cuneiform": "𒁇",
+                "labat": "74"
+            }
+        ],
+        "keywords": [
+            "خارج"
+        ]
+    },
+    {
+        "id": "aḫu_92",
+        "nameAr": "أخ",
+        "nameAkk": "aḫu",
+        "sumerianReadings": [
+            {
+                "arabic": "أخ",
+                "sumerian": "PAB",
+                "cuneiform": "𒉽",
+                "labat": "60"
+            },
+            {
+                "arabic": "",
+                "sumerian": "ŠEŠ-",
+                "cuneiform": "𒋀",
+                "labat": "331"
+            }
+        ],
+        "keywords": [
+            "أخ"
+        ]
+    },
+    {
+        "id": "aḫu_93",
+        "nameAr": "شاطئ ، ضفة ، ذراع",
+        "nameAkk": "aḫu",
+        "sumerianReadings": [
+            {
+                "arabic": "شاطئ ، ضفة ، ذراع",
+                "sumerian": "BAR",
+                "cuneiform": "𒁇",
+                "labat": "74"
+            },
+            {
+                "arabic": "",
+                "sumerian": "GÚ",
+                "cuneiform": "𒄘",
+                "labat": "106"
+            },
+            {
+                "arabic": "",
+                "sumerian": "ZAG/ZÀ",
+                "cuneiform": "𒍠",
+                "labat": "332"
+            },
+            {
+                "arabic": "",
+                "sumerian": "Á",
+                "cuneiform": "𒀉",
+                "labat": "334"
+            }
+        ],
+        "keywords": [
+            "شاطئ",
+            "ضفة",
+            "ذراع"
+        ]
+    },
+    {
+        "id": "aḫ_94",
+        "nameAr": "غير قانوني ، عدو ، غريب",
+        "nameAkk": "aḫû",
+        "sumerianReadings": [
+            {
+                "arabic": "غير قانوني ، عدو ، غريب",
+                "sumerian": "KÚR",
+                "cuneiform": "𒉽",
+                "labat": "60"
+            },
+            {
+                "arabic": "",
+                "sumerian": "BAR",
+                "cuneiform": "𒁇",
+                "labat": "74"
+            }
+        ],
+        "keywords": [
+            "غير قانوني",
+            "عدو",
+            "غريب"
+        ]
+    },
+    {
+        "id": "aḫulap_95",
+        "nameAr": "الرحمة !",
+        "nameAkk": "aḫulap",
+        "sumerianReadings": [
+            {
+                "arabic": "الرحمة !",
+                "sumerian": "AḪULAP",
+                "cuneiform": "𒀀𒄷ラップ",
+                "labat": "102"
+            }
+        ],
+        "keywords": [
+            "الرحمة !"
+        ]
+    },
+    {
+        "id": "aeḫzu_96",
+        "nameAr": "معزق يدوي",
+        "nameAkk": "a/eḫzu",
+        "sumerianReadings": [
+            {
+                "arabic": "معزق يدوي",
+                "sumerian": "eḫzu",
+                "cuneiform": "...",
+                "labat": "-"
+            }
+        ],
+        "keywords": [
+            "معزق يدوي"
+        ]
+    },
+    {
+        "id": "ai_97",
+        "nameAr": "لئلا ...",
+        "nameAkk": "ai",
+        "sumerianReadings": [
+            {
+                "arabic": "لئلا ...",
+                "sumerian": "NU",
+                "cuneiform": "𒉡",
+                "labat": "75"
+            }
+        ],
+        "keywords": [
+            "لئلا ..."
+        ]
+    },
+    {
+        "id": "ajjābu_98",
+        "nameAr": "عدو",
+        "nameAkk": "ajjābu",
+        "sumerianReadings": [
+            {
+                "arabic": "عدو",
+                "sumerian": "luERIM2",
+                "cuneiform": "𒉈𒊒",
+                "labat": "172"
+            }
+        ],
+        "keywords": [
+            "عدو"
+        ]
+    },
+    {
+        "id": "ajjakku_99",
+        "nameAr": "بناية مقدسة",
+        "nameAkk": "ajjakku",
+        "sumerianReadings": [
+            {
+                "arabic": "بناية مقدسة",
+                "sumerian": "É-AN-NA",
+                "cuneiform": "𒂍𒀭𒈾",
+                "labat": "324"
+            }
+        ],
+        "keywords": [
+            "بناية مقدسة"
+        ]
+    },
+    {
+        "id": "ajjalu_100",
+        "nameAr": "ايل اسمر",
+        "nameAkk": "ajjalu",
+        "sumerianReadings": [
+            {
+                "arabic": "ايل اسمر",
+                "sumerian": "DARA3-MAŠ",
+                "cuneiform": "𒁰𒈦",
+                "labat": "100"
+            }
+        ],
+        "keywords": [
+            "ايل اسمر"
+        ]
+    },
+    {
+        "id": "ajjartu_101",
+        "nameAr": "صدفة ، مرجان",
+        "nameAkk": "ajjartu",
+        "sumerianReadings": [
+            {
+                "arabic": "صدفة ، مرجان",
+                "sumerian": "za4PA",
+                "cuneiform": "𒍝𒉺",
+                "labat": "295"
+            }
+        ],
+        "keywords": [
+            "صدفة",
+            "مرجان"
+        ]
+    },
+    {
+        "id": "ajjaṣu_102",
+        "nameAr": "ابن عرس",
+        "nameAkk": "ajjaṣu",
+        "sumerianReadings": [
+            {
+                "arabic": "ابن عرس",
+                "sumerian": "NIN-KILIM-EDIN-NA",
+                "cuneiform": "𒊩𒌆...𒂔𒈾",
+                "labat": "556"
+            }
+        ],
+        "keywords": [
+            "ابن عرس"
+        ]
+    },
+    {
+        "id": "ajjik_103",
+        "nameAr": "من حيث",
+        "nameAkk": "ajjikâ",
+        "sumerianReadings": [
+            {
+                "arabic": "من حيث",
+                "sumerian": "ME-A-BI",
+                "cuneiform": "𒈨𒀀𒁉",
+                "labat": "532"
+            }
+        ],
+        "keywords": [
+            "من حيث"
+        ]
+    },
+    {
+        "id": "ajjumma_104",
+        "nameAr": "شخص ما",
+        "nameAkk": "ajjumma",
+        "sumerianReadings": [
+            {
+                "arabic": "شخص ما",
+                "sumerian": "luNA-ME",
+                "cuneiform": "𒇽𒈾𒈨",
+                "labat": "70"
+            }
+        ],
+        "keywords": [
+            "شخص ما"
+        ]
+    },
+    {
+        "id": "akaluaklu_105",
+        "nameAr": "غذاء ,خبز",
+        "nameAkk": "akalu, aklu",
+        "sumerianReadings": [
+            {
+                "arabic": "غذاء ,خبز",
+                "sumerian": "NINDA-ḪÁ/MEŠ",
+                "cuneiform": "𒃻𒄭𒀀",
+                "labat": "597"
+            },
+            {
+                "arabic": "",
+                "sumerian": "طعام 597 NINDA",
+                "cuneiform": "𒃻",
+                "labat": ""
+            },
+            {
+                "arabic": "",
+                "sumerian": "مقياس طاقة 318Ú",
+                "cuneiform": "𒌑",
+                "labat": ""
+            }
+        ],
+        "keywords": [
+            "غذاء ,خبز"
+        ]
+    },
+    {
+        "id": "akluablu_106",
+        "nameAr": "خبز يابس ، كعك",
+        "nameAkk": "aklu ablu",
+        "sumerianReadings": [
+            {
+                "arabic": "خبز يابس ، كعك",
+                "sumerian": "NINDA-ḪÁD-DA",
+                "cuneiform": "𒃻𒌓𒁕",
+                "labat": "597"
+            },
+            {
+                "arabic": "",
+                "sumerian": "CAD",
+                "cuneiform": "",
+                "labat": ""
+            },
+            {
+                "arabic": "",
+                "sumerian": "A2",
+                "cuneiform": "",
+                "labat": ""
+            },
+            {
+                "arabic": "",
+                "sumerian": "154b",
+                "cuneiform": "",
+                "labat": ""
+            }
+        ],
+        "keywords": [
+            "خبز يابس",
+            "كعك"
+        ]
+    },
+    {
+        "id": "akalḫarrāni_107",
+        "nameAr": "مؤن للطريق، زاد الطريق",
+        "nameAkk": "akal ḫarrāni",
+        "sumerianReadings": [
+            {
+                "arabic": "مؤن للطريق، زاد الطريق",
+                "sumerian": "NINDA-KASKAL",
+                "cuneiform": "𒃻𒆜",
+                "labat": "597"
+            }
+        ],
+        "keywords": [
+            "مؤن للطريق",
+            "زاد الطريق"
+        ]
+    },
+    {
+        "id": "akluḫašlu_108",
+        "nameAr": "طحين، دقيق",
+        "nameAkk": "aklu ḫašlu",
+        "sumerianReadings": [
+            {
+                "arabic": "طحين، دقيق",
+                "sumerian": "NINDA-KUM",
+                "cuneiform": "𒃻𒄣",
+                "labat": "597"
+            }
+        ],
+        "keywords": [
+            "طحين",
+            "دقيق"
+        ]
+    },
+    {
+        "id": "akalkunāši_109",
+        "nameAr": "خبز عَلَس",
+        "nameAkk": "akal kunāši",
+        "sumerianReadings": [
+            {
+                "arabic": "خبز عَلَس",
+                "sumerian": "NINDA-ZÍZ-ÀM",
+                "cuneiform": "𒃻𒍩𒀀𒀭",
+                "labat": "597"
+            }
+        ],
+        "keywords": [
+            "خبز عَلَس"
+        ]
+    },
+    {
+        "id": "akaltumri_110",
+        "nameAr": "خبز مطبوخ تحت الرماد",
+        "nameAkk": "akal tumri",
+        "sumerianReadings": [
+            {
+                "arabic": "خبز مطبوخ تحت الرماد",
+                "sumerian": "NINDA-IZI-NÌ-ḪAR-RA",
+                "cuneiform": "𒃻𒉈𒃻𒄯𒊏",
+                "labat": "172, 597"
+            }
+        ],
+        "keywords": [
+            "خبز مطبوخ تحت الرماد"
+        ]
+    },
+    {
+        "id": "akālu_111",
+        "nameAr": "عذّب ، اجتاح ، تصرّف ، اكل",
+        "nameAkk": "akālu",
+        "sumerianReadings": [
+            {
+                "arabic": "عذّب ، اجتاح ، تصرّف ، اكل",
+                "sumerian": "KÚ",
+                "cuneiform": "𒅥",
+                "labat": "36"
+            }
+        ],
+        "keywords": [
+            "عذّب",
+            "اجتاح",
+            "تصرّف",
+            "اكل"
+        ]
+    },
+    {
+        "id": "akbaru_112",
+        "nameAr": "يربوع ?",
+        "nameAkk": "akbaru",
+        "sumerianReadings": [
+            {
+                "arabic": "يربوع ?",
+                "sumerian": "PEŠ-KI-BAL",
+                "cuneiform": "...",
+                "labat": "596"
+            }
+        ],
+        "keywords": [
+            "يربوع ?"
+        ]
+    },
+    {
+        "id": "ākilu_113",
+        "nameAr": "اسروع ؟ ، حشرة ، لقب ابن اوى \"آكال\"",
+        "nameAkk": "ākilu",
+        "sumerianReadings": [
+            {
+                "arabic": "اسروع ؟ ، حشرة ، لقب ابن اوى \"آكال\"",
+                "sumerian": "MÙL",
+                "cuneiform": "𒀯",
+                "labat": "405"
+            },
+            {
+                "arabic": "",
+                "sumerian": "UR-BI-KÚ",
+                "cuneiform": "𒌨𒁉𒅥",
+                "labat": "575"
+            }
+        ],
+        "keywords": [
+            "اسروع ؟",
+            "حشرة",
+            "لقب ابن اوى \"آكال\""
+        ]
+    },
+    {
+        "id": "akītu_114",
+        "nameAr": "يوم ومعبد العام الجديد",
+        "nameAkk": "akītu",
+        "sumerianReadings": [
+            {
+                "arabic": "يوم ومعبد العام الجديد",
+                "sumerian": "Á-KI-ITTI",
+                "cuneiform": "𒀉𒆠...",
+                "labat": "334"
+            }
+        ],
+        "keywords": [
+            "يوم ومعبد العام الجديد"
+        ]
+    },
+    {
+        "id": "akkad_115",
+        "nameAr": "بلاد اكد",
+        "nameAkk": "akkadû",
+        "sumerianReadings": [
+            {
+                "arabic": "بلاد اكد",
+                "sumerian": "kurURIki-RA",
+                "cuneiform": "𒆳𒌵𒆠𒊏",
+                "labat": "359"
+            }
+        ],
+        "keywords": [
+            "بلاد اكد"
+        ]
+    },
+    {
+        "id": "akkqqullu_116",
+        "nameAr": "نوع من مطرقة",
+        "nameAkk": "akk/qqullu",
+        "sumerianReadings": [
+            {
+                "arabic": "نوع من مطرقة",
+                "sumerian": "gišNÌ-GUL",
+                "cuneiform": "𒄑𒃻𒄢",
+                "labat": "597"
+            }
+        ],
+        "keywords": [
+            "نوع من مطرقة"
+        ]
+    },
+    {
+        "id": "aklu_117",
+        "nameAr": "مراقب ، وكيل ، رئيس",
+        "nameAkk": "aklu",
+        "sumerianReadings": [
+            {
+                "arabic": "مراقب ، وكيل ، رئيس",
+                "sumerian": "luUGULA",
+                "cuneiform": "𒇽𒉺",
+                "labat": "295"
+            }
+        ],
+        "keywords": [
+            "مراقب",
+            "وكيل",
+            "رئيس"
+        ]
+    },
+    {
+        "id": "akilamurru_118",
+        "nameAr": "جنرال، زعيم",
+        "nameAkk": "akil amurru",
+        "sumerianReadings": [
+            {
+                "arabic": "جنرال، زعيم",
+                "sumerian": "UGULA-MAR-TU",
+                "cuneiform": "𒉺𒈥𒌅",
+                "labat": "295"
+            }
+        ],
+        "keywords": [
+            "جنرال",
+            "زعيم"
+        ]
+    },
+    {
+        "id": "aktamatkam_119",
+        "nameAr": "نبتة",
+        "nameAkk": "aktam/atkam",
+        "sumerianReadings": [
+            {
+                "arabic": "نبتة",
+                "sumerian": "-",
+                "cuneiform": "",
+                "labat": "97, 145"
+            }
+        ],
+        "keywords": [
+            "نبتة"
+        ]
+    },
+    {
+        "id": "ak_120",
+        "nameAr": "مرسة ، قلس",
+        "nameAkk": "akû",
+        "sumerianReadings": [
+            {
+                "arabic": "مرسة ، قلس",
+                "sumerian": "DELLU",
+                "cuneiform": "델루",
+                "labat": "122a"
+            }
+        ],
+        "keywords": [
+            "مرسة",
+            "قلس"
+        ]
+    },
+    {
+        "id": "akukūtu_121",
+        "nameAr": "احمرار ، نور ، شعلة",
+        "nameAkk": "akukūtu",
+        "sumerianReadings": [
+            {
+                "arabic": "احمرار ، نور ، شعلة",
+                "sumerian": "A-ḪA-ḪA-tù",
+                "cuneiform": "𒀀𒄩𒄩𒌅",
+                "labat": "589"
+            }
+        ],
+        "keywords": [
+            "احمرار",
+            "نور",
+            "شعلة"
+        ]
+    },
+    {
+        "id": "aladlamm_122",
+        "nameAr": "ثور ذو رأس انسان",
+        "nameAkk": "aladlammû",
+        "sumerianReadings": [
+            {
+                "arabic": "ثور ذو رأس انسان",
+                "sumerian": "dALAD3-dLAMMA",
+                "cuneiform": "𒀭𒆗𒀭𒆗",
+                "labat": "323"
+            }
+        ],
+        "keywords": [
+            "ثور ذو رأس انسان"
+        ]
+    },
+    {
+        "id": "alādu_123",
+        "nameAr": "ولدانجب",
+        "nameAkk": "alādu",
+        "sumerianReadings": [
+            {
+                "arabic": "ولدانجب",
+                "sumerian": "TU",
+                "cuneiform": "𒌅",
+                "labat": "58"
+            },
+            {
+                "arabic": "",
+                "sumerian": "PEŠ4",
+                "cuneiform": "...",
+                "labat": "390"
+            },
+            {
+                "arabic": "",
+                "sumerian": "Ù-TU",
+                "cuneiform": "𒅇𒌅",
+                "labat": "455"
+            }
+        ],
+        "keywords": [
+            "ولدانجب"
+        ]
+    },
+    {
+        "id": "alaḫḫinu_124",
+        "nameAr": "طحّان",
+        "nameAkk": "alaḫḫinu",
+        "sumerianReadings": [
+            {
+                "arabic": "طحّان",
+                "sumerian": "luNINDA CAD",
+                "cuneiform": "...",
+                "labat": "597"
+            },
+            {
+                "arabic": "",
+                "sumerian": "A1",
+                "cuneiform": "",
+                "labat": ""
+            },
+            {
+                "arabic": "",
+                "sumerian": "296",
+                "cuneiform": "",
+                "labat": ""
+            }
+        ],
+        "keywords": [
+            "طحّان"
+        ]
+    },
+    {
+        "id": "alaktu_125",
+        "nameAr": "سلوك ، تصرّف ، مسلك ، طريق",
+        "nameAkk": "alaktu",
+        "sumerianReadings": [
+            {
+                "arabic": "سلوك ، تصرّف ، مسلك ، طريق",
+                "sumerian": "A-RÁ",
+                "cuneiform": "𒀀𒁺",
+                "labat": "579"
+            }
+        ],
+        "keywords": [
+            "سلوك",
+            "تصرّف",
+            "مسلك",
+            "طريق"
+        ]
+    },
+    {
+        "id": "alāku_126",
+        "nameAr": "انطلق ، حرّك ، ذهب",
+        "nameAkk": "alāku",
+        "sumerianReadings": [
+            {
+                "arabic": "انطلق ، حرّك ، ذهب",
+                "sumerian": "GIN/RÁ/DU",
+                "cuneiform": "𒁺",
+                "labat": "206"
+            },
+            {
+                "arabic": "",
+                "sumerian": "IR",
+                "cuneiform": "𒅕",
+                "labat": "232"
+            }
+        ],
+        "keywords": [
+            "انطلق",
+            "حرّك",
+            "ذهب"
+        ]
+    },
+    {
+        "id": "alandimm_127",
+        "nameAr": "شكل ، قامة",
+        "nameAkk": "alandimmû",
+        "sumerianReadings": [
+            {
+                "arabic": "شكل ، قامة",
+                "sumerian": "ALAN-DÍM-MA",
+                "cuneiform": "𒀩𒁴𒈠",
+                "labat": "348"
+            }
+        ],
+        "keywords": [
+            "شكل",
+            "قامة"
+        ]
+    },
+    {
+        "id": "alam_128",
+        "nameAr": "نبات مائي",
+        "nameAkk": "alamû",
+        "sumerianReadings": [
+            {
+                "arabic": "نبات مائي",
+                "sumerian": "uA-LA-MÚ-A",
+                "cuneiform": "𒌑𒀀𒆷...",
+                "labat": "579"
+            }
+        ],
+        "keywords": [
+            "نبات مائي"
+        ]
+    },
+    {
+        "id": "alappānu_129",
+        "nameAr": "بيرة خفيفة",
+        "nameAkk": "alappānu",
+        "sumerianReadings": [
+            {
+                "arabic": "بيرة خفيفة",
+                "sumerian": "KAŠBIR",
+                "cuneiform": "𒁉",
+                "labat": "214"
+            }
+        ],
+        "keywords": [
+            "بيرة خفيفة"
+        ]
+    },
+    {
+        "id": "alātu_130",
+        "nameAr": "ابتلع",
+        "nameAkk": "alātu",
+        "sumerianReadings": [
+            {
+                "arabic": "ابتلع",
+                "sumerian": "GIGURU3",
+                "cuneiform": "𒈪",
+                "labat": "24"
+            }
+        ],
+        "keywords": [
+            "ابتلع"
+        ]
+    },
+    {
+        "id": "ald_131",
+        "nameAr": "مؤن من الحبوب",
+        "nameAkk": "aldû",
+        "sumerianReadings": [
+            {
+                "arabic": "مؤن من الحبوب",
+                "sumerian": "AL-DÙ",
+                "cuneiform": "𒀠𒆕",
+                "labat": "298"
+            }
+        ],
+        "keywords": [
+            "مؤن من الحبوب"
+        ]
+    },
+    {
+        "id": "algamišu_132",
+        "nameAr": "جمشت حجر كريم ?",
+        "nameAkk": "algamišu",
+        "sumerianReadings": [
+            {
+                "arabic": "جمشت حجر كريم ?",
+                "sumerian": "U4-SAL-ḪÚB",
+                "cuneiform": "𒌓𒊩...",
+                "labat": "381"
+            }
+        ],
+        "keywords": [
+            "جمشت حجر كريم ?"
+        ]
+    },
+    {
+        "id": "ālidu_133",
+        "nameAr": "منجب ، والد",
+        "nameAkk": "ālidu",
+        "sumerianReadings": [
+            {
+                "arabic": "منجب ، والد",
+                "sumerian": "TU",
+                "cuneiform": "𒌅",
+                "labat": "50"
+            },
+            {
+                "arabic": "",
+                "sumerian": "Ù-TU",
+                "cuneiform": "𒅇𒌅",
+                "labat": "455"
+            }
+        ],
+        "keywords": [
+            "منجب",
+            "والد"
+        ]
+    },
+    {
+        "id": "ālikpāni_134",
+        "nameAr": "رئيس ، متقدّم ، سابق",
+        "nameAkk": "ālik pāni",
+        "sumerianReadings": [
+            {
+                "arabic": "رئيس ، متقدّم ، سابق",
+                "sumerian": "DU-IGI",
+                "cuneiform": "𒁺𒅆",
+                "labat": "206"
+            },
+            {
+                "arabic": "",
+                "sumerian": "IGI-DU",
+                "cuneiform": "𒅆𒁺",
+                "labat": "449"
+            }
+        ],
+        "keywords": [
+            "رئيس",
+            "متقدّم",
+            "سابق"
+        ]
+    },
+    {
+        "id": "laālittu_135",
+        "nameAr": "امراة عاقر",
+        "nameAkk": "la ālittu",
+        "sumerianReadings": [
+            {
+                "arabic": "امراة عاقر",
+                "sumerian": "miNU-Ù-TU",
+                "cuneiform": "𒊩𒉡𒅇𒌅",
+                "labat": "75, 554"
+            }
+        ],
+        "keywords": [
+            "امراة عاقر"
+        ]
+    },
+    {
+        "id": "alla_136",
+        "nameAr": "ما وراء",
+        "nameAkk": "alla",
+        "sumerianReadings": [
+            {
+                "arabic": "ما وراء",
+                "sumerian": "AL",
+                "cuneiform": "𒀠",
+                "labat": "298"
+            }
+        ],
+        "keywords": [
+            "ما وراء"
+        ]
+    },
+    {
+        "id": "allānu_137",
+        "nameAr": "شجرة البلوط",
+        "nameAkk": "allānu",
+        "sumerianReadings": [
+            {
+                "arabic": "شجرة البلوط",
+                "sumerian": "gišAL-LA-AN",
+                "cuneiform": "𒄑𒀠𒆷𒀭",
+                "labat": "298"
+            }
+        ],
+        "keywords": [
+            "شجرة البلوط"
+        ]
+    },
+    {
+        "id": "suppositoire_138",
+        "nameAr": "فتيلة على شكل بلوطة",
+        "nameAkk": "suppositoire",
+        "sumerianReadings": [
+            {
+                "arabic": "فتيلة على شكل بلوطة",
+                "sumerian": "gišLAM-MAR",
+                "cuneiform": "𒄑𒇴𒈥",
+                "labat": "435"
+            },
+            {
+                "arabic": "",
+                "sumerian": "NAGAR-nu",
+                "cuneiform": "nagar-nu",
+                "labat": "560"
+            }
+        ],
+        "keywords": [
+            "فتيلة على شكل بلوطة"
+        ]
+    },
+    {
+        "id": "allu_139",
+        "nameAr": "معول",
+        "nameAkk": "allu",
+        "sumerianReadings": [
+            {
+                "arabic": "معول",
+                "sumerian": "gišAL-LA",
+                "cuneiform": "𒄑𒀠𒆷",
+                "labat": "298"
+            }
+        ],
+        "keywords": [
+            "معول"
+        ]
+    },
+    {
+        "id": "alluḫappu_140",
+        "nameAr": "شيطان ، شبكة",
+        "nameAkk": "alluḫappu",
+        "sumerianReadings": [
+            {
+                "arabic": "شيطان ، شبكة",
+                "sumerian": "gišsaAL-ḪAB",
+                "cuneiform": "𒄑𒊓𒀠𒆸",
+                "labat": "298"
+            }
+        ],
+        "keywords": [
+            "شيطان",
+            "شبكة"
+        ]
+    },
+    {
+        "id": "alluḫaru_141",
+        "nameAr": "شب ابيض",
+        "nameAkk": "alluḫaru",
+        "sumerianReadings": [
+            {
+                "arabic": "شب ابيض",
+                "sumerian": "AN-NU-ḪA-RA",
+                "cuneiform": "𒀭𒉡𒄩𒊏",
+                "labat": "13"
+            },
+            {
+                "arabic": "",
+                "sumerian": "IM-SAḪAR-BABBAR-KUR-RA",
+                "cuneiform": "𒅎𒅖𒌓𒆳𒊏",
+                "labat": "399"
+            }
+        ],
+        "keywords": [
+            "شب ابيض"
+        ]
+    },
+    {
+        "id": "alluttu_142",
+        "nameAr": "قشرية",
+        "nameAkk": "alluttu",
+        "sumerianReadings": [
+            {
+                "arabic": "قشرية",
+                "sumerian": "AL-LU5",
+                "cuneiform": "𒀠𒇻",
+                "labat": "298"
+            },
+            {
+                "arabic": "سرطان برج السرطان",
+                "sumerian": "mulAL-LU5",
+                "cuneiform": "𒀯𒀠𒇻",
+                "labat": "298"
+            },
+            {
+                "arabic": "",
+                "sumerian": "mul/teNAGAR",
+                "cuneiform": "𒀯...",
+                "labat": "560"
+            },
+            {
+                "arabic": "",
+                "sumerian": "KUŠU2",
+                "cuneiform": "🐢",
+                "labat": "562"
+            }
+        ],
+        "keywords": [
+            "قشرية",
+            "سرطان برج السرطان"
+        ]
+    },
+    {
+        "id": "almattu_143",
+        "nameAr": "ارملة",
+        "nameAkk": "almattu",
+        "sumerianReadings": [
+            {
+                "arabic": "ارملة",
+                "sumerian": "NU-MU-SU",
+                "cuneiform": "𒉡𒈬𒋢",
+                "labat": "75"
+            },
+            {
+                "arabic": "",
+                "sumerian": "NU-KÚŠ-Ù",
+                "cuneiform": "𒉡...",
+                "labat": ""
+            }
+        ],
+        "keywords": [
+            "ارملة"
+        ]
+    },
+    {
+        "id": "alpu_144",
+        "nameAr": "ثور",
+        "nameAkk": "alpu",
+        "sumerianReadings": [
+            {
+                "arabic": "ثور",
+                "sumerian": "GU4-NINDA2",
+                "cuneiform": "𒄞𒉘",
+                "labat": "176"
+            },
+            {
+                "arabic": "",
+                "sumerian": "GU4",
+                "cuneiform": "𒄞",
+                "labat": "297"
+            }
+        ],
+        "keywords": [
+            "ثور"
+        ]
+    },
+    {
+        "id": "alapšaarka_145",
+        "nameAr": "ثور مكدون في المؤخرة",
+        "nameAkk": "alap ša arka",
+        "sumerianReadings": [
+            {
+                "arabic": "ثور مكدون في المؤخرة",
+                "sumerian": "GU4-DA-ÙR-RA",
+                "cuneiform": "𒄞𒁕𒃡𒊏",
+                "labat": "297"
+            },
+            {
+                "arabic": "",
+                "sumerian": "GU4-EGIR-RA",
+                "cuneiform": "𒄞𒂕𒊏",
+                "labat": ""
+            }
+        ],
+        "keywords": [
+            "ثور مكدون في المؤخرة"
+        ]
+    },
+    {
+        "id": "alapkullizi_146",
+        "nameAr": "ثور حراثة",
+        "nameAkk": "alap kullizi",
+        "sumerianReadings": [
+            {
+                "arabic": "ثور حراثة",
+                "sumerian": "GU4-ŠÀ-GU4",
+                "cuneiform": "𒄞𒊮𒄞",
+                "labat": "297"
+            }
+        ],
+        "keywords": [
+            "ثور حراثة"
+        ]
+    },
+    {
+        "id": "alapnīri_147",
+        "nameAr": "ثور النير",
+        "nameAkk": "alap nīri",
+        "sumerianReadings": [
+            {
+                "arabic": "ثور النير",
+                "sumerian": "GU4-GIŠ",
+                "cuneiform": "𒄞𒄑",
+                "labat": "297"
+            }
+        ],
+        "keywords": [
+            "ثور النير"
+        ]
+    },
+    {
+        "id": "altaru_148",
+        "nameAr": "القائم بعمل الحقول ؟",
+        "nameAkk": "altaru",
+        "sumerianReadings": [
+            {
+                "arabic": "القائم بعمل الحقول ؟",
+                "sumerian": "luAL-KU5-DA",
+                "cuneiform": "𒇽𒀠...",
+                "labat": "298"
+            }
+        ],
+        "keywords": [
+            "القائم بعمل الحقول ؟"
+        ]
+    },
+    {
+        "id": "alu_149",
+        "nameAr": "اتحاد ، زمرة",
+        "nameAkk": "a'lu",
+        "sumerianReadings": [
+            {
+                "arabic": "اتحاد ، زمرة",
+                "sumerian": "GIŠ-DA",
+                "cuneiform": "𒄑𒁕",
+                "labat": "296"
+            },
+            {
+                "arabic": "",
+                "sumerian": "luGIŠ-DA",
+                "cuneiform": "𒇽𒄑𒁕",
+                "labat": "335"
+            }
+        ],
+        "keywords": [
+            "اتحاد",
+            "زمرة"
+        ]
+    },
+    {
+        "id": "alu_150",
+        "nameAr": "زينة",
+        "nameAkk": "alu",
+        "sumerianReadings": [
+            {
+                "arabic": "زينة",
+                "sumerian": "A-LU",
+                "cuneiform": "𒀀𒇻",
+                "labat": "579"
+            }
+        ],
+        "keywords": [
+            "زينة"
+        ]
+    },
+    {
+        "id": "alu_151",
+        "nameAr": "عرق من خروف",
+        "nameAkk": "alu",
+        "sumerianReadings": [
+            {
+                "arabic": "عرق من خروف",
+                "sumerian": "uduA-LUM",
+                "cuneiform": "𒇻𒀀𒈝",
+                "labat": "579"
+            }
+        ],
+        "keywords": [
+            "عرق من خروف"
+        ]
+    },
+    {
+        "id": "ālu_152",
+        "nameAr": "مدينة حصن ville",
+        "nameAkk": "ālu",
+        "sumerianReadings": [
+            {
+                "arabic": "مدينة حصن ville",
+                "sumerian": "URU",
+                "cuneiform": "𒌷",
+                "labat": "38, 41, 43"
+            }
+        ],
+        "keywords": [
+            "مدينة حصن ville"
+        ]
+    },
+    {
+        "id": "āluark_153",
+        "nameAr": "حي قديم",
+        "nameAkk": "ālu arkû",
+        "sumerianReadings": [
+            {
+                "arabic": "حي قديم",
+                "sumerian": "URU-EGIR",
+                "cuneiform": "𒌷𒂕",
+                "labat": "38"
+            }
+        ],
+        "keywords": [
+            "حي قديم"
+        ]
+    },
+    {
+        "id": "ālbītabi_154",
+        "nameAr": "مركز عائلي",
+        "nameAkk": "āl bīt abi",
+        "sumerianReadings": [
+            {
+                "arabic": "مركز عائلي",
+                "sumerian": "URU-É-AD",
+                "cuneiform": "𒌷𒂍𒀜",
+                "labat": "38"
+            }
+        ],
+        "keywords": [
+            "مركز عائلي"
+        ]
+    },
+    {
+        "id": "āldūri_155",
+        "nameAr": "قلعة",
+        "nameAkk": "āl dūri",
+        "sumerianReadings": [
+            {
+                "arabic": "قلعة",
+                "sumerian": "URU-BÀD",
+                "cuneiform": "𒌷𒂦",
+                "labat": "38"
+            }
+        ],
+        "keywords": [
+            "قلعة"
+        ]
+    },
+    {
+        "id": "āluel_156",
+        "nameAr": "اكروبول ، قلعة",
+        "nameAkk": "ālu elû",
+        "sumerianReadings": [
+            {
+                "arabic": "اكروبول ، قلعة",
+                "sumerian": "URU-BÀD",
+                "cuneiform": "𒌷𒂦",
+                "labat": "38"
+            },
+            {
+                "arabic": "",
+                "sumerian": "URU-AN-NA",
+                "cuneiform": "𒌷𒀭𒈾",
+                "labat": ""
+            }
+        ],
+        "keywords": [
+            "اكروبول",
+            "قلعة"
+        ]
+    },
+    {
+        "id": "ālpal_157",
+        "nameAr": "مقر ملكي",
+        "nameAkk": "āl palê",
+        "sumerianReadings": [
+            {
+                "arabic": "مقر ملكي",
+                "sumerian": "URU-BAL",
+                "cuneiform": "𒌷𒁄",
+                "labat": "38"
+            }
+        ],
+        "keywords": [
+            "مقر ملكي"
+        ]
+    },
+    {
+        "id": "ālpaṭi_158",
+        "nameAr": "مدينة حدودية",
+        "nameAkk": "āl paṭi",
+        "sumerianReadings": [
+            {
+                "arabic": "مدينة حدودية",
+                "sumerian": "URU-ZAG",
+                "cuneiform": "𒌷𒍠",
+                "labat": "38"
+            }
+        ],
+        "keywords": [
+            "مدينة حدودية"
+        ]
+    },
+    {
+        "id": "ālqašti_159",
+        "nameAr": "قرية على ارض مقوّسة",
+        "nameAkk": "āl qašti",
+        "sumerianReadings": [
+            {
+                "arabic": "قرية على ارض مقوّسة",
+                "sumerian": "URU-GIŠ-BAN",
+                "cuneiform": "𒌷𒄑𒉼",
+                "labat": "38"
+            }
+        ],
+        "keywords": [
+            "قرية على ارض مقوّسة"
+        ]
+    },
+    {
+        "id": "al_160",
+        "nameAr": "طبل",
+        "nameAkk": "alû",
+        "sumerianReadings": [
+            {
+                "arabic": "طبل",
+                "sumerian": "KUŠ-GU4-GAL",
+                "cuneiform": "𒋢𒄞𒃲",
+                "labat": "7"
+            },
+            {
+                "arabic": "",
+                "sumerian": "kušGU4-GAL",
+                "cuneiform": "𒋢𒄞𒃲",
+                "labat": "297"
+            },
+            {
+                "arabic": "",
+                "sumerian": "gišÁ-LÁ",
+                "cuneiform": "𒄑𒀉𒇲",
+                "labat": "334"
+            }
+        ],
+        "keywords": [
+            "طبل"
+        ]
+    },
+    {
+        "id": "al_161",
+        "nameAr": "ثور سماوي",
+        "nameAkk": "alû",
+        "sumerianReadings": [
+            {
+                "arabic": "ثور سماوي",
+                "sumerian": "GU4-AN-NA",
+                "cuneiform": "𒄞𒀭𒈾",
+                "labat": "297"
+            }
+        ],
+        "keywords": [
+            "ثور سماوي"
+        ]
+    },
+    {
+        "id": "al_162",
+        "nameAr": "شيطان",
+        "nameAkk": "alû",
+        "sumerianReadings": [
+            {
+                "arabic": "شيطان",
+                "sumerian": "U17-LU",
+                "cuneiform": "𒌋Է𒇻",
+                "labat": "49"
+            },
+            {
+                "arabic": "",
+                "sumerian": "A-LÁ",
+                "cuneiform": "𒀀𒇲",
+                "labat": "579"
+            }
+        ],
+        "keywords": [
+            "شيطان"
+        ]
+    },
+    {
+        "id": "aluzinnu_163",
+        "nameAr": "مهنة بهلوان؟",
+        "nameAkk": "aluzinnu",
+        "sumerianReadings": [
+            {
+                "arabic": "مهنة بهلوان؟",
+                "sumerian": "ALAN-ZÚ/ZU5",
+                "cuneiform": "𒀩𒅗",
+                "labat": "358"
+            }
+        ],
+        "keywords": [
+            "مهنة بهلوان؟"
+        ]
+    },
+    {
+        "id": "amām_164",
+        "nameAr": "كحل اثمد",
+        "nameAkk": "amāmû",
+        "sumerianReadings": [
+            {
+                "arabic": "كحل اثمد",
+                "sumerian": "ŠEM-BI-ZI-DA",
+                "cuneiform": "𒋆𒁉𒍣𒁕",
+                "labat": "215"
+            }
+        ],
+        "keywords": [
+            "كحل اثمد"
+        ]
+    },
+    {
+        "id": "amāru_165",
+        "nameAr": "رأى",
+        "nameAkk": "amāru",
+        "sumerianReadings": [
+            {
+                "arabic": "رأى",
+                "sumerian": "IGI-LÁ/DU8",
+                "cuneiform": "𒅆𒇲",
+                "labat": "449"
+            }
+        ],
+        "keywords": [
+            "رأى"
+        ]
+    },
+    {
+        "id": "amaru_166",
+        "nameAr": "كدس طابوق",
+        "nameAkk": "amaru",
+        "sumerianReadings": [
+            {
+                "arabic": "كدس طابوق",
+                "sumerian": "SIG4-ANŠE",
+                "cuneiform": "𒋞𒀲",
+                "labat": "567"
+            }
+        ],
+        "keywords": [
+            "كدس طابوق"
+        ]
+    },
+    {
+        "id": "amašp_167",
+        "nameAr": "يشب حجر كريم ?",
+        "nameAkk": "amašpû",
+        "sumerianReadings": [
+            {
+                "arabic": "يشب حجر كريم ?",
+                "sumerian": "zaAMAŠ-PA-È",
+                "cuneiform": "𒍝...𒉺𒌓𒁺",
+                "labat": "293"
+            },
+            {
+                "arabic": "",
+                "sumerian": "zaAMAŠ-MA4-A",
+                "cuneiform": "𒍝...𒈠𒀀",
+                "labat": ""
+            }
+        ],
+        "keywords": [
+            "يشب حجر كريم ?"
+        ]
+    },
+    {
+        "id": "amāšu_168",
+        "nameAr": "كان متخشبا كان حارا ، سحق ?",
+        "nameAkk": "amāšu",
+        "sumerianReadings": [
+            {
+                "arabic": "كان متخشبا كان حارا ، سحق ?",
+                "sumerian": "ḪUM",
+                "cuneiform": "ཧུམ་",
+                "labat": "565"
+            }
+        ],
+        "keywords": [
+            "كان متخشبا كان حارا",
+            "سحق ?"
+        ]
+    },
+    {
+        "id": "amātu_169",
+        "nameAr": "كلمة",
+        "nameAkk": "amātu",
+        "sumerianReadings": [
+            {
+                "arabic": "كلمة",
+                "sumerian": "INIM",
+                "cuneiform": "𒅗",
+                "labat": "15"
+            }
+        ],
+        "keywords": [
+            "كلمة"
+        ]
+    },
+    {
+        "id": "amātadirti_170",
+        "nameAr": "خبر مشؤوم",
+        "nameAkk": "amāt adirti",
+        "sumerianReadings": [
+            {
+                "arabic": "خبر مشؤوم",
+                "sumerian": "INIM-KAXMI",
+                "cuneiform": "𒅗𒈪",
+                "labat": "-"
+            }
+        ],
+        "keywords": [
+            "خبر مشؤوم"
+        ]
+    },
+    {
+        "id": "amātdamiqti_171",
+        "nameAr": "خبر سار",
+        "nameAkk": "amāt damiqti",
+        "sumerianReadings": [
+            {
+                "arabic": "خبر سار",
+                "sumerian": "INIM-SIG5",
+                "cuneiform": "𒅗𒅊",
+                "labat": "-"
+            }
+        ],
+        "keywords": [
+            "خبر سار"
+        ]
+    },
+    {
+        "id": "amḫāra_172",
+        "nameAr": "نبتة",
+        "nameAkk": "amḫāra",
+        "sumerianReadings": [
+            {
+                "arabic": "نبتة",
+                "sumerian": "uAM-ḪA-RA",
+                "cuneiform": "𒌑𒄠𒄩𒊏",
+                "labat": "170"
+            },
+            {
+                "arabic": "",
+                "sumerian": "uGAZI2sar",
+                "cuneiform": "𒌑...",
+                "labat": "252"
+            }
+        ],
+        "keywords": [
+            "نبتة"
+        ]
+    },
+    {
+        "id": "amīltu_173",
+        "nameAr": "امرأة حرة ، سيدة",
+        "nameAkk": "amīltu",
+        "sumerianReadings": [
+            {
+                "arabic": "امرأة حرة ، سيدة",
+                "sumerian": "miMURUB2",
+                "cuneiform": "𒊩𒄯",
+                "labat": "554"
+            }
+        ],
+        "keywords": [
+            "امرأة حرة",
+            "سيدة"
+        ]
+    },
+    {
+        "id": "amīlānu_174",
+        "nameAr": "نبات طبي",
+        "nameAkk": "amīlānu",
+        "sumerianReadings": [
+            {
+                "arabic": "نبات طبي",
+                "sumerian": "uNA-a-nu",
+                "cuneiform": "𒌑𒈾𒀀𒉡",
+                "labat": "70"
+            },
+            {
+                "arabic": "",
+                "sumerian": "uNAM-LÚ-U17-LU",
+                "cuneiform": "𒌑𒉆𒇽𒌋Է𒇻",
+                "labat": ""
+            },
+            {
+                "arabic": "",
+                "sumerian": "uLÚ-U17-LU",
+                "cuneiform": "𒌑𒇽𒌋Է𒇻",
+                "labat": "330"
+            },
+            {
+                "arabic": "",
+                "sumerian": "giš/uLÚ-a-nu",
+                "cuneiform": "𒄑𒇽𒀀𒉡",
+                "labat": ""
+            },
+            {
+                "arabic": "",
+                "sumerian": "uLÚ-dA-nu",
+                "cuneiform": "𒌑𒇽𒀭𒉡",
+                "labat": ""
+            }
+        ],
+        "keywords": [
+            "نبات طبي"
+        ]
+    },
+    {
+        "id": "amīlu_175",
+        "nameAr": "رجل انسان",
+        "nameAkk": "amīlu",
+        "sumerianReadings": [
+            {
+                "arabic": "رجل انسان",
+                "sumerian": "NA.75NU",
+                "cuneiform": "𒈾 𒉡",
+                "labat": "70"
+            },
+            {
+                "arabic": "",
+                "sumerian": "LÚ-U17-LU",
+                "cuneiform": "𒇽𒌋Է𒇻",
+                "labat": "330"
+            }
+        ],
+        "keywords": [
+            "رجل انسان"
+        ]
+    },
+    {
+        "id": "amīlūtu_176",
+        "nameAr": "انسانية، بشرية الناس، البشر",
+        "nameAkk": "amīlūtu",
+        "sumerianReadings": [
+            {
+                "arabic": "انسانية، بشرية الناس، البشر",
+                "sumerian": "NAM-LÚ-U17-LU",
+                "cuneiform": "𒉆𒇽𒌋Է𒇻",
+                "labat": "79"
+            },
+            {
+                "arabic": "",
+                "sumerian": "NAM-LÚ-U17/LÚ",
+                "cuneiform": "𒉆𒇽...",
+                "labat": ""
+            },
+            {
+                "arabic": "",
+                "sumerian": "LÚ-U17-LU",
+                "cuneiform": "𒇽𒌋Է𒇻",
+                "labat": "330"
+            },
+            {
+                "arabic": "",
+                "sumerian": "LÚ-ti",
+                "cuneiform": "𒇽𒋾",
+                "labat": ""
+            },
+            {
+                "arabic": "",
+                "sumerian": "LÚ-ḪÁ",
+                "cuneiform": "𒇽𒄭𒀀",
+                "labat": ""
+            },
+            {
+                "arabic": "",
+                "sumerian": "A-ZA-LU-LU",
+                "cuneiform": "𒀀𒍝𒇻𒇻",
+                "labat": "579"
+            }
+        ],
+        "keywords": [
+            "انسانية",
+            "بشرية الناس",
+            "البشر"
+        ]
+    },
+    {
+        "id": "amirānu_177",
+        "nameAr": "ماء راكد",
+        "nameAkk": "amirānu",
+        "sumerianReadings": [
+            {
+                "arabic": "ماء راكد",
+                "sumerian": "IGI-LÁ-BI",
+                "cuneiform": "𒅆𒇲𒁉",
+                "labat": "449"
+            }
+        ],
+        "keywords": [
+            "ماء راكد"
+        ]
+    },
+    {
+        "id": "ammatu_178",
+        "nameAr": "ذراع ، مقدمة الذراع",
+        "nameAkk": "ammatu",
+        "sumerianReadings": [
+            {
+                "arabic": "ذراع ، مقدمة الذراع",
+                "sumerian": "KÙŠ",
+                "cuneiform": "𒌑",
+                "labat": "318"
+            }
+        ],
+        "keywords": [
+            "ذراع",
+            "مقدمة الذراع"
+        ]
+    },
+    {
+        "id": "amtu_179",
+        "nameAr": "امرأة عبدة أمة",
+        "nameAkk": "amtu",
+        "sumerianReadings": [
+            {
+                "arabic": "امرأة عبدة أمة",
+                "sumerian": "SAG-GEME2",
+                "cuneiform": "𒊕𒊩𒆳",
+                "labat": "115"
+            },
+            {
+                "arabic": "",
+                "sumerian": "miGEME2",
+                "cuneiform": "𒊩𒆳",
+                "labat": "558"
+            }
+        ],
+        "keywords": [
+            "امرأة عبدة أمة"
+        ]
+    },
+    {
+        "id": "amurdinnu_180",
+        "nameAr": "عوسج وردة ؟ ،",
+        "nameAkk": "amurdinnu",
+        "sumerianReadings": [
+            {
+                "arabic": "عوسج وردة ؟ ،",
+                "sumerian": "gišGEŠTIN-GÍR-RA",
+                "cuneiform": "𒄑𒃾𒄈𒊏",
+                "labat": "210"
+            }
+        ],
+        "keywords": [
+            "عوسج وردة ؟"
+        ]
+    },
+    {
+        "id": "amurriqānu_181",
+        "nameAr": "يرقان",
+        "nameAkk": "amurriqānu",
+        "sumerianReadings": [
+            {
+                "arabic": "يرقان",
+                "sumerian": "SIG7-SIG7",
+                "cuneiform": "𒅊𒅊",
+                "labat": "351"
+            },
+            {
+                "arabic": "",
+                "sumerian": "IGI-SIG7-SIG7",
+                "cuneiform": "𒅆𒅊𒅊",
+                "labat": "449"
+            },
+            {
+                "arabic": "عصفور",
+                "sumerian": "A-RAKmušen?",
+                "cuneiform": "𒀀𒊩𒄷",
+                "labat": "579"
+            }
+        ],
+        "keywords": [
+            "يرقان",
+            "عصفور"
+        ]
+    },
+    {
+        "id": "amurru_182",
+        "nameAr": "غرب مغرب",
+        "nameAkk": "amurru",
+        "sumerianReadings": [
+            {
+                "arabic": "غرب مغرب",
+                "sumerian": "tu15MAR-TU",
+                "cuneiform": "𒅎𒈥𒌅",
+                "labat": "307"
+            },
+            {
+                "arabic": "",
+                "sumerian": "TU15-3",
+                "cuneiform": "...",
+                "labat": "399"
+            }
+        ],
+        "keywords": [
+            "غرب مغرب"
+        ]
+    },
+    {
+        "id": "amūtu_183",
+        "nameAr": "حالة امرأة أمة",
+        "nameAkk": "amūtu",
+        "sumerianReadings": [
+            {
+                "arabic": "حالة امرأة أمة",
+                "sumerian": "GEME2",
+                "cuneiform": "𒊩𒆳",
+                "labat": "558"
+            }
+        ],
+        "keywords": [
+            "حالة امرأة أمة"
+        ]
+    },
+    {
+        "id": "amūtu_184",
+        "nameAr": "استشارة ، رسالة ، قول الهي ، كبد",
+        "nameAkk": "amūtu",
+        "sumerianReadings": [
+            {
+                "arabic": "استشارة ، رسالة ، قول الهي ، كبد",
+                "sumerian": "BÁ",
+                "cuneiform": "𒁀",
+                "labat": "472"
+            },
+            {
+                "arabic": "",
+                "sumerian": "GEME2",
+                "cuneiform": "𒊩𒆳",
+                "labat": "558"
+            }
+        ],
+        "keywords": [
+            "استشارة",
+            "رسالة",
+            "قول الهي",
+            "كبد"
+        ]
+    },
+    {
+        "id": "amūtu_185",
+        "nameAr": "حديد نيزكي",
+        "nameAkk": "amūtu",
+        "sumerianReadings": [
+            {
+                "arabic": "حديد نيزكي",
+                "sumerian": "KÙ-AN",
+                "cuneiform": "𒆬𒀭",
+                "labat": "468"
+            }
+        ],
+        "keywords": [
+            "حديد نيزكي"
+        ]
+    },
+    {
+        "id": "ana_186",
+        "nameAr": "لاجل ، الى، نحو",
+        "nameAkk": "ana à",
+        "sumerianReadings": [
+            {
+                "arabic": "لاجل ، الى، نحو",
+                "sumerian": "AŠ 79",
+                "cuneiform": "𒀸",
+                "labat": "1"
+            },
+            {
+                "arabic": "",
+                "sumerian": "NAM",
+                "cuneiform": "𒉆",
+                "labat": ""
+            },
+            {
+                "arabic": "",
+                "sumerian": "DIŠ",
+                "cuneiform": "𒁹",
+                "labat": "480"
+            },
+            {
+                "arabic": "",
+                "sumerian": "536ÉŠ",
+                "cuneiform": "𒂠",
+                "labat": ""
+            }
+        ],
+        "keywords": [
+            "لاجل",
+            "الى",
+            "نحو"
+        ]
+    },
+    {
+        "id": "anāḫu_187",
+        "nameAr": "تعذّب ، أنَّ ، تعب",
+        "nameAkk": "anāḫu",
+        "sumerianReadings": [
+            {
+                "arabic": "تعذّب ، أنَّ ، تعب",
+                "sumerian": "KÚŠ-Ù II/2",
+                "cuneiform": "...",
+                "labat": "329"
+            }
+        ],
+        "keywords": [
+            "تعذّب",
+            "أنَّ",
+            "تعب"
+        ]
+    },
+    {
+        "id": "anaju_188",
+        "nameAr": "مركب",
+        "nameAkk": "anaju",
+        "sumerianReadings": [
+            {
+                "arabic": "مركب",
+                "sumerian": "gišMÁ",
+                "cuneiform": "𒄑𒈣",
+                "labat": "122"
+            }
+        ],
+        "keywords": [
+            "مركب"
+        ]
+    },
+    {
+        "id": "anāku_189",
+        "nameAr": "انا",
+        "nameAkk": "anāku",
+        "sumerianReadings": [
+            {
+                "arabic": "انا",
+                "sumerian": "GÁ-E",
+                "cuneiform": "𒂷𒂊",
+                "labat": "233"
+            }
+        ],
+        "keywords": [
+            "انا"
+        ]
+    },
+    {
+        "id": "anākuannaku_190",
+        "nameAr": "رصاص",
+        "nameAkk": "anāku/annaku",
+        "sumerianReadings": [
+            {
+                "arabic": "رصاص",
+                "sumerian": "AN-NA",
+                "cuneiform": "𒀭𒈾",
+                "labat": "13"
+            }
+        ],
+        "keywords": [
+            "رصاص"
+        ]
+    },
+    {
+        "id": "andaḫšu_191",
+        "nameAr": "خضرة ذات بصلة",
+        "nameAkk": "andaḫšu",
+        "sumerianReadings": [
+            {
+                "arabic": "خضرة ذات بصلة",
+                "sumerian": "AN-DAḪ-ŠUM",
+                "cuneiform": "𒀭𒈭𒋳",
+                "labat": "13"
+            }
+        ],
+        "keywords": [
+            "خضرة ذات بصلة"
+        ]
+    },
+    {
+        "id": "anduḫallatu_192",
+        "nameAr": "جرذون",
+        "nameAkk": "anduḫallatu",
+        "sumerianReadings": [
+            {
+                "arabic": "جرذون",
+                "sumerian": "EME-DIR/ŠID-ZI-DA",
+                "cuneiform": "𒅴...",
+                "labat": "32"
+            },
+            {
+                "arabic": "",
+                "sumerian": "KUN-DAR-GURIN-NA",
+                "cuneiform": "𒆲...",
+                "labat": "77"
+            },
+            {
+                "arabic": "",
+                "sumerian": "NIR-GAL-BÚR",
+                "cuneiform": "...",
+                "labat": "325"
+            }
+        ],
+        "keywords": [
+            "جرذون"
+        ]
+    },
+    {
+        "id": "andullu_193",
+        "nameAr": "ملجأ ، حماية",
+        "nameAkk": "andullu",
+        "sumerianReadings": [
+            {
+                "arabic": "ملجأ ، حماية",
+                "sumerian": "AN-DÚL/DUL7",
+                "cuneiform": "𒀭覆",
+                "labat": "13"
+            },
+            {
+                "arabic": "",
+                "sumerian": "DÙL",
+                "cuneiform": "覆",
+                "labat": "329"
+            }
+        ],
+        "keywords": [
+            "ملجأ",
+            "حماية"
+        ]
+    },
+    {
+        "id": "andunānu_194",
+        "nameAr": "-",
+        "nameAkk": "andunānu",
+        "sumerianReadings": [
+            {
+                "arabic": "-",
+                "sumerian": "luNÌ-SAG-ÍL-LA",
+                "cuneiform": "𒇽𒃻𒊕𒅍𒆷",
+                "labat": "115"
+            }
+        ],
+        "keywords": [
+            "-"
+        ]
+    },
+    {
+        "id": "andurāru_195",
+        "nameAr": "إعفاء من الديون ، إعتاق ، استقلال ، حرية",
+        "nameAkk": "andurāru",
+        "sumerianReadings": [
+            {
+                "arabic": "إعفاء من الديون ، إعتاق ، استقلال ، حرية",
+                "sumerian": "AMA-AR-GI",
+                "cuneiform": "𒂼𒅈𒄀",
+                "labat": "237"
+            }
+        ],
+        "keywords": [
+            "إعفاء من الديون",
+            "إعتاق",
+            "استقلال",
+            "حرية"
+        ]
+    },
+    {
+        "id": "angubb_196",
+        "nameAr": "طبقة اجتماعية ، الوهة",
+        "nameAkk": "angubbû",
+        "sumerianReadings": [
+            {
+                "arabic": "طبقة اجتماعية ، الوهة",
+                "sumerian": "AN-GUB-BA",
+                "cuneiform": "𒀭𒁺𒁀",
+                "labat": "13"
+            }
+        ],
+        "keywords": [
+            "طبقة اجتماعية",
+            "الوهة"
+        ]
+    },
+    {
+        "id": "anḫullu_197",
+        "nameAr": "نبتة لأغراض سحرية",
+        "nameAkk": "anḫullû/u",
+        "sumerianReadings": [
+            {
+                "arabic": "نبتة لأغراض سحرية",
+                "sumerian": "uAN-ḪÚL-LA/LÚ",
+                "cuneiform": "𒌑𒀭...",
+                "labat": "13"
+            }
+        ],
+        "keywords": [
+            "نبتة لأغراض سحرية"
+        ]
+    },
+    {
+        "id": "ankur_198",
+        "nameAr": "آلة حامية",
+        "nameAkk": "ankurû",
+        "sumerianReadings": [
+            {
+                "arabic": "آلة حامية",
+                "sumerian": "AN-KU-A",
+                "cuneiform": "𒀭𒆬𒀀",
+                "labat": "13"
+            }
+        ],
+        "keywords": [
+            "آلة حامية"
+        ]
+    },
+    {
+        "id": "annanna_199",
+        "nameAr": "فلان",
+        "nameAkk": "annanna",
+        "sumerianReadings": [
+            {
+                "arabic": "فلان",
+                "sumerian": "NENNI",
+                "cuneiform": "...",
+                "labat": "515"
+            }
+        ],
+        "keywords": [
+            "فلان"
+        ]
+    },
+    {
+        "id": "ann_200",
+        "nameAr": "هذا",
+        "nameAkk": "annû",
+        "sumerianReadings": [
+            {
+                "arabic": "هذا",
+                "sumerian": "NE",
+                "cuneiform": "𒉈",
+                "labat": "172"
+            },
+            {
+                "arabic": "",
+                "sumerian": "ŠEŠ",
+                "cuneiform": "𒋀",
+                "labat": "331"
+            },
+            {
+                "arabic": "",
+                "sumerian": "Ù",
+                "cuneiform": "𒅇",
+                "labat": "455"
+            }
+        ],
+        "keywords": [
+            "هذا"
+        ]
+    },
+    {
+        "id": "annuḫara_201",
+        "nameAr": "شبّ ابيض",
+        "nameAkk": "annuḫara",
+        "sumerianReadings": [
+            {
+                "arabic": "شبّ ابيض",
+                "sumerian": "IM-SAḪAR-BABBAR-KUR-RA",
+                "cuneiform": "𒅎𒅖𒌓𒆳𒊏",
+                "labat": "399"
+            }
+        ],
+        "keywords": [
+            "شبّ ابيض"
+        ]
+    },
+    {
+        "id": "anpatu_202",
+        "nameAr": "نعامة ؟",
+        "nameAkk": "anpatu",
+        "sumerianReadings": [
+            {
+                "arabic": "نعامة ؟",
+                "sumerian": "GIŠ-NU11mušen",
+                "cuneiform": "𒄑𒄷",
+                "labat": "71"
+            }
+        ],
+        "keywords": [
+            "نعامة ؟"
+        ]
+    },
+    {
+        "id": "anqullu_203",
+        "nameAr": "ظاهرة مضيئة",
+        "nameAkk": "anqullu",
+        "sumerianReadings": [
+            {
+                "arabic": "ظاهرة مضيئة",
+                "sumerian": "IZI-AN-BIR9",
+                "cuneiform": "𒉈𒀭...",
+                "labat": "172"
+            }
+        ],
+        "keywords": [
+            "ظاهرة مضيئة"
+        ]
+    },
+    {
+        "id": "antal_204",
+        "nameAr": "خسوف",
+        "nameAkk": "antalû",
+        "sumerianReadings": [
+            {
+                "arabic": "خسوف",
+                "sumerian": "AN-TA-LÙ",
+                "cuneiform": "𒀭𒋫𒇻",
+                "labat": "13"
+            }
+        ],
+        "keywords": [
+            "خسوف"
+        ]
+    },
+    {
+        "id": "antāšurr_205",
+        "nameAr": "حجرة",
+        "nameAkk": "antāšurrû",
+        "sumerianReadings": [
+            {
+                "arabic": "حجرة",
+                "sumerian": "zaAN-TA-SUR-RA",
+                "cuneiform": "𒍝𒀭𒋫...",
+                "labat": "13"
+            }
+        ],
+        "keywords": [
+            "حجرة"
+        ]
+    },
+    {
+        "id": "anu_206",
+        "nameAr": "اسم العلامة AN",
+        "nameAkk": "anu",
+        "sumerianReadings": [
+            {
+                "arabic": "اسم العلامة AN",
+                "sumerian": "AN",
+                "cuneiform": "𒀭",
+                "labat": "13"
+            }
+        ],
+        "keywords": [
+            "اسم العلامة AN"
+        ]
+    },
+    {
+        "id": "annumma_207",
+        "nameAr": "الآن",
+        "nameAkk": "annumma",
+        "sumerianReadings": [
+            {
+                "arabic": "الآن",
+                "sumerian": "U4-ma",
+                "cuneiform": "𒌓𒈠",
+                "labat": "381"
+            }
+        ],
+        "keywords": [
+            "الآن"
+        ]
+    },
+    {
+        "id": "anzabḫu_208",
+        "nameAr": "معجون زجاج",
+        "nameAkk": "anzabḫu",
+        "sumerianReadings": [
+            {
+                "arabic": "معجون زجاج",
+                "sumerian": "zaAN-ZAḪ",
+                "cuneiform": "𒍝𒀭𒍝𒄴",
+                "labat": "13"
+            }
+        ],
+        "keywords": [
+            "معجون زجاج"
+        ]
+    },
+    {
+        "id": "anzūzu_209",
+        "nameAr": "عنكبوت",
+        "nameAkk": "anzūzu",
+        "sumerianReadings": [
+            {
+                "arabic": "عنكبوت",
+                "sumerian": "ŠÈ-GUR4",
+                "cuneiform": "𒂠...",
+                "labat": "536"
+            }
+        ],
+        "keywords": [
+            "عنكبوت"
+        ]
+    },
+    {
+        "id": "apālu_210",
+        "nameAr": "اجاب",
+        "nameAkk": "apālu",
+        "sumerianReadings": [
+            {
+                "arabic": "اجاب",
+                "sumerian": "GI4-GI4",
+                "cuneiform": "𒄄𒄄",
+                "labat": "326"
+            }
+        ],
+        "keywords": [
+            "اجاب"
+        ]
+    },
+    {
+        "id": "apillu_211",
+        "nameAr": "مهنة",
+        "nameAkk": "apillu",
+        "sumerianReadings": [
+            {
+                "arabic": "مهنة",
+                "sumerian": "A-BIL",
+                "cuneiform": "𒀀𒉋",
+                "labat": "579"
+            }
+        ],
+        "keywords": [
+            "مهنة"
+        ]
+    },
+    {
+        "id": "apkallu_212",
+        "nameAr": "حكيم",
+        "nameAkk": "apkallu",
+        "sumerianReadings": [
+            {
+                "arabic": "حكيم",
+                "sumerian": "NUN-GAL",
+                "cuneiform": "𒉣𒃲",
+                "labat": "76"
+            },
+            {
+                "arabic": "",
+                "sumerian": "ABGAL",
+                "cuneiform": "𒉣𒃲",
+                "labat": ""
+            }
+        ],
+        "keywords": [
+            "حكيم"
+        ]
+    },
+    {
+        "id": "aplu_213",
+        "nameAr": "ابن وريث",
+        "nameAkk": "aplu",
+        "sumerianReadings": [
+            {
+                "arabic": "ابن وريث",
+                "sumerian": "AŠ",
+                "cuneiform": "𒀸",
+                "labat": "1"
+            },
+            {
+                "arabic": "",
+                "sumerian": "IBILA",
+                "cuneiform": "𒌉𒍑",
+                "labat": "144"
+            },
+            {
+                "arabic": "",
+                "sumerian": "PEŠGAL",
+                "cuneiform": "...",
+                "labat": "346"
+            },
+            {
+                "arabic": "",
+                "sumerian": "E4-DURU5",
+                "cuneiform": "𒀀",
+                "labat": "579"
+            },
+            {
+                "arabic": "",
+                "sumerian": "EDURU",
+                "cuneiform": "𒀀",
+                "labat": "582"
+            }
+        ],
+        "keywords": [
+            "ابن وريث"
+        ]
+    },
+    {
+        "id": "aps_214",
+        "nameAr": "محيط ، هاوية",
+        "nameAkk": "apsû",
+        "sumerianReadings": [
+            {
+                "arabic": "محيط ، هاوية",
+                "sumerian": "ABZU",
+                "cuneiform": "𒍪𒀊",
+                "labat": "6, 128"
+            },
+            {
+                "arabic": "",
+                "sumerian": "ENGUR",
+                "cuneiform": "𒇉",
+                "labat": "484"
+            }
+        ],
+        "keywords": [
+            "محيط",
+            "هاوية"
+        ]
+    },
+    {
+        "id": "aplūtu_215",
+        "nameAr": "حالة وريث ، وراثة",
+        "nameAkk": "aplūtu",
+        "sumerianReadings": [
+            {
+                "arabic": "حالة وريث ، وراثة",
+                "sumerian": "IBILA",
+                "cuneiform": "𒌉𒍑",
+                "labat": "144"
+            }
+        ],
+        "keywords": [
+            "حالة وريث",
+            "وراثة"
+        ]
+    },
+    {
+        "id": "appāru_216",
+        "nameAr": "مستنقع هور",
+        "nameAkk": "appāru",
+        "sumerianReadings": [
+            {
+                "arabic": "مستنقع هور",
+                "sumerian": "AMBAR",
+                "cuneiform": "அம்பار",
+                "labat": "522"
+            }
+        ],
+        "keywords": [
+            "مستنقع هور"
+        ]
+    },
+    {
+        "id": "appātu_217",
+        "nameAr": "أزمّة",
+        "nameAkk": "appātu",
+        "sumerianReadings": [
+            {
+                "arabic": "أزمّة",
+                "sumerian": "AB",
+                "cuneiform": "𒀊",
+                "labat": "128"
+            },
+            {
+                "arabic": "",
+                "sumerian": "PA",
+                "cuneiform": "𒉺",
+                "labat": "295"
+            }
+        ],
+        "keywords": [
+            "أزمّة"
+        ]
+    },
+    {
+        "id": "appu_218",
+        "nameAr": "طرف ، منقار ، انف",
+        "nameAkk": "appu",
+        "sumerianReadings": [
+            {
+                "arabic": "طرف ، منقار ، انف",
+                "sumerian": "KIR4",
+                "cuneiform": "👃",
+                "labat": "15"
+            }
+        ],
+        "keywords": [
+            "طرف",
+            "منقار",
+            "انف"
+        ]
+    },
+    {
+        "id": "apsammakku_219",
+        "nameAr": "مربّع منحرف",
+        "nameAkk": "apsammakku",
+        "sumerianReadings": [
+            {
+                "arabic": "مربّع منحرف",
+                "sumerian": "ÁB-ZÀ-MÍ",
+                "cuneiform": "𒀖𒍠...",
+                "labat": "420"
+            }
+        ],
+        "keywords": [
+            "مربّع منحرف"
+        ]
+    },
+    {
+        "id": "apsasapsasitu_220",
+        "nameAr": "بقر غريب درباني ابو الهول؟ نحت",
+        "nameAkk": "apsasû / apsasitu",
+        "sumerianReadings": [
+            {
+                "arabic": "بقر غريب درباني ابو الهول؟ نحت",
+                "sumerian": "miÁB-ZA-ZA",
+                "cuneiform": "𒊩...",
+                "labat": "420"
+            }
+        ],
+        "keywords": [
+            "بقر غريب درباني ابو الهول؟ نحت"
+        ]
+    },
+    {
+        "id": "aptu_221",
+        "nameAr": "ثقب ، نافذة",
+        "nameAkk": "aptu",
+        "sumerianReadings": [
+            {
+                "arabic": "ثقب ، نافذة",
+                "sumerian": "AB-LÁ",
+                "cuneiform": "𒀊𒇲",
+                "labat": "128"
+            }
+        ],
+        "keywords": [
+            "ثقب",
+            "نافذة"
+        ]
+    },
+    {
+        "id": "apu_222",
+        "nameAr": "مقصية",
+        "nameAkk": "apu",
+        "sumerianReadings": [
+            {
+                "arabic": "مقصية",
+                "sumerian": "gišGI",
+                "cuneiform": "𒄑𒄀",
+                "labat": "85"
+            }
+        ],
+        "keywords": [
+            "مقصية"
+        ]
+    },
+    {
+        "id": "aqāru_223",
+        "nameAr": "كان نفيسا",
+        "nameAkk": "aqāru",
+        "sumerianReadings": [
+            {
+                "arabic": "كان نفيسا",
+                "sumerian": "KAL-LA",
+                "cuneiform": "𒆗𒆷",
+                "labat": "323"
+            }
+        ],
+        "keywords": [
+            "كان نفيسا"
+        ]
+    },
+    {
+        "id": "aqqurtu_224",
+        "nameAr": "كاهنة كبيرة",
+        "nameAkk": "aqqurtu",
+        "sumerianReadings": [
+            {
+                "arabic": "كاهنة كبيرة",
+                "sumerian": "NIN-DINGIR-RA",
+                "cuneiform": "𒊩𒌆𒀭𒊏",
+                "labat": "556"
+            }
+        ],
+        "keywords": [
+            "كاهنة كبيرة"
+        ]
+    },
+    {
+        "id": "arab_225",
+        "nameAr": "طائر مائي",
+        "nameAkk": "arabû",
+        "sumerianReadings": [
+            {
+                "arabic": "طائر مائي",
+                "sumerian": "ARA2-BUmušen",
+                "cuneiform": "ара2-bu-mušen",
+                "labat": "381"
+            }
+        ],
+        "keywords": [
+            "طائر مائي"
+        ]
+    },
+    {
+        "id": "arādu_226",
+        "nameAr": "نزل",
+        "nameAkk": "arādu",
+        "sumerianReadings": [
+            {
+                "arabic": "نزل",
+                "sumerian": "E11",
+                "cuneiform": "내려가다",
+                "labat": "459"
+            }
+        ],
+        "keywords": [
+            "نزل"
+        ]
+    },
+    {
+        "id": "araḫḫu_227",
+        "nameAr": "هري مخزن",
+        "nameAkk": "araḫḫu",
+        "sumerianReadings": [
+            {
+                "arabic": "هري مخزن",
+                "sumerian": "AŠLUG",
+                "cuneiform": "𒀸 சுத்தம்",
+                "labat": "324"
+            }
+        ],
+        "keywords": [
+            "هري مخزن"
+        ]
+    },
+    {
+        "id": "araḫsamnu_228",
+        "nameAr": "الشهر الثامن تشرين الاول - تشرين الثاني",
+        "nameAkk": "araḫsamnu",
+        "sumerianReadings": [
+            {
+                "arabic": "الشهر الثامن تشرين الاول - تشرين الثاني",
+                "sumerian": "itiAPIN-DU8-A",
+                "cuneiform": "𒌗𒀳...",
+                "labat": "56"
+            }
+        ],
+        "keywords": [
+            "الشهر الثامن تشرين الاول - تشرين الثاني"
+        ]
+    },
+    {
+        "id": "araḫ_229",
+        "nameAr": "الحاصل الناتج",
+        "nameAkk": "araḫû",
+        "sumerianReadings": [
+            {
+                "arabic": "الحاصل الناتج",
+                "sumerian": "A-RÁ-ḪI",
+                "cuneiform": "𒀀𒁺𒄭",
+                "labat": "579"
+            }
+        ],
+        "keywords": [
+            "الحاصل الناتج"
+        ]
+    },
+    {
+        "id": "arakar_230",
+        "nameAr": "عامل",
+        "nameAkk": "arakarû",
+        "sumerianReadings": [
+            {
+                "arabic": "عامل",
+                "sumerian": "A-RÁ-KARA4",
+                "cuneiform": "𒀀𒁺𒋼𒀀",
+                "labat": "579"
+            }
+        ],
+        "keywords": [
+            "عامل"
+        ]
+    },
+    {
+        "id": "arāku_231",
+        "nameAr": "بعيد ، مطوّل ، كان طويلا",
+        "nameAkk": "arāku",
+        "sumerianReadings": [
+            {
+                "arabic": "بعيد ، مطوّل ، كان طويلا",
+                "sumerian": "GÍD-DA",
+                "cuneiform": "𒁍𒁕",
+                "labat": "371"
+            },
+            {
+                "arabic": "",
+                "sumerian": "SUD-DA",
+                "cuneiform": "...",
+                "labat": "373"
+            }
+        ],
+        "keywords": [
+            "بعيد",
+            "مطوّل",
+            "كان طويلا"
+        ]
+    },
+    {
+        "id": "arall_232",
+        "nameAr": "الجحيم ، جهنّم",
+        "nameAkk": "arallû",
+        "sumerianReadings": [
+            {
+                "arabic": "الجحيم ، جهنّم",
+                "sumerian": "ARALI",
+                "cuneiform": "𒀀𒊏𒇷",
+                "labat": "324"
+            },
+            {
+                "arabic": "",
+                "sumerian": "A-RA-LI",
+                "cuneiform": "𒀀𒊏𒇷",
+                "labat": "579"
+            }
+        ],
+        "keywords": [
+            "الجحيم",
+            "جهنّم"
+        ]
+    },
+    {
+        "id": "arāqu_233",
+        "nameAr": "إخضرّ",
+        "nameAkk": "arāqu",
+        "sumerianReadings": [
+            {
+                "arabic": "إخضرّ",
+                "sumerian": "SIG7",
+                "cuneiform": "𒅊",
+                "labat": "351"
+            }
+        ],
+        "keywords": [
+            "إخضرّ"
+        ]
+    },
+    {
+        "id": "arariānu_234",
+        "nameAr": "نبات طبي",
+        "nameAkk": "arariānu",
+        "sumerianReadings": [
+            {
+                "arabic": "نبات طبي",
+                "sumerian": "PA-PAa-nu",
+                "cuneiform": "𒉺𒉺𒀀𒉡",
+                "labat": "295"
+            }
+        ],
+        "keywords": [
+            "نبات طبي"
+        ]
+    },
+    {
+        "id": "ararru_235",
+        "nameAr": "طحّان",
+        "nameAkk": "ararru",
+        "sumerianReadings": [
+            {
+                "arabic": "طحّان",
+                "sumerian": "luḪAR-ḪAR",
+                "cuneiform": "𒇽𒄯𒄯",
+                "labat": "401"
+            }
+        ],
+        "keywords": [
+            "طحّان"
+        ]
+    },
+    {
+        "id": "arāru_236",
+        "nameAr": "لعن",
+        "nameAkk": "arāru",
+        "sumerianReadings": [
+            {
+                "arabic": "لعن",
+                "sumerian": "ÁŠ-BAL",
+                "cuneiform": "...",
+                "labat": "339"
+            }
+        ],
+        "keywords": [
+            "لعن"
+        ]
+    },
+    {
+        "id": "arar_237",
+        "nameAr": "نبات طبي",
+        "nameAkk": "ararû",
+        "sumerianReadings": [
+            {
+                "arabic": "نبات طبي",
+                "sumerian": "uÁŠ-DUG4-GA",
+                "cuneiform": "𒌑...",
+                "labat": "339"
+            }
+        ],
+        "keywords": [
+            "نبات طبي"
+        ]
+    },
+    {
+        "id": "arbu_238",
+        "nameAr": "هارب",
+        "nameAkk": "arbu",
+        "sumerianReadings": [
+            {
+                "arabic": "هارب",
+                "sumerian": "KAR",
+                "cuneiform": "𒋼𒀀",
+                "labat": "376"
+            }
+        ],
+        "keywords": [
+            "هارب"
+        ]
+    },
+    {
+        "id": "arbūtu_239",
+        "nameAr": "حالة شخص دون عائلة ، اجتياح ، هروب",
+        "nameAkk": "arbūtu",
+        "sumerianReadings": [
+            {
+                "arabic": "حالة شخص دون عائلة ، اجتياح ، هروب",
+                "sumerian": "KAR",
+                "cuneiform": "𒋼𒀀",
+                "labat": "376"
+            }
+        ],
+        "keywords": [
+            "حالة شخص دون عائلة",
+            "اجتياح",
+            "هروب"
+        ]
+    },
+    {
+        "id": "ardadillu_240",
+        "nameAr": "نبتة",
+        "nameAkk": "ardadillu",
+        "sumerianReadings": [
+            {
+                "arabic": "نبتة",
+                "sumerian": "uAŠ-TÁL-TÁL",
+                "cuneiform": "𒌑𒀸...",
+                "labat": "1"
+            }
+        ],
+        "keywords": [
+            "نبتة"
+        ]
+    },
+    {
+        "id": "ardatlil_241",
+        "nameAr": "شيطان انثى",
+        "nameAkk": "ardat lilî",
+        "sumerianReadings": [
+            {
+                "arabic": "شيطان انثى",
+                "sumerian": "miLÍL-LA",
+                "cuneiform": "𒊩𒆤𒆷",
+                "labat": "313"
+            },
+            {
+                "arabic": "",
+                "sumerian": "KI-SIKIL-LÍL-LA",
+                "cuneiform": "𒆠𒂖𒆤𒆷",
+                "labat": "461"
+            }
+        ],
+        "keywords": [
+            "شيطان انثى"
+        ]
+    },
+    {
+        "id": "ardatu_242",
+        "nameAr": "امرأة شابة",
+        "nameAkk": "ardatu",
+        "sumerianReadings": [
+            {
+                "arabic": "امرأة شابة",
+                "sumerian": "miKI-SIKIL",
+                "cuneiform": "𒊩𒆠𒂖",
+                "labat": "461"
+            }
+        ],
+        "keywords": [
+            "امرأة شابة"
+        ]
+    },
+    {
+        "id": "ardu_243",
+        "nameAr": "خادم ، عبد",
+        "nameAkk": "ardu",
+        "sumerianReadings": [
+            {
+                "arabic": "خادم ، عبد",
+                "sumerian": "IR11",
+                "cuneiform": "𒀴",
+                "labat": "50"
+            },
+            {
+                "arabic": "",
+                "sumerian": "ÈR",
+                "cuneiform": "𒀴",
+                "labat": ""
+            },
+            {
+                "arabic": "",
+                "sumerian": "SAG-ARAD",
+                "cuneiform": "𒊕𒀴",
+                "labat": ""
+            },
+            {
+                "arabic": "",
+                "sumerian": "ŠUBUR",
+                "cuneiform": "...",
+                "labat": "53"
+            }
+        ],
+        "keywords": [
+            "خادم",
+            "عبد"
+        ]
+    },
+    {
+        "id": "argamannu_244",
+        "nameAr": "صوف احمر",
+        "nameAkk": "argamannu",
+        "sumerianReadings": [
+            {
+                "arabic": "صوف احمر",
+                "sumerian": "SÍG-SAG",
+                "cuneiform": "𒋠𒊕",
+                "labat": "539"
+            },
+            {
+                "arabic": "",
+                "sumerian": "sígZA-GÌN-SA5",
+                "cuneiform": "𒋠𒍝𒆳...",
+                "labat": "586"
+            }
+        ],
+        "keywords": [
+            "صوف احمر"
+        ]
+    },
+    {
+        "id": "arḫ_245",
+        "nameAr": "شهريا",
+        "nameAkk": "arḫâ",
+        "sumerianReadings": [
+            {
+                "arabic": "شهريا",
+                "sumerian": "ITI-ÀM",
+                "cuneiform": "𒌗𒀀𒀭",
+                "labat": "52"
+            },
+            {
+                "arabic": "",
+                "sumerian": "ITI-A-TA-ÀM",
+                "cuneiform": "𒌗𒀀𒋫𒀀𒀭",
+                "labat": ""
+            },
+            {
+                "arabic": "",
+                "sumerian": "ITI-TA-ÀM",
+                "cuneiform": "𒌗𒋫𒀀𒀭",
+                "labat": ""
+            },
+            {
+                "arabic": "",
+                "sumerian": "ITI-A-TA-'",
+                "cuneiform": "𒌗𒀀𒋫...",
+                "labat": ""
+            }
+        ],
+        "keywords": [
+            "شهريا"
+        ]
+    },
+    {
+        "id": "arḫu_246",
+        "nameAr": "قمر جديد ، شهر",
+        "nameAkk": "arḫu",
+        "sumerianReadings": [
+            {
+                "arabic": "قمر جديد ، شهر",
+                "sumerian": "ITI",
+                "cuneiform": "𒌗",
+                "labat": "52"
+            },
+            {
+                "arabic": "",
+                "sumerian": "ÁB",
+                "cuneiform": "𒀖",
+                "labat": "420"
+            }
+        ],
+        "keywords": [
+            "قمر جديد",
+            "شهر"
+        ]
+    }
+]
