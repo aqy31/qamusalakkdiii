@@ -2,9 +2,17 @@
 <html lang="ar" dir="rtl">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
     <title>قاموس لابات</title>
     <meta name="description" content="معجم أكاديمي للمفردات الأكدية والسومرية — قاموس لابات">
+    <meta name="theme-color" content="#9a7b26">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="قاموس لابات">
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="manifest" href="manifest.json">
+    <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Inter:wght@300;400;500;600&family=Scheherazade+New:wght@400;700&family=Noto+Sans+Cuneiform&family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,700&family=Cardo:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
@@ -121,6 +129,7 @@
             position: sticky;
             top: 0;
             z-index: 100;
+            will-change: transform;
             transition: transform 0.3s cubic-bezier(0.3, 0, 0.2, 1), background 0.3s, color 0.3s;
         }
 
@@ -210,7 +219,8 @@
             z-index: 801;
             border-right: 1px solid var(--border);
             padding: 24px 20px;
-            transition: left 0.3s ease;
+            will-change: transform, left;
+            transition: left 0.25s cubic-bezier(0.22, 1, 0.36, 1);
             overflow-y: auto;
         }
         .settings-panel.open { left: 0; }
@@ -863,14 +873,14 @@
             background: var(--bg-card);
             border: 1px solid var(--border);
             border-radius: 10px;
-            padding: 16px 12px;
+            padding: 16px;
             display: flex;
             flex-direction: column;
             align-items: center;
-            gap: 6px;
+            gap: 8px;
             cursor: pointer;
+            overflow: hidden;
             transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
-            direction: ltr;
         }
         .sign-card:hover {
             transform: translateY(-2px);
@@ -900,10 +910,14 @@
             color: var(--cuneiform-color);
             line-height: 1;
             height: 60px;
+            max-width: 100%;
+            white-space: nowrap;
             display: flex;
             align-items: center;
             justify-content: center;
         }
+        .sign-card-cunei.multi-2 { font-size: 2.05rem; }
+        .sign-card-cunei.multi-3 { font-size: 1.45rem; }
         .sign-card-name {
             font-size: 0.85rem;
             font-weight: bold;
@@ -913,6 +927,54 @@
             overflow: hidden;
             text-overflow: ellipsis;
             white-space: nowrap;
+        }
+        .sign-card-phonetic {
+            font-size: 1.12rem;
+            font-weight: 700;
+            color: var(--text);
+            text-align: center;
+            line-height: 1.25;
+            direction: ltr;
+            max-width: 100%;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+        .sign-card-subname {
+            font-size: 0.78rem;
+            font-weight: 500;
+            color: var(--text-secondary);
+            opacity: 0.82;
+            text-align: center;
+            direction: ltr;
+            max-width: 100%;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+        .sign-card-badges {
+            display: flex;
+            flex-wrap: nowrap;
+            gap: 5px;
+            justify-content: center;
+            align-items: center;
+            margin-top: 6px;
+            direction: ltr;
+            width: 100%;
+        }
+        .sign-LM-badge {
+            background: rgba(154, 123, 38, 0.08);
+            color: rgba(154, 123, 38, 0.72);
+            font-weight: 500;
+            border-radius: 8px;
+            font-size: 0.75rem;
+            padding: 2px 7px;
+            white-space: nowrap;
+            display: inline-block;
+        }
+        body.dark .sign-LM-badge {
+            background: rgba(229, 182, 50, 0.1);
+            color: rgba(229, 182, 50, 0.72);
         }
         .sign-card-score {
             font-size: 0.75rem;
@@ -936,7 +998,7 @@
 
         /* Pages layer shadows for premium overlapping look */
         .page {
-            box-shadow: 0 0 25px rgba(0,0,0,0.15);
+            box-shadow: none;
         }
         
         body {
@@ -946,7 +1008,293 @@
         /* ===================================================
            AUDITING & REVIEW PAGE CSS
            =================================================== */
-    @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+        @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+
+        /* ===================================================
+           PWA SAFE-AREA, OFFLINE APP & OFFLINE MAP CSS
+           =================================================== */
+        #topNav {
+            padding-top: calc(12px + env(safe-area-inset-top, 0px));
+            padding-left: calc(20px + env(safe-area-inset-left, 0px));
+            padding-right: calc(20px + env(safe-area-inset-right, 0px));
+        }
+        .settings-panel {
+            padding-top: calc(24px + env(safe-area-inset-top, 0px));
+            padding-bottom: calc(24px + env(safe-area-inset-bottom, 0px));
+        }
+        .page {
+            padding-bottom: calc(20px + env(safe-area-inset-bottom, 0px));
+        }
+        .offline-status-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            margin-top: 8px;
+            padding: 5px 10px;
+            border-radius: 999px;
+            font-size: 0.78rem;
+            font-weight: 600;
+            background: rgba(34, 197, 94, 0.12);
+            color: #15803d;
+            border: 1px solid rgba(34, 197, 94, 0.28);
+            width: 100%;
+            justify-content: center;
+        }
+        body.dark .offline-status-badge {
+            color: #4ade80;
+            background: rgba(74, 222, 128, 0.12);
+            border-color: rgba(74, 222, 128, 0.28);
+        }
+        .install-app-btn {
+            width: 100%;
+            padding: 10px 14px;
+            border-radius: 8px;
+            border: 1.5px solid var(--accent);
+            background: var(--accent);
+            color: #fff;
+            font-family: 'EB Garamond', 'Amiri', serif;
+            font-size: 0.95rem;
+            font-weight: 700;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            transition: opacity 0.15s, transform 0.15s;
+        }
+        .install-app-btn:active { transform: scale(0.98); }
+
+        .install-modal-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            width: 92%;
+            max-width: 480px;
+            max-height: 88vh;
+            overflow-y: auto;
+            box-shadow: 0 12px 36px rgba(0,0,0,0.32);
+            padding: 22px;
+            position: relative;
+            color: var(--text);
+        }
+        .install-step-box {
+            background: var(--bg);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 12px 14px;
+            margin-top: 10px;
+        }
+        .install-step-box h4 {
+            color: var(--accent);
+            font-size: 0.98rem;
+            margin-bottom: 6px;
+        }
+        .install-step-box ol {
+            margin: 0;
+            padding-inline-start: 20px;
+            font-size: 0.88rem;
+            color: var(--text-secondary);
+            line-height: 1.65;
+        }
+
+        /* Offline Interactive Mesopotamia Map */
+        .offline-map-wrap {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            min-height: 200px;
+            border-radius: inherit;
+            background: #f4efe4;
+            overflow: hidden;
+            user-select: none;
+            touch-action: none;
+            direction: ltr;
+        }
+        body.dark .offline-map-wrap {
+            background: #1a1b22;
+        }
+        .offline-map-badge {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            z-index: 15;
+            background: rgba(28, 26, 22, 0.84);
+            color: #f6e7c1;
+            padding: 4px 10px;
+            border-radius: 999px;
+            font-size: 0.74rem;
+            font-weight: 600;
+            border: 1px solid rgba(201, 162, 39, 0.55);
+            pointer-events: none;
+        }
+        .offline-map-controls {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            z-index: 15;
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+        }
+        .offline-map-ctrl-btn {
+            width: 30px;
+            height: 30px;
+            border-radius: 6px;
+            border: 1px solid var(--border);
+            background: var(--bg-card);
+            color: var(--text);
+            font-weight: 700;
+            font-size: 1rem;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.12);
+        }
+        .offline-map-popup {
+            position: absolute;
+            bottom: 12px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 20;
+            min-width: 210px;
+            max-width: 90%;
+            background: var(--bg-card);
+            color: var(--text);
+            border: 1.5px solid var(--accent);
+            border-radius: 12px;
+            padding: 10px 14px;
+            box-shadow: 0 8px 24px rgba(0,0,0,0.22);
+            text-align: center;
+            display: none;
+        }
+        .offline-map-popup.visible { display: block; }
+        .offline-map-popup-close {
+            position: absolute;
+            top: 4px;
+            right: 8px;
+            background: none;
+            border: none;
+            color: var(--text-secondary);
+            font-size: 1.1rem;
+            cursor: pointer;
+        }
+
+        /* ===================================================
+           MOBILE RESPONSIVENESS, TOUCH FEEDBACK & SWIPE UI
+           =================================================== */
+        button, a, .cat-btn, .sign-card, .toggle-btn, .draw-tool-btn, .draw-size-pill, .opt-btn, .ccs-selected, .ccs-item, .autocomplete-item, .icon-btn, .nav-text-btn, .script-pills-btn, .install-app-btn {
+            -webkit-tap-highlight-color: transparent;
+        }
+        button:active, .cat-btn:active, .sign-card:active, .toggle-btn:active, .draw-tool-btn:active, .opt-btn:active {
+            transform: scale(0.97);
+        }
+
+        #swipeGestureIndicator {
+            position: fixed;
+            top: 50%;
+            z-index: 25000;
+            pointer-events: none;
+            background: rgba(28, 26, 22, 0.9);
+            color: #f6e7c1;
+            border: 1.5px solid var(--accent);
+            border-radius: 999px;
+            padding: 8px 16px;
+            font-family: 'EB Garamond', 'Amiri', serif;
+            font-size: 0.95rem;
+            font-weight: 700;
+            box-shadow: 0 6px 20px rgba(0,0,0,0.28);
+            opacity: 0;
+            transform: translateY(-50%) scale(0.9);
+            transition: opacity 0.14s ease, transform 0.14s ease;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            backdrop-filter: blur(6px);
+        }
+        #swipeGestureIndicator.left-edge { left: 14px; right: auto; }
+        #swipeGestureIndicator.right-edge { right: 14px; left: auto; }
+        #swipeGestureIndicator.visible {
+            opacity: 1;
+            transform: translateY(-50%) scale(1);
+        }
+
+        @media (max-width: 768px) {
+            #searchInput, #catalogSearchInput {
+                font-size: max(16px, 1rem) !important;
+            }
+            .search-bar-row {
+                flex-direction: row !important;
+                flex-wrap: wrap;
+                gap: 8px !important;
+                padding: 10px 12px 14px !important;
+                top: calc(50px + env(safe-area-inset-top, 0px));
+            }
+            .search-bar-row .search-input-wrapper {
+                flex: 1 1 100%;
+                width: 100%;
+            }
+            .search-bar-row .custom-cat-switch {
+                flex: 1 1 calc(50% - 4px);
+                min-width: 0;
+            }
+            .search-bar-row .ccs-selected {
+                padding: 9px 12px;
+                font-size: 0.88rem;
+            }
+            #modeCatalogSection.active {
+                padding: 12px !important;
+                top: calc(52px + env(safe-area-inset-top, 0px)) !important;
+            }
+            .ed-name-ar { font-size: 1.85rem; }
+            .ed-name-akk { font-size: 1.15rem; }
+            #signDetailModal .modal-content {
+                padding: 18px 14px !important;
+                width: 94% !important;
+            }
+            #signDetailChar {
+                font-size: 3.6rem !important;
+                min-width: 60px !important;
+            }
+            .home-head {
+                padding: 28px 18px 16px;
+            }
+            .cats-list {
+                padding: 0 14px;
+            }
+            .sign-search-modes {
+                gap: 8px;
+                margin-bottom: 18px;
+            }
+            .sign-search-modes .toggle-btn {
+                padding: 9px 10px;
+                font-size: 0.9rem;
+            }
+        }
+
+        @media (max-width: 600px) {
+            .sign-results-grid {
+                grid-template-columns: repeat(3, minmax(0, 1fr));
+                gap: 10px;
+            }
+            .sign-card {
+                padding: 12px 8px;
+            }
+            .sign-card-cunei {
+                font-size: 2.5rem;
+                height: 48px;
+            }
+            .sign-card-cunei.multi-2 { font-size: 1.65rem; }
+            .sign-card-cunei.multi-3 { font-size: 1.2rem; }
+            .sign-card-phonetic { font-size: 1.02rem; }
+            .sign-card-subname { font-size: 0.72rem; }
+            .sign-card-badges { gap: 4px; }
+            .sign-LM-badge {
+                font-size: 0.68rem;
+                padding: 2px 5px;
+                border-radius: 6px;
+            }
+        }
 </style>
 </head>
 <body>
@@ -1018,6 +1366,12 @@
                 </div>
             </div>
             <div class="setting-hint" data-i18n="font_hint">اختر نوع الخط المسماري لتغيير عرض العلامات</div>
+        </div>
+
+        <div class="setting-group" style="border-top: 1px solid var(--border); padding-top: 16px;">
+            <div class="setting-label" data-i18n="install_app_label">تطبيق الموبايل (أوفلاين)</div>
+            <button type="button" id="btnInstallApp" class="install-app-btn" data-i18n="btn_install_app">تثبيت التطبيق أوفلاين 📲</button>
+            <div id="offlineStatusBadge" class="offline-status-badge" data-i18n="offline_ready_badge">✓ جاهز للعمل بدون إنترنت</div>
         </div>
     </div>
 
@@ -28281,7 +28635,22 @@
                 btn_clear_canvas: 'مسح الكل 🗑',
                 btn_search_drawing: 'مطابقة الرسم 🔍',
                 results_title: 'النتائج المطابقة',
-                no_matching_signs: 'لا توجد نتائج مطابقة'
+                no_matching_signs: 'لا توجد نتائج مطابقة',
+                install_app_label: 'تطبيق الموبايل (أوفلاين)',
+                btn_install_app: 'تثبيت التطبيق أوفلاين 📲',
+                offline_ready_badge: '✓ جاهز للعمل بدون إنترنت',
+                offline_map_badge: '🗺️ خريطة أوفلاين (بدون إنترنت)',
+                install_modal_title: 'تثبيت قاموس لابات بدون إنترنت',
+                install_modal_desc: 'ثبّت القاموس كتطبيق مستقل على هاتفك ليعمل 100% بدون إنترنت مع جميع الخطوط والعلامات والخرائط.',
+                install_ios_title: '📱 للايفون والآيباد (iPhone / iPad - Safari)',
+                install_ios_s1: 'افتح هذا الموقع عبر متصفح Safari.',
+                install_ios_s2: 'اضغط على زر المشاركة (Share ⬆️) في أسفل الشاشة.',
+                install_ios_s3: 'مرّر للأسفل واختر: إضافة إلى الشاشة الرئيسية (Add to Home Screen) ثم إضافة (Add).',
+                install_android_title: '🤖 للأندرويد (Android - Chrome)',
+                install_android_s1: 'افتح الموقع عبر متصفح Google Chrome.',
+                install_android_s2: 'اضغط على القائمة (⋮) بالأعلى واختر: تثبيت التطبيق (Install App) أو الإضافة للشاشة الرئيسية.',
+                install_android_s3: 'بعد التثبيت سيعمل التطبيق من شاشتك الرئيسية بدون اتصال بالإنترنت نهائياً.',
+                install_http_hint: 'ملاحظة: لتثبيت التطبيق كتطبيق شاشة رئيسية على iOS/Android يجب فتحه عبر رابط محلي (مثل تشغيل_التطبيق_للموبايل.command على الواي فاي) أو عبر استضافة ويب مثل GitHub Pages، وبعد الفتح مرة واحدة سيبقى محفوظاً بالكامل أوفلاين.'
             },
             en: {
                 title: 'Labat Dictionary',
@@ -28380,7 +28749,22 @@
                 btn_clear_canvas: 'Clear 🗑',
                 btn_search_drawing: 'Match Drawing 🔍',
                 results_title: 'Matching Results',
-                no_matching_signs: 'No matching signs found'
+                no_matching_signs: 'No matching signs found',
+                install_app_label: 'Mobile App (Offline)',
+                btn_install_app: 'Install Offline App 📲',
+                offline_ready_badge: '✓ Ready to work offline',
+                offline_map_badge: '🗺️ Offline Map Mode',
+                install_modal_title: 'Install Labat Dictionary Offline',
+                install_modal_desc: 'Install as a standalone app on your phone to work 100% offline with all cuneiform fonts, signs, and maps.',
+                install_ios_title: '📱 For iPhone & iPad (Safari)',
+                install_ios_s1: 'Open this page in Apple Safari.',
+                install_ios_s2: 'Tap the Share button (⬆️) at the bottom of the screen.',
+                install_ios_s3: 'Scroll down and choose Add to Home Screen, then tap Add.',
+                install_android_title: '🤖 For Android (Chrome)',
+                install_android_s1: 'Open this page in Google Chrome.',
+                install_android_s2: 'Tap the menu (⋮) in the top corner and select Install App or Add to Home Screen.',
+                install_android_s3: 'Once installed, the app runs completely offline from your Home Screen.',
+                install_http_hint: 'Note: To install to the Home Screen on iOS/Android, open via a local server URL (e.g. تشغيل_التطبيق_للموبايل.command on Wi-Fi) or a static host like GitHub Pages. Once opened once, all assets remain cached offline.'
             }
         };
 
@@ -28393,6 +28777,7 @@
             initImageZoomPan();
             initSignSearch();
             initSwipeBackGesture();
+            initOfflineApp();
         });
 
         function clearSearch() {
@@ -28505,6 +28890,9 @@
                     showPage('signSearchPage');
                     backBtn.style.display = 'flex';
                     closeSidePanel();
+                    if (typeof ensureSignCatalogRendered === 'function') {
+                        requestAnimationFrame(ensureSignCatalogRendered);
+                    }
                 });
             }
 
@@ -28516,6 +28904,9 @@
                     showPage('signSearchPage');
                     document.getElementById('backBtn').style.display = 'flex';
                     closeSidePanel();
+                    if (typeof ensureSignCatalogRendered === 'function') {
+                        requestAnimationFrame(ensureSignCatalogRendered);
+                    }
                 });
             }
 
@@ -28523,7 +28914,7 @@
                 clearSearch();
                 setActiveNav('navMap');
                 showPage('mapPage');
-                backBtn.style.display = 'none';
+                backBtn.style.display = 'flex';
                 setTimeout(initFullMap, 150);
                 closeSidePanel(); 
             });
@@ -28532,7 +28923,7 @@
                 clearSearch();
                 setActiveNav('navAbout');
                 showPage('aboutPage');
-                backBtn.style.display = 'none';
+                backBtn.style.display = 'flex';
                 closeSidePanel(); 
             });
 
@@ -28549,9 +28940,19 @@
                         document.getElementById('backBtn').style.display = 'flex';
                     } else {
                         document.getElementById('searchResults').style.display = 'block';
-                        document.getElementById('searchInput').focus();
+                        if (window.innerWidth > 768) {
+                            document.getElementById('searchInput').focus();
+                        }
                     }
 
+                } else if (document.getElementById('mapPage').classList.contains('active') || document.getElementById('aboutPage').classList.contains('active')) {
+                    clearSearch();
+                    isTransitioningBack = true;
+                    setActiveNav('navHome');
+                    showPage('homePage');
+                    document.getElementById('mainIndexSelection').style.display = 'flex';
+                    document.getElementById('namesCategories').style.display = 'none';
+                    document.getElementById('backBtn').style.display = 'none';
                 } else if (document.getElementById('signSearchPage').classList.contains('active')) {
                     clearSearch();
                     isTransitioningBack = true;
@@ -29061,7 +29462,19 @@
                 if (isCity && entry.coordinates) {
                     setTimeout(() => {
                         const mapEl = document.getElementById('cityDetailMap');
-                        if (mapEl) {
+                        if (!mapEl) return;
+                        const focusCity = {
+                            id: entry.id,
+                            nameAr: entry.nameAr,
+                            nameAkk: akkNameOnly,
+                            coordinates: entry.coordinates,
+                            cuneiform: (entry.sumerianReadings[0] && entry.sumerianReadings[0].cuneiform) || ''
+                        };
+                        if (!navigator.onLine || typeof L === 'undefined') {
+                            renderOfflineMesopotamiaMap(mapEl, focusCity);
+                            return;
+                        }
+                        try {
                             const map = L.map(mapEl).setView([entry.coordinates.lat, entry.coordinates.lng], 7);
                             L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}').addTo(map);
                             L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}').addTo(map);
@@ -29074,6 +29487,8 @@
                             });
                             L.marker([entry.coordinates.lat, entry.coordinates.lng], { icon }).addTo(map)
                                 .bindPopup('<b class="lang-ar">'+entry.nameAr+'</b><b class="lang-en">'+nameEn+'</b>').openPopup();
+                        } catch (err) {
+                            renderOfflineMesopotamiaMap(mapEl, focusCity);
                         }
                     }, 100);
                 }
@@ -29195,33 +29610,395 @@
             });
         }
 
-        function initFullMap() {
-            if (mainMapInstance) { mainMapInstance.invalidateSize(); return; }
-
-            const el = document.getElementById('mainMap');
-            mainMapInstance = L.map(el).setView([32.5, 44.5], 6);
-
-            L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', { maxZoom: 19 }).addTo(mainMapInstance);
-            L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}', { maxZoom: 19 }).addTo(mainMapInstance);
-
-            const icon = L.divIcon({
-                className: '',
-                html: '<div style="width:14px;height:14px;background:#c9a227;border:2px solid #fff;border-radius:50%;box-shadow:0 1px 4px rgba(0,0,0,0.2);"></div>',
-                iconSize: [14, 14], iconAnchor: [7, 7]
+        function renderOfflineMesopotamiaMap(containerEl, focusCity) {
+            if (!containerEl) return;
+            const W = 800, H = 600;
+            const LNG_MIN = 35.0, LNG_MAX = 52.0;
+            const LAT_MIN = 25.0, LAT_MAX = 38.0;
+            const project = (lat, lng) => ({
+                x: ((lng - LNG_MIN) / (LNG_MAX - LNG_MIN)) * W,
+                y: ((LAT_MAX - lat) / (LAT_MAX - LAT_MIN)) * H
             });
 
-            MAP_CITIES.forEach(city => {
-                const nameEn = city.id.charAt(0).toUpperCase() + city.id.slice(1);
-                
-                const marker = L.marker([city.coordinates.lat, city.coordinates.lng], { icon })
-                    .addTo(mainMapInstance)
-                    .bindPopup(`
-                        <div class="popup-name lang-ar">${city.nameAr}</div>
-                        <div class="popup-name lang-en">${nameEn}</div>
-                        <div class="popup-akk">${city.nameAkk}</div>
-                        <div class="popup-cuneiform" style="font-family: var(--cuneiform-font); font-size:1.4rem; color:var(--accent); direction:ltr; margin-top:4px;">${city.cuneiform}</div>
-                    `);
-                
+            // Approximate geographical polylines for Euphrates, Tigris, and Persian Gulf
+            const euphratesPts = [
+                [37.2, 38.8], [36.8, 38.0], [36.0, 38.2], [35.4, 40.1], [34.4, 41.9],
+                [33.3, 43.8], [32.5, 44.4], [31.9, 44.4], [31.0, 46.2], [30.6, 47.7]
+            ].map(([la, ln]) => { const p = project(la, ln); return `${p.x.toFixed(1)},${p.y.toFixed(1)}`; }).join(' L ');
+
+            const tigrisPts = [
+                [37.8, 40.2], [37.1, 42.4], [36.35, 43.15], [35.5, 43.3], [34.2, 43.9],
+                [33.33, 44.4], [32.5, 45.8], [31.8, 47.1], [30.9, 47.4], [30.6, 47.7], [29.95, 48.6]
+            ].map(([la, ln]) => { const p = project(la, ln); return `${p.x.toFixed(1)},${p.y.toFixed(1)}`; }).join(' L ');
+
+            const gulfPoly = [
+                [30.0, 48.3], [29.4, 48.1], [28.4, 48.6], [27.0, 49.7], [25.0, 50.8],
+                [25.0, 52.0], [27.2, 52.0], [28.9, 50.8], [30.0, 49.5]
+            ].map(([la, ln]) => { const p = project(la, ln); return `${p.x.toFixed(1)},${p.y.toFixed(1)}`; }).join(' ');
+
+            const medPoly = [
+                [38.0, 35.0], [36.6, 36.2], [35.6, 35.8], [34.4, 35.7], [33.0, 35.1], [31.5, 35.0]
+            ].map(([la, ln]) => { const p = project(la, ln); return `${p.x.toFixed(1)},${p.y.toFixed(1)}`; }).join(' ');
+
+            const isDark = document.body.classList.contains('dark');
+            const bgLand = isDark ? '#1d1f26' : '#f4efe4';
+            const gridStroke = isDark ? '#2d303b' : '#e4dcc9';
+            const waterFill = isDark ? '#1e3547' : '#cfe2ee';
+            const riverStroke = isDark ? '#4fa3d1' : '#5e9ec7';
+            const labelColor = isDark ? '#c9c4b8' : '#574e3d';
+
+            let gridLines = '';
+            for (let ln = 36; ln <= 50; ln += 2) {
+                const px = project(30, ln).x.toFixed(1);
+                gridLines += `<line x1="${px}" y1="0" x2="${px}" y2="${H}" stroke="${gridStroke}" stroke-width="0.8" stroke-dasharray="4 4"/>`;
+            }
+            for (let la = 26; la <= 36; la += 2) {
+                const py = project(la, 40).y.toFixed(1);
+                gridLines += `<line x1="0" y1="${py}" x2="${W}" y2="${py}" stroke="${gridStroke}" stroke-width="0.8" stroke-dasharray="4 4"/>`;
+            }
+
+            const citiesList = (typeof MAP_CITIES !== 'undefined' && MAP_CITIES.length > 0) ? MAP_CITIES : (focusCity ? [focusCity] : []);
+            const pinsMarkup = citiesList.map((city, idx) => {
+                if (!city.coordinates) return '';
+                const pt = project(city.coordinates.lat, city.coordinates.lng);
+                const isFocused = focusCity && (city.id === focusCity.id || (Math.abs(city.coordinates.lat - focusCity.coordinates.lat) < 0.01 && Math.abs(city.coordinates.lng - focusCity.coordinates.lng) < 0.01));
+                const nameEn = city.id ? (city.id.charAt(0).toUpperCase() + city.id.slice(1)) : '';
+                const r = isFocused ? 7.5 : 5;
+                return `
+                    <g class="offline-city-pin" data-idx="${idx}" style="cursor:pointer;">
+                        ${isFocused ? `<circle cx="${pt.x.toFixed(1)}" cy="${pt.y.toFixed(1)}" r="15" fill="rgba(201,162,39,0.28)" stroke="#c9a227" stroke-width="1.5"/>` : ''}
+                        <circle cx="${pt.x.toFixed(1)}" cy="${pt.y.toFixed(1)}" r="${r}" fill="${isFocused ? '#e5b632' : '#c9a227'}" stroke="#ffffff" stroke-width="1.6"/>
+                        <text x="${pt.x.toFixed(1)}" y="${(pt.y - (isFocused ? 11 : 8)).toFixed(1)}" text-anchor="middle" font-size="${isFocused ? 12 : 9.5}" font-weight="${isFocused ? '700' : '600'}" fill="${labelColor}" style="pointer-events:none; font-family:'EB Garamond','Amiri',serif;">${currentLang === 'en' ? nameEn : city.nameAr}</text>
+                    </g>
+                `;
+            }).join('');
+
+            const initialScale = focusCity ? 2.1 : 1.15;
+            const focusPt = focusCity && focusCity.coordinates ? project(focusCity.coordinates.lat, focusCity.coordinates.lng) : { x: W * 0.52, y: H * 0.45 };
+            let scale = initialScale;
+            let panX = 0, panY = 0;
+
+            const badgeText = (i18n[currentLang] && i18n[currentLang].offline_map_badge) || '🗺️ خريطة أوفلاين (بدون إنترنت)';
+            containerEl.innerHTML = `
+                <div class="offline-map-wrap">
+                    <div class="offline-map-badge">${badgeText}</div>
+                    <div class="offline-map-controls">
+                        <button type="button" class="offline-map-ctrl-btn" data-zoom="in">+</button>
+                        <button type="button" class="offline-map-ctrl-btn" data-zoom="out">−</button>
+                        <button type="button" class="offline-map-ctrl-btn" data-zoom="reset">⟲</button>
+                    </div>
+                    <svg class="offline-svg-el" viewBox="0 0 ${W} ${H}" style="width:100%; height:100%; display:block; background:${bgLand}; cursor:grab;">
+                        <g class="offline-map-viewport">
+                            ${gridLines}
+                            <polygon points="${gulfPoly}" fill="${waterFill}" opacity="0.85"/>
+                            <polygon points="${medPoly}" fill="${waterFill}" opacity="0.75"/>
+                            <path d="M ${euphratesPts}" fill="none" stroke="${riverStroke}" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M ${tigrisPts}" fill="none" stroke="${riverStroke}" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <text x="${project(34.7, 41.2).x.toFixed(1)}" y="${(project(34.7, 41.2).y + 14).toFixed(1)}" font-size="10" fill="${riverStroke}" opacity="0.85" style="font-family:'EB Garamond','Amiri',serif; font-style:italic;">Euphrates / الفرات</text>
+                            <text x="${(project(35.0, 44.2).x + 8).toFixed(1)}" y="${project(35.0, 44.2).y.toFixed(1)}" font-size="10" fill="${riverStroke}" opacity="0.85" style="font-family:'EB Garamond','Amiri',serif; font-style:italic;">Tigris / دجلة</text>
+                            <text x="${project(27.5, 50.4).x.toFixed(1)}" y="${project(27.5, 50.4).y.toFixed(1)}" font-size="11" fill="${riverStroke}" opacity="0.75" text-anchor="middle" style="font-family:'EB Garamond','Amiri',serif;">Persian Gulf</text>
+                            ${pinsMarkup}
+                        </g>
+                    </svg>
+                    <div class="offline-map-popup">
+                        <button type="button" class="offline-map-popup-close">&times;</button>
+                        <div class="omp-name" style="font-weight:700; font-size:1.05rem;"></div>
+                        <div class="omp-akk" style="font-size:0.85rem; color:var(--text-secondary);"></div>
+                        <div class="omp-cunei" style="font-family:var(--cuneiform-font); font-size:1.5rem; color:var(--accent); margin-top:4px;"></div>
+                    </div>
+                </div>
+            `;
+
+            const wrap = containerEl.querySelector('.offline-map-wrap');
+            const svgEl = wrap.querySelector('.offline-svg-el');
+            const vp = wrap.querySelector('.offline-map-viewport');
+            const popup = wrap.querySelector('.offline-map-popup');
+            const closeBtn = wrap.querySelector('.offline-map-popup-close');
+
+            const centerOnPoint = (px, py, sc) => {
+                scale = sc;
+                panX = (W / 2) - px * scale;
+                panY = (H / 2) - py * scale;
+                vp.setAttribute('transform', `translate(${panX.toFixed(1)}, ${panY.toFixed(1)}) scale(${scale.toFixed(3)})`);
+            };
+            centerOnPoint(focusPt.x, focusPt.y, initialScale);
+
+            const applyTransform = () => {
+                vp.setAttribute('transform', `translate(${panX.toFixed(1)}, ${panY.toFixed(1)}) scale(${scale.toFixed(3)})`);
+            };
+
+            const showCityPopup = (city) => {
+                const nameEn = city.id ? (city.id.charAt(0).toUpperCase() + city.id.slice(1)) : '';
+                popup.querySelector('.omp-name').innerHTML = `<span class="lang-ar">${city.nameAr}</span><span class="lang-en">${nameEn}</span>`;
+                popup.querySelector('.omp-akk').textContent = city.nameAkk || '';
+                popup.querySelector('.omp-cunei').textContent = city.cuneiform || '';
+                popup.classList.add('visible');
+            };
+
+            if (focusCity) showCityPopup(focusCity);
+            closeBtn.addEventListener('click', () => popup.classList.remove('visible'));
+
+            wrap.querySelectorAll('.offline-city-pin').forEach(pin => {
+                pin.addEventListener('click', (ev) => {
+                    ev.stopPropagation();
+                    const idx = Number(pin.dataset.idx);
+                    if (citiesList[idx]) showCityPopup(citiesList[idx]);
+                });
+            });
+
+            let dragging = false, startClientX = 0, startClientY = 0, startPanX = 0, startPanY = 0;
+            const rectScale = () => {
+                const r = svgEl.getBoundingClientRect();
+                return Math.max(W / Math.max(1, r.width), H / Math.max(1, r.height));
+            };
+
+            svgEl.addEventListener('pointerdown', (e) => {
+                if (e.target.closest('.offline-city-pin')) return;
+                dragging = true;
+                startClientX = e.clientX; startClientY = e.clientY;
+                startPanX = panX; startPanY = panY;
+                svgEl.style.cursor = 'grabbing';
+                svgEl.setPointerCapture(e.pointerId);
+            });
+            svgEl.addEventListener('pointermove', (e) => {
+                if (!dragging) return;
+                const factor = rectScale();
+                panX = startPanX + (e.clientX - startClientX) * factor;
+                panY = startPanY + (e.clientY - startClientY) * factor;
+                applyTransform();
+            });
+            svgEl.addEventListener('pointerup', () => { dragging = false; svgEl.style.cursor = 'grab'; });
+            svgEl.addEventListener('pointercancel', () => { dragging = false; svgEl.style.cursor = 'grab'; });
+
+            const zoomBy = (mult) => {
+                const newScale = Math.max(0.7, Math.min(8, scale * mult));
+                const cx = W / 2, cy = H / 2;
+                const ux = (cx - panX) / scale, uy = (cy - panY) / scale;
+                scale = newScale;
+                panX = cx - ux * scale;
+                panY = cy - uy * scale;
+                applyTransform();
+            };
+
+            wrap.querySelector('[data-zoom="in"]').addEventListener('click', () => zoomBy(1.3));
+            wrap.querySelector('[data-zoom="out"]').addEventListener('click', () => zoomBy(0.77));
+            wrap.querySelector('[data-zoom="reset"]').addEventListener('click', () => centerOnPoint(focusPt.x, focusPt.y, initialScale));
+            svgEl.addEventListener('wheel', (e) => {
+                e.preventDefault();
+                zoomBy(e.deltaY < 0 ? 1.15 : 0.87);
+            }, { passive: false });
+        }
+
+        function initFullMap() {
+            const el = document.getElementById('mainMap');
+            if (!el) return;
+
+            if (!navigator.onLine || typeof L === 'undefined') {
+                mainMapInstance = null;
+                renderOfflineMesopotamiaMap(el, null);
+                return;
+            }
+
+            if (mainMapInstance) { mainMapInstance.invalidateSize(); return; }
+
+            try {
+                el.innerHTML = '';
+                mainMapInstance = L.map(el).setView([32.5, 44.5], 6);
+
+                L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', { maxZoom: 19 }).addTo(mainMapInstance);
+                L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}', { maxZoom: 19 }).addTo(mainMapInstance);
+
+                const icon = L.divIcon({
+                    className: '',
+                    html: '<div style="width:14px;height:14px;background:#c9a227;border:2px solid #fff;border-radius:50%;box-shadow:0 1px 4px rgba(0,0,0,0.2);"></div>',
+                    iconSize: [14, 14], iconAnchor: [7, 7]
+                });
+
+                MAP_CITIES.forEach(city => {
+                    const nameEn = city.id.charAt(0).toUpperCase() + city.id.slice(1);
+                    
+                    const marker = L.marker([city.coordinates.lat, city.coordinates.lng], { icon })
+                        .addTo(mainMapInstance)
+                        .bindPopup(`
+                            <div class="popup-name lang-ar">${city.nameAr}</div>
+                            <div class="popup-name lang-en">${nameEn}</div>
+                            <div class="popup-akk">${city.nameAkk}</div>
+                            <div class="popup-cuneiform" style="font-family: var(--cuneiform-font); font-size:1.4rem; color:var(--accent); direction:ltr; margin-top:4px;">${city.cuneiform}</div>
+                        `);
+                    
+                });
+            } catch (err) {
+                mainMapInstance = null;
+                renderOfflineMesopotamiaMap(el, null);
+            }
+        }
+
+        let deferredInstallPrompt = null;
+        function showOfflineToast(message, isSuccess = true) {
+            let toast = document.getElementById('offlineSyncToast');
+            if (!toast) {
+                toast = document.createElement('div');
+                toast.id = 'offlineSyncToast';
+                toast.style.cssText = 'position:fixed; left:50%; bottom:calc(20px + env(safe-area-inset-bottom, 0px)); transform:translate(-50%, 16px); z-index:26000; padding:10px 18px; border-radius:999px; font-family:"EB Garamond","Amiri",serif; font-size:0.9rem; font-weight:700; color:#fff; box-shadow:0 8px 24px rgba(0,0,0,0.28); opacity:0; pointer-events:none; transition:opacity 0.25s ease, transform 0.25s ease; max-width:92vw; text-align:center;';
+                document.body.appendChild(toast);
+            }
+            toast.style.background = isSuccess ? '#15803d' : '#b45309';
+            toast.textContent = message;
+            requestAnimationFrame(() => {
+                toast.style.opacity = '1';
+                toast.style.transform = 'translate(-50%, 0)';
+            });
+            clearTimeout(toast._hideTimer);
+            toast._hideTimer = setTimeout(() => {
+                toast.style.opacity = '0';
+                toast.style.transform = 'translate(-50%, 16px)';
+            }, 4000);
+        }
+
+        function initOfflineApp() {
+            window.addEventListener('beforeinstallprompt', (e) => {
+                e.preventDefault();
+                deferredInstallPrompt = e;
+            });
+
+            const btnInstall = document.getElementById('btnInstallApp');
+            const modal = document.getElementById('installAppModal');
+            const closeBtn = document.getElementById('closeInstallModal');
+            const fileHint = document.getElementById('installFileHint');
+            const statusBadge = document.getElementById('offlineStatusBadge');
+
+            if (btnInstall) {
+                btnInstall.addEventListener('click', async () => {
+                    const sp = document.getElementById('settingsPanel');
+                    const so = document.getElementById('settingsOverlay');
+                    if (sp) sp.classList.remove('open');
+                    if (so) so.classList.remove('open');
+
+                    if (deferredInstallPrompt) {
+                        deferredInstallPrompt.prompt();
+                        try {
+                            await deferredInstallPrompt.userChoice;
+                        } catch (e) {}
+                        deferredInstallPrompt = null;
+                        return;
+                    }
+                    if (fileHint) {
+                        fileHint.style.display = (!window.isSecureContext || window.location.protocol === 'file:') ? 'block' : 'none';
+                    }
+                    if (modal) modal.style.display = 'flex';
+                });
+            }
+
+            if (closeBtn && modal) {
+                closeBtn.addEventListener('click', () => { modal.style.display = 'none'; });
+                modal.addEventListener('click', (e) => {
+                    if (e.target === modal) modal.style.display = 'none';
+                });
+            }
+
+            const setBadgeState = (text, tone) => {
+                if (!statusBadge) return;
+                statusBadge.removeAttribute('data-i18n');
+                statusBadge.textContent = text;
+                if (tone === 'warn') {
+                    statusBadge.style.background = 'rgba(234, 179, 8, 0.14)';
+                    statusBadge.style.color = '#b45309';
+                    statusBadge.style.borderColor = 'rgba(234, 179, 8, 0.42)';
+                } else if (tone === 'pending') {
+                    statusBadge.style.background = 'var(--accent-light)';
+                    statusBadge.style.color = 'var(--accent)';
+                    statusBadge.style.borderColor = 'var(--accent)';
+                } else {
+                    statusBadge.style.background = 'rgba(34, 197, 94, 0.12)';
+                    statusBadge.style.color = '#15803d';
+                    statusBadge.style.borderColor = 'rgba(34, 197, 94, 0.28)';
+                }
+            };
+
+            const isAr = (typeof currentLang === 'undefined' || currentLang === 'ar');
+
+            if (!window.isSecureContext || !('serviceWorker' in navigator) || !('caches' in window)) {
+                setBadgeState(
+                    isAr
+                        ? '⚠️ رابط محلي (يتطلب بقاء الواي فاي) — للعمل بدون نت افتحه من رابط GitHub HTTPS'
+                        : '⚠️ Local HTTP (Wi-Fi required) — Use GitHub HTTPS URL for offline mode',
+                    'warn'
+                );
+            } else {
+                const CACHE_VER = 'labat-mittermayer-offline-v4';
+                setBadgeState(
+                    isAr ? '⏳ جاري حفظ القاموس للعمل بدون إنترنت...' : '⏳ Saving dictionary for offline use...',
+                    'pending'
+                );
+
+                (async () => {
+                    try {
+                        const cache = await caches.open(CACHE_VER);
+                        const hadIndexBefore = Boolean(
+                            (await cache.match('./index.html')) ||
+                            (await cache.match('./')) ||
+                            (await cache.match(window.location.href))
+                        );
+
+                        if (!hadIndexBefore) {
+                            showOfflineToast(isAr ? '⏳ جاري حفظ القاموس للعمل بدون إنترنت...' : '⏳ Saving app for offline mode...', false);
+                        }
+
+                        await navigator.serviceWorker.register('./sw.js');
+                        await navigator.serviceWorker.ready;
+
+                        const coreUrls = [
+                            window.location.href,
+                            './',
+                            './index.html',
+                            './manifest.json',
+                            './Sumerian.ttf',
+                            './Babylonian.ttf',
+                            './Assyrian.ttf'
+                        ];
+
+                        await Promise.allSettled(
+                            coreUrls.map(async (u) => {
+                                const hit = await cache.match(u);
+                                if (!hit && navigator.onLine) {
+                                    const resp = await fetch(u);
+                                    if (resp && resp.ok) await cache.put(u, resp.clone());
+                                }
+                            })
+                        );
+
+                        const verified = Boolean(
+                            (await cache.match('./index.html')) ||
+                            (await cache.match('./')) ||
+                            (await cache.match(window.location.href))
+                        );
+
+                        if (verified) {
+                            setBadgeState(
+                                isAr ? '✅ محفوظ بالكامل — يعمل الآن بدون وايفاي!' : '✅ Fully cached — works offline without Wi-Fi!',
+                                'ok'
+                            );
+                            if (!hadIndexBefore) {
+                                showOfflineToast(
+                                    isAr ? '✅ تم حفظ القاموس على جهازك — يمكنك الآن إطفاء الواي فاي!' : '✅ App cached offline — you can turn Wi-Fi off now!',
+                                    true
+                                );
+                            }
+                        }
+                    } catch (err) {
+                        setBadgeState(
+                            isAr ? '⚠️ تعذر تفعيل وضع الأوفلاين على هذا الرابط' : '⚠️ Could not verify offline cache',
+                            'warn'
+                        );
+                    }
+                })();
+            }
+
+            window.addEventListener('offline', () => {
+                const mapPageEl = document.getElementById('mapPage');
+                if (mapPageEl && mapPageEl.classList.contains('active')) {
+                    initFullMap();
+                }
             });
         }
     
@@ -65782,17 +66559,26 @@
 
         /* ===== SMART SIGN MATCHING ENGINE v2 ===== */
         const FEAT_SIZE = 32; // 32x32 grayscale grid = 1024 features
-        const RENDER_SIZE = 128; // render at 128px for maximum detail
+        const RENDER_SIZE = 64; // fast 64x64 raster before 32x32 feature normalization
+        let _sharedNormCanvas = null;
+        let _sharedNormCtx = null;
+
+        function getSharedNormCanvas() {
+            if (!_sharedNormCanvas) {
+                _sharedNormCanvas = document.createElement("canvas");
+                _sharedNormCanvas.width = FEAT_SIZE;
+                _sharedNormCanvas.height = FEAT_SIZE;
+                _sharedNormCtx = _sharedNormCanvas.getContext("2d", { willReadFrequently: true });
+            }
+            return { normCanvas: _sharedNormCanvas, nCtx: _sharedNormCtx };
+        }
 
         function getSignFeatures(char) {
-            const canvas = document.createElement('canvas');
-            canvas.width = RENDER_SIZE;
-            canvas.height = RENDER_SIZE;
-            const ctx = canvas.getContext('2d');
+            const { canvas, ctx } = getSharedSignCanvas();
             ctx.fillStyle = '#ffffff';
             ctx.fillRect(0, 0, RENDER_SIZE, RENDER_SIZE);
             ctx.fillStyle = '#000000';
-            ctx.font = (RENDER_SIZE * 0.75) + 'px Assyrian';
+            ctx.font = (RENDER_SIZE * 0.68) + 'px Assyrian';
             ctx.textAlign = 'center';
             ctx.textBaseline = 'middle';
             ctx.fillText(char, RENDER_SIZE / 2, RENDER_SIZE / 2);
@@ -65801,7 +66587,7 @@
         }
 
         function _extractGrayscaleFeatures(sourceCanvas, w, h) {
-            const ctx = sourceCanvas.getContext("2d");
+            const ctx = sourceCanvas.getContext("2d", { willReadFrequently: true });
             const imgData = ctx.getImageData(0, 0, w, h);
             const data = imgData.data;
             
@@ -65835,11 +66621,8 @@
             const cropW = maxX - minX + 1;
             const cropH = maxY - minY + 1;
             
-            // Resize to FEAT_SIZE x FEAT_SIZE preserving aspect ratio
-            const normCanvas = document.createElement("canvas");
-            normCanvas.width = FEAT_SIZE;
-            normCanvas.height = FEAT_SIZE;
-            const nCtx = normCanvas.getContext("2d");
+            // Resize to FEAT_SIZE x FEAT_SIZE preserving aspect ratio using reusable shared canvas
+            const { nCtx } = getSharedNormCanvas();
             nCtx.fillStyle = "#ffffff";
             nCtx.fillRect(0, 0, FEAT_SIZE, FEAT_SIZE);
             
@@ -65919,16 +66702,21 @@
 
                 /* ===== SMART STRUCTURAL ANALYSIS OF USER INPUT ===== */
         /* Uses PROJECTION PROFILE & STEM-SEVERANCE ANALYSIS to count wedges accurately */
+        let _sharedAnalysisCanvas = null;
+        let _sharedAnalysisCtx = null;
         function analyzeInputWedges(canvas) {
             const S = 80;
-            const analysisCanvas = document.createElement("canvas");
-            analysisCanvas.width = S;
-            analysisCanvas.height = S;
-            const actx = analysisCanvas.getContext("2d");
+            if (!_sharedAnalysisCanvas) {
+                _sharedAnalysisCanvas = document.createElement("canvas");
+                _sharedAnalysisCanvas.width = S;
+                _sharedAnalysisCanvas.height = S;
+                _sharedAnalysisCtx = _sharedAnalysisCanvas.getContext("2d", { willReadFrequently: true });
+            }
+            const actx = _sharedAnalysisCtx;
             actx.fillStyle = "#ffffff";
             actx.fillRect(0, 0, S, S);
             
-            const srcCtx = canvas.getContext("2d");
+            const srcCtx = canvas.getContext("2d", { willReadFrequently: true });
             const srcData = srcCtx.getImageData(0, 0, canvas.width, canvas.height).data;
             let bMinX = canvas.width, bMaxX = 0, bMinY = canvas.height, bMaxY = 0;
             let found = false;
@@ -66089,9 +66877,9 @@
         function getSharedSignCanvas() {
             if (!_sharedSignCanvas) {
                 _sharedSignCanvas = document.createElement("canvas");
-                _sharedSignCanvas.width = 128;
-                _sharedSignCanvas.height = 128;
-                _sharedSignCtx = _sharedSignCanvas.getContext("2d");
+                _sharedSignCanvas.width = RENDER_SIZE;
+                _sharedSignCanvas.height = RENDER_SIZE;
+                _sharedSignCtx = _sharedSignCanvas.getContext("2d", { willReadFrequently: true });
             }
             return { canvas: _sharedSignCanvas, ctx: _sharedSignCtx };
         }
@@ -66105,12 +66893,12 @@
         function analyzeSignWedgesFast(char) {
             const { canvas, ctx } = getSharedSignCanvas();
             ctx.fillStyle = "#ffffff";
-            ctx.fillRect(0, 0, 128, 128);
+            ctx.fillRect(0, 0, RENDER_SIZE, RENDER_SIZE);
             ctx.fillStyle = "#000000";
-            ctx.font = "52px " + _getActiveCuneiformFontName();
+            ctx.font = Math.round(RENDER_SIZE * 0.5) + "px " + _getActiveCuneiformFontName();
             ctx.textAlign = "center";
             ctx.textBaseline = "middle";
-            ctx.fillText(char, 64, 64);
+            ctx.fillText(char, RENDER_SIZE / 2, RENDER_SIZE / 2);
             return analyzeInputWedges(canvas);
         }
 
@@ -66125,16 +66913,18 @@
             if (_multiTemplatesCache[char] === undefined) {
                 const list = [];
                 const { canvas, ctx } = getSharedSignCanvas();
+                const fontPx = Math.round(RENDER_SIZE * 0.53);
+                const half = RENDER_SIZE / 2;
                 for (let si = 0; si < CUNEIFORM_SCRIPTS.length; si++) {
                     const fontName = CUNEIFORM_SCRIPTS[si];
                     ctx.fillStyle = "#ffffff";
-                    ctx.fillRect(0, 0, 128, 128);
+                    ctx.fillRect(0, 0, RENDER_SIZE, RENDER_SIZE);
                     ctx.fillStyle = "#000000";
-                    ctx.font = "52px '" + fontName + "', serif";
+                    ctx.font = fontPx + "px '" + fontName + "', serif";
                     ctx.textAlign = "center";
                     ctx.textBaseline = "middle";
-                    ctx.fillText(char, 64, 64);
-                    const feat = _extractGrayscaleFeatures(canvas, 128, 128);
+                    ctx.fillText(char, half, half);
+                    const feat = _extractGrayscaleFeatures(canvas, RENDER_SIZE, RENDER_SIZE);
                     if (feat) {
                         const proj = computeProjections(feat, FEAT_SIZE);
                         list.push({ font: fontName, feat, proj });
@@ -66150,13 +66940,13 @@
             if (tmpls.length > 0) return tmpls[0].feat;
             const { canvas, ctx } = getSharedSignCanvas();
             ctx.fillStyle = "#ffffff";
-            ctx.fillRect(0, 0, 128, 128);
+            ctx.fillRect(0, 0, RENDER_SIZE, RENDER_SIZE);
             ctx.fillStyle = "#000000";
-            ctx.font = "52px " + _getActiveCuneiformFontName();
+            ctx.font = Math.round(RENDER_SIZE * 0.53) + "px " + _getActiveCuneiformFontName();
             ctx.textAlign = "center";
             ctx.textBaseline = "middle";
-            ctx.fillText(char, 64, 64);
-            return _extractGrayscaleFeatures(canvas, 128, 128);
+            ctx.fillText(char, RENDER_SIZE / 2, RENDER_SIZE / 2);
+            return _extractGrayscaleFeatures(canvas, RENDER_SIZE, RENDER_SIZE);
         }
 
         function getSignFeaturesCached(char) {
@@ -66381,7 +67171,6 @@
         function drawSmoothFreehandPath(ctx, points, strokeWidth) {
             if (!points || points.length === 0) return;
             const baseW = strokeWidth || 6.5;
-            const minTipW = Math.max(1.4, baseW * 0.24);
             ctx.fillStyle = '#1a1816';
             ctx.strokeStyle = '#1a1816';
             ctx.lineCap = 'round';
@@ -66403,48 +67192,18 @@
                 return;
             }
 
-            // Build silky sampled spline points along quadratic midpoints for lush tapered calligraphy
-            const samples = [points[0]];
-            let prevX = points[0].x;
-            let prevY = points[0].y;
+            // Smooth continuous quadratic Bezier interpolation
+            ctx.beginPath();
+            ctx.moveTo(points[0].x, points[0].y);
             for (let i = 1; i < points.length - 1; i++) {
-                const ctrlX = points[i].x;
-                const ctrlY = points[i].y;
-                const endX = (points[i].x + points[i + 1].x) / 2;
-                const endY = (points[i].y + points[i + 1].y) / 2;
-                for (let s = 1; s <= 4; s++) {
-                    const t = s / 4;
-                    const omt = 1 - t;
-                    samples.push({
-                        x: omt * omt * prevX + 2 * omt * t * ctrlX + t * t * endX,
-                        y: omt * omt * prevY + 2 * omt * t * ctrlY + t * t * endY
-                    });
-                }
-                prevX = endX;
-                prevY = endY;
+                const midX = (points[i].x + points[i + 1].x) / 2;
+                const midY = (points[i].y + points[i + 1].y) / 2;
+                ctx.quadraticCurveTo(points[i].x, points[i].y, midX, midY);
             }
-            samples.push(points[points.length - 1]);
-
-            const total = samples.length;
-            const startTaper = Math.min(18, Math.floor(total * 0.22));
-            const endTaper = Math.min(22, Math.floor(total * 0.25));
-
-            for (let i = 0; i < total - 1; i++) {
-                let w = baseW;
-                if (startTaper > 0 && i < startTaper) {
-                    const ratio = i / startTaper;
-                    w = minTipW + (baseW - minTipW) * (ratio * (2 - ratio));
-                }
-                if (endTaper > 0 && i > total - 1 - endTaper) {
-                    const rem = (total - 1 - i) / endTaper;
-                    w = Math.min(w, minTipW + (baseW - minTipW) * (rem * (2 - rem)));
-                }
-                ctx.beginPath();
-                ctx.moveTo(samples[i].x, samples[i].y);
-                ctx.lineTo(samples[i + 1].x, samples[i + 1].y);
-                ctx.lineWidth = w;
-                ctx.stroke();
-            }
+            const last = points[points.length - 1];
+            ctx.lineTo(last.x, last.y);
+            ctx.lineWidth = baseW;
+            ctx.stroke();
         }
 
         function renderObjectsToContext(ctx, objects, drawOverlays) {
@@ -66783,8 +67542,8 @@
                     if (e.cancelable) e.preventDefault();
                     const lastPt = currentPath.points[currentPath.points.length - 1];
                     const dist = Math.hypot(coords.x - lastPt.x, coords.y - lastPt.y);
-                    if (dist >= 1.5) {
-                        const alpha = 0.30;
+                    if (dist >= 2) {
+                        const alpha = 0.55;
                         currentPath.points.push({
                             x: lastPt.x + (coords.x - lastPt.x) * alpha,
                             y: lastPt.y + (coords.y - lastPt.y) * alpha
@@ -66825,7 +67584,6 @@
                 if (draggingRotation) {
                     draggingRotation = false;
                     draggedObject = null;
-                    redrawCanvas();
                     scheduleAutoDrawSearch(140);
                 } else if (draggedObject) {
                     const bounds = 40;
@@ -66833,9 +67591,9 @@
                         draggedObject.y < -bounds || draggedObject.y > canvas.height + bounds) {
                         canvasObjects = canvasObjects.filter(o => o.id !== draggedObject.id);
                         selectedObjectId = null;
+                        redrawCanvas();
                     }
                     draggedObject = null;
-                    redrawCanvas();
                     scheduleAutoDrawSearch(140);
                 }
                 if (isDrawingOnSearchCanvas) {
@@ -67689,16 +68447,17 @@
                     
                     const labatVal = (res.labat && res.labat !== '-') ? res.labat : '—';
                     const mittVal = (res.mittermayer && res.mittermayer !== '-') ? res.mittermayer : '—';
-                    const badgeStyle = 'background: rgba(154, 123, 38, 0.06); color: rgba(154, 123, 38, 0.68); border: 1px solid rgba(154, 123, 38, 0.14); font-weight: 500; border-radius: 8px; font-size: 0.72rem; padding: 2px 6px; display: inline-block; line-height: 1.3;';
-                    const labatHTML = `<div style="display: flex; gap: 4px; justify-content: center; align-items: center; flex-wrap: nowrap; margin-top: 4px; direction: ltr;">
-                        <span class="sign-card-score" style="${badgeStyle}">L:${labatVal}</span>
-                        <span class="sign-card-score" style="${badgeStyle}">M:${mittVal}</span>
+                    const labatHTML = `<div class="sign-card-badges">
+                        <span class="sign-LM-badge">L:${labatVal}</span>
+                        <span class="sign-LM-badge">M:${mittVal}</span>
                     </div>`;
+                    const charLen = Array.from(res.char || '').length;
+                    const cuneiClass = charLen >= 3 ? 'sign-card-cunei multi-3' : (charLen === 2 ? 'sign-card-cunei multi-2' : 'sign-card-cunei');
                     
                     card.innerHTML = `
-                        <div class="sign-card-cunei">${res.char}</div>
-                        <div class="sign-card-name" style="font-family: 'EB Garamond', 'Cardo', serif; font-size: 1.12rem; font-weight: 700; color: var(--text); letter-spacing: 0.01em;">${res.phoneticSub || res.nameAr}</div>
-                        <div class="sign-card-name" style="font-size: 0.8rem; font-weight: 500; color: var(--text-secondary);">${res.name || res.nameEn}</div>
+                        <div class="${cuneiClass}">${res.char}</div>
+                        <div class="sign-card-phonetic">${res.phoneticSub || res.nameAr}</div>
+                        <div class="sign-card-subname">${res.name || res.nameEn}</div>
                         ${scoreHTML}
                         ${labatHTML}
                     `;
@@ -67737,8 +68496,6 @@
                     moreWrapper.appendChild(moreBtn);
                     grid.appendChild(moreWrapper);
                 }
-
-                applyLanguage();
             }
 
             appendCards(BATCH_SIZE);
@@ -67793,6 +68550,62 @@
             banner.style.display = 'block';
         }
 
+        let hasRenderedInitialCatalog = false;
+        let _templateWarmupStarted = false;
+        let _templateWarmupIdx = 0;
+        let _templateWarmupChars = null;
+
+        function ensureSignCatalogRendered() {
+            if (cuneiformDatabase.length === 0) precomputeSignDatabase();
+            if (!hasRenderedInitialCatalog && typeof runCatalogSearch === 'function') {
+                hasRenderedInitialCatalog = true;
+                runCatalogSearch();
+            }
+        }
+
+        function startLazyTemplateWarmup() {
+            if (_templateWarmupStarted) return;
+            _templateWarmupStarted = true;
+            if (!_templateWarmupChars) {
+                if (cuneiformDatabase.length === 0) precomputeSignDatabase();
+                _templateWarmupChars = [];
+                const seen = new Set();
+                for (let i = 0; i < cuneiformDatabase.length; i++) {
+                    const ch = cuneiformDatabase[i].char;
+                    if (ch && !seen.has(ch)) {
+                        seen.add(ch);
+                        _templateWarmupChars.push(ch);
+                    }
+                }
+            }
+
+            const scheduleNext = (fn) => {
+                if (typeof requestIdleCallback === 'function') {
+                    requestIdleCallback(fn, { timeout: 200 });
+                } else {
+                    setTimeout(fn, 45);
+                }
+            };
+
+            function nextBatch() {
+                const signPage = document.getElementById('signSearchPage');
+                const onSignPage = signPage && signPage.classList.contains('active');
+                if (!onSignPage || isDrawingOnSearchCanvas) {
+                    _templateWarmupStarted = false;
+                    return;
+                }
+                const end = Math.min(_templateWarmupIdx + 4, _templateWarmupChars.length);
+                for (; _templateWarmupIdx < end; _templateWarmupIdx++) {
+                    getSignTemplatesCached(_templateWarmupChars[_templateWarmupIdx]);
+                }
+                if (_templateWarmupIdx < _templateWarmupChars.length) {
+                    scheduleNext(nextBatch);
+                }
+            }
+
+            scheduleNext(nextBatch);
+        }
+
         function initSignSearchModes() {
             const buttons = document.querySelectorAll('.sign-search-modes .toggle-btn');
             buttons.forEach(btn => {
@@ -67805,9 +68618,11 @@
                     
                     if (mode === 'catalog') {
                         document.getElementById('modeCatalogSection').classList.add('active');
+                        hasRenderedInitialCatalog = true;
                         runCatalogSearch();
-                                        } else if (mode === 'image') {
+                    } else if (mode === 'image') {
                         document.getElementById('modeImageSection').classList.add('active');
+                        startLazyTemplateWarmup();
                         const prev = document.getElementById('imagePreviewWrapper');
                         if (prev && prev.style.display === 'flex') {
                             runImageSearch();
@@ -67816,6 +68631,7 @@
                         }
                     } else if (mode === 'draw') {
                         document.getElementById('modeDrawSection').classList.add('active');
+                        startLazyTemplateWarmup();
                         const catalogBar = document.getElementById('modeCatalogSection');
                         if (catalogBar) catalogBar.style.transform = 'translateY(0)';
                         runDrawSearch(true);
@@ -68016,35 +68832,14 @@
             }
             
             initSignSearchModes();
-            
-            const warmUpSignTemplates = () => {
-                const uniqueChars = [];
-                const seen = new Set();
-                for (let i = 0; i < cuneiformDatabase.length; i++) {
-                    const ch = cuneiformDatabase[i].char;
-                    if (ch && !seen.has(ch)) {
-                        seen.add(ch);
-                        uniqueChars.push(ch);
-                    }
-                }
-                let idx = 0;
-                function nextBatch() {
-                    const end = Math.min(idx + 60, uniqueChars.length);
-                    for (; idx < end; idx++) {
-                        getSignTemplatesCached(uniqueChars[idx]);
-                    }
-                    if (idx < uniqueChars.length) {
-                        setTimeout(nextBatch, 25);
-                    }
-                }
-                setTimeout(nextBatch, 100);
-            };
 
             const runInitialDatabasePrecomputation = () => {
                 cuneiformDatabase = [];
                 precomputeSignDatabase();
-                runCatalogSearch();
-                warmUpSignTemplates();
+                const signPage = document.getElementById('signSearchPage');
+                if (signPage && signPage.classList.contains('active')) {
+                    ensureSignCatalogRendered();
+                }
             };
 
             // Load ALL 3 cuneiform fonts before computing wedge database
@@ -68070,140 +68865,213 @@
         }
 
         /* ===================================================
-           SWIPE BACK GESTURE (MOBILE FRIENDLY)
+           SWIPE GESTURES (SWIPE RIGHT = SETTINGS, SWIPE LEFT = BACK)
            =================================================== */
         function initSwipeBackGesture() {
-            let startX = 0;
-            let startY = 0;
-            let currentX = 0;
-            let currentY = 0;
+            const settingsPanel = document.getElementById('settingsPanel');
+            const settingsOverlay = document.getElementById('settingsOverlay');
+            const indicator = document.getElementById('swipeGestureIndicator');
+            const minSwipeDistance = 55;
+
+            let startX = 0, startY = 0, currentX = 0, currentY = 0;
             let dragActive = false;
-            let direction = 'ltr'; // 'ltr' or 'rtl'
-            
-            const edgeThreshold = 30; // pixels from the edge to trigger
-            const minSwipeDistance = 75; // pixels to swipe to trigger action
+            let swipeMode = null; // null | 'horizontal' | 'cancelled'
 
-            function canGoBack() {
-                // 1. Check if settings panel is open
-                const settingsPanel = document.getElementById('settingsPanel');
+            function getVisibleModal() {
+                for (const id of ['installAppModal', 'signDetailModal', 'imgModal']) {
+                    const m = document.getElementById(id);
+                    if (m && m.style.display && m.style.display !== 'none') return m;
+                }
+                return null;
+            }
+
+            function canGoBackAction() {
                 if (settingsPanel && settingsPanel.classList.contains('open')) return true;
-
-                // 2. Check if image modal is open
-                const imgModal = document.getElementById('imgModal');
-                if (imgModal && imgModal.style.display === 'block') return true;
-
-                // 3. Check if backBtn is visible
+                if (getVisibleModal()) return true;
                 const backBtn = document.getElementById('backBtn');
                 if (backBtn && backBtn.style.display !== 'none') return true;
-
+                const mapPage = document.getElementById('mapPage');
+                const aboutPage = document.getElementById('aboutPage');
+                if ((mapPage && mapPage.classList.contains('active')) || (aboutPage && aboutPage.classList.contains('active'))) return true;
                 return false;
             }
 
+            function closeSettingsDrawer() {
+                if (settingsPanel) settingsPanel.classList.remove('open');
+                if (settingsOverlay) settingsOverlay.classList.remove('open');
+            }
+
+            function openSettingsDrawer() {
+                if (settingsPanel) settingsPanel.classList.add('open');
+                if (settingsOverlay) settingsOverlay.classList.add('open');
+            }
+
+            function closeModalEl(m) {
+                if (!m) return false;
+                if (m.id === 'imgModal' && typeof closeImgModal === 'function') {
+                    closeImgModal();
+                } else {
+                    m.style.display = 'none';
+                }
+                return true;
+            }
+
             function handleBackNavigation() {
-                // 1. Close settings panel
-                const settingsPanel = document.getElementById('settingsPanel');
                 if (settingsPanel && settingsPanel.classList.contains('open')) {
-                    const overlay = document.getElementById('settingsOverlay');
-                    if (overlay) {
-                        settingsPanel.classList.remove('open');
-                        overlay.classList.remove('open');
-                    }
+                    closeSettingsDrawer();
                     return true;
                 }
-
-                // 2. Close image modal
-                const imgModal = document.getElementById('imgModal');
-                if (imgModal && imgModal.style.display === 'block') {
-                    if (typeof closeImgModal === 'function') {
-                        closeImgModal();
-                    } else {
-                        imgModal.style.display = 'none';
-                        const container = document.getElementById('sourceImgContainer');
-                        if (container) container.innerHTML = '';
-                    }
-                    return true;
+                const modal = getVisibleModal();
+                if (modal) {
+                    return closeModalEl(modal);
                 }
-
-                // 3. Click backBtn
                 const backBtn = document.getElementById('backBtn');
                 if (backBtn && backBtn.style.display !== 'none') {
                     backBtn.click();
                     return true;
                 }
-
+                const mapPage = document.getElementById('mapPage');
+                const aboutPage = document.getElementById('aboutPage');
+                if ((mapPage && mapPage.classList.contains('active')) || (aboutPage && aboutPage.classList.contains('active'))) {
+                    const navHome = document.getElementById('navHome');
+                    if (navHome) navHome.click();
+                    return true;
+                }
                 return false;
             }
 
-            function startSwipeDrag(clientX, clientY) {
-                if (!canGoBack()) return false;
-
-                const deviceLang = (navigator.language || navigator.userLanguage || 'en').toLowerCase();
-                direction = deviceLang.startsWith('ar') ? 'rtl' : 'ltr';
-
-                // Check edge threshold
-                if (direction === 'ltr') {
-                    if (clientX > edgeThreshold + 5) return false;
-                } else {
-                    if (clientX < window.innerWidth - (edgeThreshold + 5)) return false;
+            function handleRightSwipeSettings() {
+                const modal = getVisibleModal();
+                if (modal) {
+                    closeModalEl(modal);
                 }
+                openSettingsDrawer();
+                return true;
+            }
 
+            function hideIndicator() {
+                if (!indicator) return;
+                indicator.classList.remove('visible', 'left-edge', 'right-edge');
+            }
+
+            function updateIndicator(dx) {
+                if (!indicator) return;
+                const isAr = (typeof currentLang === 'undefined' || currentLang === 'ar');
+                const settingsOpen = settingsPanel && settingsPanel.classList.contains('open');
+                if (dx > 20 && !settingsOpen) {
+                    indicator.classList.remove('right-edge');
+                    indicator.classList.add('left-edge', 'visible');
+                    indicator.textContent = isAr ? '⚙️ الإعدادات ›' : '⚙️ Settings ›';
+                } else if (dx < -20 && canGoBackAction()) {
+                    indicator.classList.remove('left-edge');
+                    indicator.classList.add('right-edge', 'visible');
+                    indicator.textContent = settingsOpen
+                        ? (isAr ? '✕ إغلاق الإعدادات' : '✕ Close Settings')
+                        : (isAr ? '‹ رجوع' : '‹ Back');
+                } else {
+                    hideIndicator();
+                }
+            }
+
+            function shouldIgnoreTarget(target) {
+                if (!target || !target.closest) return false;
+                return Boolean(
+                    target.closest('.leaflet-container') ||
+                    target.closest('.offline-map-wrap') ||
+                    target.closest('#drawSearchCanvas') ||
+                    target.closest('#imageAnalysisCanvas') ||
+                    target.closest('#extractedSketchCanvas') ||
+                    target.closest('#imgWrapper') ||
+                    target.closest('.akk-lex-row') ||
+                    target.closest('input') ||
+                    target.closest('textarea') ||
+                    target.closest('select')
+                );
+            }
+
+            function startSwipeDrag(clientX, clientY) {
                 startX = clientX;
                 startY = clientY;
                 currentX = startX;
                 currentY = startY;
                 dragActive = true;
+                swipeMode = null;
                 return true;
             }
 
             function moveSwipeDrag(clientX, clientY) {
-                if (!dragActive) return;
+                if (!dragActive || swipeMode === 'cancelled') return;
                 currentX = clientX;
                 currentY = clientY;
+                const dx = currentX - startX;
+                const dy = currentY - startY;
 
-                const deltaX = direction === 'ltr' ? (currentX - startX) : (startX - currentX);
-                const deltaY = Math.abs(currentY - startY);
+                if (swipeMode === null) {
+                    if (Math.abs(dx) < 12 && Math.abs(dy) < 12) return;
+                    if (Math.abs(dy) > Math.abs(dx) * 0.85) {
+                        swipeMode = 'cancelled';
+                        dragActive = false;
+                        hideIndicator();
+                        return;
+                    }
+                    swipeMode = 'horizontal';
+                }
 
-                // Cancel if they scroll vertically too much
-                if (deltaY > Math.abs(deltaX) * 0.7 && deltaX < minSwipeDistance) {
-                    dragActive = false;
+                if (swipeMode === 'horizontal') {
+                    updateIndicator(dx);
                 }
             }
 
             function endSwipeDrag() {
-                if (!dragActive) return;
+                if (!dragActive) {
+                    hideIndicator();
+                    return;
+                }
+                const dx = currentX - startX;
+                const dy = currentY - startY;
+                const wasHorizontal = swipeMode === 'horizontal';
                 dragActive = false;
+                swipeMode = null;
+                hideIndicator();
 
-                const deltaX = direction === 'ltr' ? (currentX - startX) : (startX - currentX);
+                if (!wasHorizontal) return;
+                if (Math.abs(dx) <= Math.abs(dy) * 1.35) return;
 
-                if (deltaX >= minSwipeDistance) {
+                if (dx >= minSwipeDistance) {
+                    handleRightSwipeSettings();
+                } else if (dx <= -minSwipeDistance) {
                     handleBackNavigation();
                 }
             }
 
-            // --- Touch Listeners ---
+            // --- Passive Touch Listeners (never block vertical scroll) ---
             window.addEventListener('touchstart', (e) => {
-                if (e.touches.length > 1) return;
-                if (e.target.closest('.leaflet-container') || e.target.closest('#drawSearchCanvas') || e.target.closest('#imageAnalysisCanvas')) {
+                if (e.touches.length > 1 || shouldIgnoreTarget(e.target)) {
+                    dragActive = false;
                     return;
                 }
                 startSwipeDrag(e.touches[0].clientX, e.touches[0].clientY);
             }, { passive: true });
 
             window.addEventListener('touchmove', (e) => {
-                if (!dragActive) return;
+                if (!dragActive || !e.touches.length) return;
                 moveSwipeDrag(e.touches[0].clientX, e.touches[0].clientY);
             }, { passive: true });
 
             window.addEventListener('touchend', () => {
-                if (dragActive) endSwipeDrag();
-            });
+                endSwipeDrag();
+            }, { passive: true });
 
-            // --- Mouse Listeners ---
+            window.addEventListener('touchcancel', () => {
+                dragActive = false;
+                swipeMode = null;
+                hideIndicator();
+            }, { passive: true });
+
+            // --- Mouse Listeners (desktop drag parity) ---
             window.addEventListener('mousedown', (e) => {
                 if (e.button !== 0) return;
-                if (e.target.closest('.leaflet-container') || e.target.closest('#drawSearchCanvas') || e.target.closest('#imageAnalysisCanvas') ||
-                    e.target.closest('input') || e.target.closest('textarea') || e.target.closest('select') ||
-                    e.target.closest('button') || e.target.closest('a') || e.target.closest('.ccs-item') || e.target.closest('.nav-text-btn')) {
+                if (shouldIgnoreTarget(e.target) || e.target.closest('button') || e.target.closest('a') || e.target.closest('.ccs-item') || e.target.closest('.nav-text-btn')) {
                     return;
                 }
                 startSwipeDrag(e.clientX, e.clientY);
@@ -68214,7 +69082,7 @@
             });
 
             window.addEventListener('mouseup', () => {
-                if (dragActive) endSwipeDrag();
+                endSwipeDrag();
             });
 
             // --- Trackpad Wheel Listeners ---
@@ -68222,43 +69090,27 @@
             let wheelDebounceTimeout = null;
 
             window.addEventListener('wheel', (e) => {
-                if (!canGoBack()) return;
                 if (Math.abs(e.deltaY) > Math.abs(e.deltaX)) {
                     wheelAccumulatorX = 0;
                     return;
                 }
-                if (e.target.closest('.leaflet-container') || e.target.closest('#drawSearchCanvas') || e.target.closest('#imageAnalysisCanvas')) {
-                    return;
-                }
+                if (shouldIgnoreTarget(e.target)) return;
 
-                const deviceLang = (navigator.language || navigator.userLanguage || 'en').toLowerCase();
-                direction = deviceLang.startsWith('ar') ? 'rtl' : 'ltr';
-
-                const isBackScroll = (direction === 'ltr' && e.deltaX < 0) || (direction === 'rtl' && e.deltaX > 0);
-
-                if (isBackScroll) {
-                    wheelAccumulatorX += Math.abs(e.deltaX);
+                if (Math.abs(e.deltaX) > 4) {
+                    wheelAccumulatorX += e.deltaX;
                     clearTimeout(wheelDebounceTimeout);
                     wheelDebounceTimeout = setTimeout(() => {
-                        if (wheelAccumulatorX >= 80) {
+                        if (wheelAccumulatorX <= -80) {
+                            handleRightSwipeSettings();
+                        } else if (wheelAccumulatorX >= 80) {
                             handleBackNavigation();
                         }
                         wheelAccumulatorX = 0;
-                    }, 50);
+                    }, 60);
                 } else {
                     wheelAccumulatorX = 0;
                 }
             }, { passive: true });
-
-            // --- Disable Page Pinch-Zoom globally (except on maps and modal zoom wrappers) ---
-            window.addEventListener('touchmove', (e) => {
-                if (e.touches.length > 1) {
-                    if (e.target.closest('.leaflet-container') || e.target.closest('#imgWrapper') || e.target.closest('.leaflet-zoom-animated')) {
-                        return;
-                    }
-                    e.preventDefault();
-                }
-            }, { passive: false });
         }
 
         /* ===================================================
@@ -68288,5 +69140,43 @@
             </div>
         </div>
     </div>
+
+    <!-- Install Offline App Modal (iOS & Android) -->
+    <div id="installAppModal" class="modal" style="display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.62); z-index: 21000; align-items: center; justify-content: center; backdrop-filter: blur(4px);">
+        <div class="install-modal-card">
+            <button id="closeInstallModal" class="icon-btn" style="position: absolute; top: 14px; left: 14px;" aria-label="Close">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+            </button>
+            <div style="text-align: center; margin-bottom: 12px;">
+                <div style="font-family: var(--cuneiform-font); font-size: 2.6rem; color: var(--accent); line-height: 1;">𒀭</div>
+                <h3 data-i18n="install_modal_title" style="margin: 6px 0 4px; color: var(--text); font-size: 1.25rem;">تثبيت قاموس لابات بدون إنترنت</h3>
+                <p data-i18n="install_modal_desc" style="font-size: 0.86rem; color: var(--text-secondary);">ثبّت القاموس كتطبيق مستقل على هاتفك ليعمل 100% بدون إنترنت مع جميع الخطوط والعلامات والخرائط.</p>
+            </div>
+
+            <div class="install-step-box">
+                <h4 data-i18n="install_ios_title">📱 للايفون والآيباد (iPhone / iPad - Safari)</h4>
+                <ol>
+                    <li data-i18n="install_ios_s1">افتح هذا الموقع عبر متصفح Safari.</li>
+                    <li data-i18n="install_ios_s2">اضغط على زر المشاركة (Share ⬆️) في أسفل الشاشة.</li>
+                    <li data-i18n="install_ios_s3">مرّر للأسفل واختر: إضافة إلى الشاشة الرئيسية (Add to Home Screen) ثم إضافة (Add).</li>
+                </ol>
+            </div>
+
+            <div class="install-step-box">
+                <h4 data-i18n="install_android_title">🤖 للأندرويد (Android - Chrome)</h4>
+                <ol>
+                    <li data-i18n="install_android_s1">افتح الموقع عبر متصفح Google Chrome.</li>
+                    <li data-i18n="install_android_s2">اضغط على القائمة (⋮) بالأعلى واختر: تثبيت التطبيق (Install App) أو الإضافة للشاشة الرئيسية.</li>
+                    <li data-i18n="install_android_s3">بعد التثبيت سيعمل التطبيق من شاشتك الرئيسية بدون اتصال بالإنترنت نهائياً.</li>
+                </ol>
+            </div>
+
+            <div id="installFileHint" style="display:none; margin-top: 12px; padding: 10px 12px; border-radius: 10px; background: var(--accent-light); color: var(--text); font-size: 0.82rem; border: 1px solid var(--accent);">
+                <span data-i18n="install_http_hint">ملاحظة: لتثبيت التطبيق كتطبيق شاشة رئيسية على iOS/Android يجب فتحه عبر رابط محلي (مثل تشغيل_التطبيق_للموبايل.command على الواي فاي) أو عبر استضافة ويب مثل GitHub Pages، وبعد الفتح مرة واحدة سيبقى محفوظاً بالكامل أوفلاين.</span>
+            </div>
+        </div>
+    </div>
+
+    <div id="swipeGestureIndicator" aria-hidden="true"></div>
 </body>
 </html>
