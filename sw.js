@@ -1,4 +1,4 @@
-const CACHE_NAME = 'labat-mittermayer-offline-v4';
+const CACHE_NAME = 'labat-mittermayer-offline-v7';
 
 const CRITICAL_ASSETS = [
   './',
